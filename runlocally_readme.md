@@ -13,7 +13,7 @@ git clone https://github.com/BharatSharma34/worsley-1769261842505.git
 
 ## Git push branch
 - Edit the .env file and update the BRANCH and token variables.
-- Run `source .env && git push https://${GITHUB_TOKEN}@github.com/BharatSharma34/worsley-1769261842505.git ${BRANCH}`
+- Run `source .env && git push https://${GITHUB_TOKEN}@github.com/BharatSharma34/test_nextjs_test-1769510650464.git ${BRANCH}`
 
 
 ## 1) Backend (FastAPI)
