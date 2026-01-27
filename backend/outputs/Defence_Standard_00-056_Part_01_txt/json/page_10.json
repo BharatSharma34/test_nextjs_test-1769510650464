@@ -1,0 +1,172 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:1.5",
+      "number": "1.5",
+      "title": "Application of Standard",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:1.5.1",
+      "number": "1.5.1",
+      "title": "Accountability and Responsibility",
+      "kind": "subsection",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:1.5.2",
+      "number": "1.5.2",
+      "title": "Safety Management System",
+      "kind": "subsection",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:2.2",
+      "number": "2.2",
+      "title": "Informative References",
+      "kind": "section",
+      "appears_on_pages": [
+        10
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:ASEMS",
+      "number": "",
+      "title": "ASEMS DE&S Acquisition Safety and Environmental Management System",
+      "kind": "reference",
+      "appears_on_pages": [
+        10
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:DEFSTAN:00-055",
+      "number": "",
+      "title": "Def Stan 00-055 Requirements for Safety of Programmable Elements (PE) in Defence Systems",
+      "kind": "reference",
+      "appears_on_pages": [
+        10
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:DEFSTAN:00-251",
+      "number": "",
+      "title": "Def Stan 00-251 Human Factors Integration for Defence Systems",
+      "kind": "reference",
+      "appears_on_pages": [
+        10
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:DEFSTAN:05-057",
+      "number": "",
+      "title": "Def Stan 05-057 Configuration Management of Defence Materiel",
+      "kind": "reference",
+      "appears_on_pages": [
+        10
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:DEFSTAN:05-135",
+      "number": "",
+      "title": "Def Stan 05-135 Avoidance of Counterfeit Materiel",
+      "kind": "reference",
+      "appears_on_pages": [
+        10
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:DEFSTAN:05-138",
+      "number": "",
+      "title": "Def Stan 05-138 Cyber Security for Defence Suppliers",
+      "kind": "reference",
+      "appears_on_pages": [
+        10
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:IEC:61508",
+      "number": "",
+      "title": "IEC 61508 Functional Safety of Electrical/Electronic/Programmable Electronic Safety-Related Systems",
+      "kind": "reference",
+      "appears_on_pages": [
+        10
+      ],
+      "primary_page": 10
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:1.5",
+      "to": "INSA:1.5.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:1.5",
+      "to": "INSA:1.5.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:ASEMS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:DEFSTAN:00-251",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:DEFSTAN:05-057",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:DEFSTAN:05-135",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:DEFSTAN:05-138",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:IEC:61508",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

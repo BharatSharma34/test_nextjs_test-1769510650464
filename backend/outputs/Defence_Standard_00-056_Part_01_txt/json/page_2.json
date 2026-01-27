@@ -1,0 +1,82 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:1",
+      "number": "1",
+      "title": "Foreword",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:2",
+      "number": "2",
+      "title": "Technical Information",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:3",
+      "number": "3",
+      "title": "Normative References",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "REF:DEFSTAN:00-056:7",
+      "number": "",
+      "title": "Def Stan 00-056 Pt 1 Iss 7",
+      "kind": "reference",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:HealthAndSafety",
+      "number": "",
+      "title": "Health and Safety",
+      "kind": "topic",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:1",
+      "to": "INSA:2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2",
+      "to": "INSA:3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3",
+      "to": "REF:DEFSTAN:00-056:7",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:1",
+      "to": "TOPIC:HealthAndSafety",
+      "type": "relates_to",
+      "confidence": 1.0
+    }
+  ]
+}

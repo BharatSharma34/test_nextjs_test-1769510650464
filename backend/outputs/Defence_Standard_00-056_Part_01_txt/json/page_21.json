@@ -1,0 +1,240 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:8.2",
+      "number": "8.2",
+      "title": "Contractor Safety Auditor Independence",
+      "kind": "section",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:8.2.1",
+      "number": "8.2.1",
+      "title": "The contractor shall ensure the CSA is independent",
+      "kind": "subsection",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "REF:IET-COPISA",
+      "number": "",
+      "title": "IET Code of Practice for Independent Safety Assessors (COPISA)",
+      "kind": "reference",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:8.3",
+      "number": "8.3",
+      "title": "Independent Safety Audit",
+      "kind": "section",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:8.3.1",
+      "number": "8.3.1",
+      "title": "The contractor shall allow an ISA reasonable access",
+      "kind": "subsection",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:8.3.2",
+      "number": "8.3.2",
+      "title": "Restrictions on access to information set",
+      "kind": "subsection",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:8.4",
+      "number": "8.4",
+      "title": "Remedial Action",
+      "kind": "section",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:8.4.1",
+      "number": "8.4.1",
+      "title": "Identify and implement timely remedial actions",
+      "kind": "subsection",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:8.4.2",
+      "number": "8.4.2",
+      "title": "Agree remedial actions with the UK MOD",
+      "kind": "subsection",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:8.4.3",
+      "number": "8.4.3",
+      "title": "Update the SMP to reflect agreed remedial actions",
+      "kind": "subsection",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:9",
+      "number": "9",
+      "title": "Safety Requirements, Hazard and Risk Analysis",
+      "kind": "section",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:9.1",
+      "number": "9.1",
+      "title": "Hazards and Accidents",
+      "kind": "section",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:9.1.1",
+      "number": "9.1.1",
+      "title": "Identify all hazards and potential accidents",
+      "kind": "subsection",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:9.1.2",
+      "number": "9.1.2",
+      "title": "Employ systematic analysis processes",
+      "kind": "subsection",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:9.1.3",
+      "number": "9.1.3",
+      "title": "Consider human factors in hazard analysis",
+      "kind": "subsection",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "REF:STPA-HANDBOOK",
+      "number": "",
+      "title": "STPA Handbook",
+      "kind": "reference",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:8.2",
+      "to": "INSA:8.2.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:8.2.1",
+      "to": "REF:IET-COPISA",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:8.3",
+      "to": "INSA:8.3.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:8.3",
+      "to": "INSA:8.3.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:8.4",
+      "to": "INSA:8.4.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:8.4",
+      "to": "INSA:8.4.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:8.4",
+      "to": "INSA:8.4.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.1",
+      "to": "INSA:9.1.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.1",
+      "to": "INSA:9.1.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.1",
+      "to": "INSA:9.1.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "REF:STPA-HANDBOOK",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

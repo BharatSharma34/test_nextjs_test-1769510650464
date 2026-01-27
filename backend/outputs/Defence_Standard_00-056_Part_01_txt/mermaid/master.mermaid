@@ -1,0 +1,1066 @@
+flowchart TD
+subgraph Page_1 [Page 1]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_3a5c6841["1 Safety Management Requirements for<br/>Defence Systems"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyCase_6e26dcd5["Safety Case"]
+    subgraph Page_1_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_f1c9bcf7["Defence Standard 00-055"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_3a5c6841 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_f1c9bcf7
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_3a5c6841 -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyCase_6e26dcd5
+end
+subgraph Page_2 [Page 2]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_b0a1ee4a["1 Foreword"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_109face0["2 Technical Information"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1f751308["3 Normative References"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_HealthAndSafety_e0b047cd["Health and Safety"]
+    subgraph Page_2_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_056_7_06eb1fca["Def Stan 00-056 Pt 1 Iss 7"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_b0a1ee4a -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_2_109face0
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_109face0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_1f751308
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1f751308 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_056_7_06eb1fca
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_b0a1ee4a -->|"relates_to"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_HealthAndSafety_e0b047cd
+end
+subgraph Page_3 [Page 3]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_50300077["1 Introduction"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_1_4c817dac["1.1 Purpose and Scope"]
+    subgraph Page_3_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_MOD_28ec5139["Ministry of Defence"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DStan_ceee22a0["UK Defence Standardization"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_50300077 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_1_1_4c817dac
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_50300077 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_MOD_28ec5139
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_50300077 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DStan_ceee22a0
+end
+subgraph Page_4 [Page 4]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_1_6d7f8e36["0.1 Introduction"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_2_c2209e8f["0.2 General guidance by UK Health and<br/>Safety Executive"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_3_1bc56724["0.3 Defence acquisition projects"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_4_540d95d5["0.4 Delivery of safety-related PSS"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_5_4d2abb09["0.5 UK MOD operating accountable persons"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_6_86f9ea16["0.6 Contractors' roles in safety of PSS"]
+    subgraph Page_4_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_GOVUK_f8258001["Secretary of State’s policy statement"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_HSE_1bcf83c0["UK Health and Safety Executive (HSE)"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_JSP815_c09d4351["Joint Service Publication (JSP) 815"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_KiD_83637946["KiD through the Defence gateway"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_1_6d7f8e36 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_GOVUK_f8258001
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_2_c2209e8f -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_HSE_1bcf83c0
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_2_c2209e8f -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_JSP815_c09d4351
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_3_1bc56724 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_KiD_83637946
+end
+subgraph Page_5 [Page 5]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_7_23515b3e["0.7 PSS Description"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_8_9090701b["0.8 PSS Types and Standards"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_9_5e7409dc["0.9 Purpose of the Standard"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_10_eaef5ebf["0.10 Contractor Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_11_444dc2cd["0.11 Flexibility and Tailoring"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_12_05803b5d["0.12 Scope of Contract"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_13_fcb73537["0.13 Tailoring Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_14_4df1551b["0.14 Requirements Grouping"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyManagement_c5342228["Safety Management"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyEngineering_cad45ccf["Safety Engineering"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyInService_0ab41dc4["Safety In-Service"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_14_4df1551b -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyManagement_c5342228
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_14_4df1551b -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyEngineering_cad45ccf
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_14_4df1551b -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyInService_0ab41dc4
+end
+subgraph Page_6 [Page 6]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_15_57ecf32e["0.15 UK MOD and contractors subject to<br/>UK Law"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_16_29afc5bc["0.16 Definition of safe and risk to life"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_17_cbb7494d["0.17 Requirements for safety<br/>achievement, assurance, and management"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_18_0d3d84ed["0.18 Requirements for contractor safety<br/>management system"]
+    subgraph Page_6_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_056_2_2e2d05dc["Defence Standard 00-056 Part 2 Issue 6"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_17_cbb7494d -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_056_2_2e2d05dc
+end
+subgraph Page_7 [Page 7]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_d751a87c["0 Introduction"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_0ae5e5c8["1 Scope and Applicability"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_1_fdb93973["2.1 Normative References"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_071331aa["2.2 Informative References"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_227b81cf["3 Definitions"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_6edd4e22["4 Safety Management System"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_052e2597["5 General Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_cbf85021["6 Roles and Responsibilities"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_261b0dbd["7 Interfaces"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_d07e5599["8 Safety Audits"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8ebecb98["9 Safety Requirements, Hazard and Risk<br/>Analysis"]
+    unknown_start -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_2_1_fdb93973
+    unknown_start -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_071331aa
+end
+subgraph Page_8 [Page 8]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_5eba4eaf["9.2 Hazard Tracking"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_3_86997b5a["9.3 Safety Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_3613dd32["9.4 Safety Requirements Management"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_6b1ed3be["9.5 Design for Safety"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_a441c85c["9.6 Safety Analysis"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722["9.7 Failure Modes"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_d645a375["9.8 Risk Estimation"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_4236e7bb["9.9 Risk and Compliance Evaluation"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_790cba47["9.10 Satisfaction of Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_63b65d41["10 Safety Reporting"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_d59eba9b["10.1 Information Set Safety Summary"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_f5d7d560["10.2 Safety Case"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_1382f446["10.3 Safety Case Reports"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_e57e92e8["11 Supply and Change Management"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_1_42b24dfb["11.1 Build State Definition"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_2_6d94caa8["11.2 Change Control"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_3_c4d23b3e["11.3 Planning for Change"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_e5dc1a49["11.4 Safety of Changes"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_5_40fb7ca7["11.5 Safe Update"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_6_a5ce93d3["11.6 Monitoring Change"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_4992bc03["11.7 Incorporating Change"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_17e6a8ad["12 Supporting Systems In-Service"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_1_60002aa8["12.1 Management of Safety-Related In-<br/>Service Data"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_74088ad6["12.2 Monitoring, Reporting and In-<br/>service Data Analysis"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_3_4b56e9b2["12.3 Remedial Action"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_be9f5d5f["13 Service Provision"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_dedbf400["13.1 Safety Case Report"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_0948fbf0["13.2 Service Provision Planning"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_445f7874["13.3 Risk Management"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_5eba4eaf -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_3_86997b5a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_3_86997b5a -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_3613dd32
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_3613dd32 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_6b1ed3be
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_6b1ed3be -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_a441c85c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_a441c85c -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_d645a375
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_d645a375 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_4236e7bb
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_4236e7bb -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_790cba47
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_63b65d41 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_d59eba9b
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_d59eba9b -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_f5d7d560
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_f5d7d560 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_1382f446
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_e57e92e8 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_1_42b24dfb
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_1_42b24dfb -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_2_6d94caa8
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_2_6d94caa8 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_3_c4d23b3e
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_3_c4d23b3e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_e5dc1a49
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_e5dc1a49 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_5_40fb7ca7
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_5_40fb7ca7 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_6_a5ce93d3
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_6_a5ce93d3 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_4992bc03
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_17e6a8ad -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_1_60002aa8
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_1_60002aa8 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_74088ad6
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_74088ad6 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_3_4b56e9b2
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_be9f5d5f -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_dedbf400
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_dedbf400 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_0948fbf0
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_0948fbf0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_445f7874
+end
+subgraph Page_9 [Page 9]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_1_05f48829["1.1 This standard specifies the<br/>requirements for achieving, assuring and<br/>managing the safety of PSS defined by<br/>the scope of contract."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_2_e5039df5["1.2 The contractor, together with the UK<br/>MOD, has responsibility for safety of<br/>all deliverable PSS."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_3_5f521dcf["1.3 The responsibility of the contractor<br/>also varies with the scope of analysis."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_4_49eac461["1.4 Whilst contract life might be<br/>limited, this standard considers the<br/>whole life cycle of the PSS, including<br/>disposal."]
+    subgraph Page_9_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_KID_75865653["Knowledge in Defence website"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_1_05f48829 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_1_2_e5039df5
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_2_e5039df5 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_1_3_5f521dcf
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_3_5f521dcf -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_1_4_49eac461
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_2_e5039df5 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_KID_75865653
+end
+subgraph Page_10 [Page 10]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_5_5ec67cea["1.5 Application of Standard"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_5_1_88180c33["1.5.1 Accountability and Responsibility"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_5_2_79f92487["1.5.2 Safety Management System"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37["2.2 Informative References"]
+    subgraph Page_10_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_ASEMS_5ea020ee["ASEMS DE&S Acquisition Safety and<br/>Environmental Management System"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_be3d5fc4["Def Stan 00-055 Requirements for Safety<br/>of Programmable Elements (PE) in Defence<br/>Systems"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_251_a99e2beb["Def Stan 00-251 Human Factors<br/>Integration for Defence Systems"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_057_f1d9ee79["Def Stan 05-057 Configuration Management<br/>of Defence Materiel"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_135_551bb2c2["Def Stan 05-135 Avoidance of Counterfeit<br/>Materiel"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_138_df177ff4["Def Stan 05-138 Cyber Security for<br/>Defence Suppliers"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_IEC_61508_2c6f7c94["IEC 61508 Functional Safety of<br/>Electrical/Electronic/Programmable<br/>Electronic Safety-Related Systems"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_5_5ec67cea -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_1_5_1_88180c33
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_5_5ec67cea -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_1_5_2_79f92487
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_ASEMS_5ea020ee
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_be3d5fc4
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_251_a99e2beb
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_057_f1d9ee79
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_135_551bb2c2
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_138_df177ff4
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_IEC_61508_2c6f7c94
+end
+subgraph Page_11 [Page 11]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_227b81cf["3 Definitions"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_cd517337["3.1 Terms and Definitions"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_2_83bcccdb["3.2 Mandatory Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_4bf79165["3.3 Notes"]
+    subgraph Page_11_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_MAA02_07299431["MAA Master Glossary"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_MAA03_8def4c0e["MAA Regulatory Process"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_227b81cf -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_cd517337
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_227b81cf -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_2_83bcccdb
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_227b81cf -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_4bf79165
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_2_83bcccdb -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_MAA02_07299431
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_2_83bcccdb -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_MAA03_8def4c0e
+end
+subgraph Page_12 [Page 12]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_6edd4e22["4 Safety Management System"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_1_1c42e8e3["4.1 Safety Management Plan"]
+    subgraph Page_12_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_RA1200_6a98e58b["Regulatory Article (RA) RA1200"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_ManualOfAirSafety_73752091["Manual of Air Safety"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_POSMS_15125862["POSMS"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_WhiteBook_921cccc1["An Introduction to Safety Management in<br/>the UK MOD (White Book)"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_ASEMS_f220d91d["http://www.asems.mod.uk"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_KID_2ef73d66["KID"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_6edd4e22 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_4_1_1c42e8e3
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_6edd4e22 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_RA1200_6a98e58b
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_6edd4e22 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_ManualOfAirSafety_73752091
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_6edd4e22 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_POSMS_15125862
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_6edd4e22 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_WhiteBook_921cccc1
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_6edd4e22 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_ASEMS_f220d91d
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_1_1c42e8e3 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_KID_2ef73d66
+end
+subgraph Page_13 [Page 13]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_2_c30d504c["4.2 Agreement"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_2_1_8f8a254e["4.2.1 The contractor shall define an SMP<br/>as part of the tendering process"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_2_2_53f1110e["4.2.2 The contractor shall agree their<br/>SMP with the UK MOD"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_3_bda303b5["4.3 Review and Update"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_3_1_dd8200da["4.3.1 The contractor shall review and<br/>update the SMP"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_3_2_7c29bb20["4.3.2 The contractor shall review the<br/>SMP on a regular basis"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_3_3_ead316fb["4.3.3 Changes required to the SMP shall<br/>be agreed with the UK MOD"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_3_4_cb505775["4.3.4 Ensure all changes in design are<br/>managed in accordance with the SMP"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_4_88775369["4.4 Progress Reports"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_4_1_00e5b50c["4.4.1 The contractor shall report<br/>progress against the SMP"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_4_2_a2e5cb95["4.4.2 Ensure progress reports highlight<br/>all safety issues"]
+    subgraph Page_13_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_2d2f4c30["DEF STAN 00-055"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_2_c30d504c -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_4_2_1_8f8a254e
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_2_c30d504c -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_4_2_2_53f1110e
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_3_bda303b5 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_4_3_1_dd8200da
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_3_bda303b5 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_4_3_2_7c29bb20
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_3_bda303b5 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_4_3_3_ead316fb
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_3_bda303b5 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_4_3_4_cb505775
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_4_88775369 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_4_4_1_00e5b50c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_4_88775369 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_4_4_2_a2e5cb95
+    DEFENCE_STANDARD_00_056_PART_01_INSA_4_2_c30d504c -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_2d2f4c30
+end
+subgraph Page_14 [Page 14]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_2c53dc30["5.1 Deviation from Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_1_96e780c4["5.1.1 Deviation Agreement"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_2_20553874["5.1.2 Conflict Resolution"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_3_923e6cba["5.1.3 ITT Response Specification"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_4_1c94a606["5.1.4 Compliance Matrix"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_5_780d0505["5.1.5 Intended Deviations"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_2_0c562df1["5.2 Legislation, Regulations, Standards,<br/>Policy and Approved Codes of Practice"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_2_1_eb025446["5.2.1 Identification and Documentation"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_2_2_15933e88["5.2.2 Policy Agreement"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_2_3_4aedb518["5.2.3 Legislation Agreement"]
+    subgraph Page_14_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_POSMS_12a5c71c["UK MOD POSMS Project Safety Initiation<br/>procedures"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_HSE_ACOP_115a9251["HSE Approved Codes of Practice"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DCOP_18b78bb6["Defence Codes of Practice"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_2c53dc30 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_1_96e780c4
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_2c53dc30 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_2_20553874
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_2c53dc30 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_3_923e6cba
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_2c53dc30 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_4_1c94a606
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_2c53dc30 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_1_5_780d0505
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_2_0c562df1 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_2_1_eb025446
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_2_0c562df1 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_2_2_15933e88
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_2_0c562df1 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_2_3_4aedb518
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_2_0c562df1 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_POSMS_12a5c71c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_2_0c562df1 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_HSE_ACOP_115a9251
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_2_0c562df1 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DCOP_18b78bb6
+end
+subgraph Page_15 [Page 15]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_3_31fa4cd0["5.3 Sub-Contracting"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_3_1_e93ad806["5.3.1 Sub-Contractor Assurance"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_3_2_76d63aed["5.3.2 Sub-Contractor Requirements<br/>Identification"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_3_3_2eedde6b["5.3.3 Sub-Contractor Compliance"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_3_4_c47b774d["5.3.4 Deliverables and Audit Mechanisms"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_4_5bc56dbb["5.4 Multiple Deliverables"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_4_1_0972e6bf["5.4.1 Application of Clauses to PSS"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_4_2_51d5247a["5.4.2 Discussion and Agreement on<br/>Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_4_3_afbde02c["5.4.3 Safety Case Reports and ISSS"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_88e5fa06["5.5 Information Management"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_1_72fe5606["5.5.1 Visibility of Safety Activities"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_2_d4d708d0["5.5.2 Information Set Definition"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_3_dc7ef0e6["5.5.3 Information Set Maintenance"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_4_ef28dc8c["5.5.4 Consistency and Configuration<br/>Management"]
+    subgraph Page_15_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_057_2528c017["Def Stan 05-057"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_3_31fa4cd0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_3_1_e93ad806
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_3_31fa4cd0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_3_2_76d63aed
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_3_31fa4cd0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_3_3_2eedde6b
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_3_31fa4cd0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_3_4_c47b774d
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_4_5bc56dbb -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_4_1_0972e6bf
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_4_5bc56dbb -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_4_2_51d5247a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_4_5bc56dbb -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_4_3_afbde02c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_88e5fa06 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_1_72fe5606
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_88e5fa06 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_2_d4d708d0
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_88e5fa06 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_3_dc7ef0e6
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_88e5fa06 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_4_ef28dc8c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_3_dc7ef0e6 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_057_2528c017
+end
+subgraph Page_16 [Page 16]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_5_0e6a1c99["5.5.5 The contractor shall preserve the<br/>information set for the period or<br/>periods specified in the contract and as<br/>required by law."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_6_3ce2e4a0["5.5.6 The contractor shall ensure that<br/>the information set remains accessible<br/>as techniques, methodologies and tools<br/>change, through the life of the<br/>contract."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_7_2b428d18["5.5.7 The contractor shall pass<br/>information in an easily accessible form<br/>to the UK MOD, regulators and any other<br/>organisations identified in the<br/>contract."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_8_6734a899["5.5.8 The contractor shall define the<br/>information set such that all<br/>information that might have a safety<br/>role are included."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_9_2171057a["5.5.9 The contractor shall define, and<br/>agree with the UK MOD, processes for<br/>information management."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_10_755564b0["5.5.10 Where the contractor anticipates<br/>difficulties, or very high costs, in<br/>preserving access to parts of the<br/>information set they shall discuss<br/>approaches and options with the UK MOD."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_11_8d5298b4["5.5.11 The contractor shall consider<br/>obsolescence of the technologies used<br/>for preserving the information set."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_12_862971ca["5.5.12 The contractor shall consider<br/>security risks to the information set to<br/>ensure its confidentiality, integrity<br/>and availability can be maintained."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_6_1682c09d["5.6 Documentary Deliverables"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_6_1_54dcb5ca["5.6.1 The contractor shall produce<br/>documentary deliverables relevant to<br/>safety, including interim versions, as<br/>contracted."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_6_2_5ad0c1b8["5.6.2 The contractor shall agree with<br/>the UK MOD the format and content for<br/>all contracted safety-related<br/>deliverables in the scope of supply."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_6_3_8018582b["5.6.3 In defining deliverable formatting<br/>and content, the contractor shall take<br/>into account the DIDs and the<br/>requirements of any civil, open or other<br/>standards being used."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_5_0e6a1c99 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_6_3ce2e4a0
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_6_3ce2e4a0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_7_2b428d18
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_7_2b428d18 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_8_6734a899
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_8_6734a899 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_9_2171057a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_9_2171057a -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_10_755564b0
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_10_755564b0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_11_8d5298b4
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_11_8d5298b4 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_5_12_862971ca
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_6_1682c09d -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_6_1_54dcb5ca
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_6_1_54dcb5ca -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_6_2_5ad0c1b8
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_6_2_5ad0c1b8 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_6_3_8018582b
+end
+subgraph Page_17 [Page 17]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_6_4_7f0974c8["5.6.4 The contractor shall develop and<br/>update the deliverable plans, reports<br/>and summaries"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_7_909ba476["5.7 Agreement of Deliverables"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_7_1_5320d25a["5.7.1 The contractor shall agree with<br/>the UK MOD, the PSS and safety-related<br/>documentation"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_7_2_2f1f4caa["5.7.2 The contractor shall define the<br/>PSS and its given application"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_7_3_5b8d88cb["5.7.3 The contractor shall define the<br/>PSS to include all relevant elements<br/>across the DLOD"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_7_4_187ed237["5.7.4 The contractor shall record the<br/>definition of the PSS"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_cbf85021["6 Roles and Responsibilities"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_207fe29e["6.1 Safety Organisation"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_1_d3e820f4["6.1.1 The contractor shall define the<br/>roles and responsibilities of those<br/>individuals responsible for safety"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_2_bb056fe8["6.1.2 The contractor shall identify the<br/>normal point of contact for safety<br/>matters"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_3_00acf8dc["6.1.3 The contractor shall demonstrate<br/>how responsibility is delegated"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_4_a667ec0d["6.1.4 The contractor shall keep the<br/>definition of roles and responsibilities<br/>up to date"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_5_d0707731["6.1.5 The contractor shall identify and<br/>record competency requirements for each<br/>role"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_7_909ba476 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_7_1_5320d25a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_7_909ba476 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_7_2_2f1f4caa
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_7_909ba476 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_7_3_5b8d88cb
+    DEFENCE_STANDARD_00_056_PART_01_INSA_5_7_909ba476 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_5_7_4_187ed237
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_cbf85021 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_207fe29e
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_207fe29e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_1_d3e820f4
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_207fe29e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_2_bb056fe8
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_207fe29e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_3_00acf8dc
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_207fe29e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_4_a667ec0d
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_207fe29e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_1_5_d0707731
+end
+subgraph Page_18 [Page 18]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_308f5f1e["6.2 Safety Committees"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_1_5d9c027f["6.2.1 The contractor shall contribute to<br/>safety committees and other liaison<br/>activities"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_2_c6dbace3["6.2.2 The contractor shall provide<br/>visibility of the information set to the<br/>safety committee"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_3_7bac4d3a["6.2.3 The contractor shall support the<br/>safety committee in recommending,<br/>endorsing or providing guidance"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_4_35f53ea6["6.2.4 The contractor shall support the<br/>safety committee in any additional<br/>roles/tasks"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_5_26565fe4["6.2.5 Where there is an appropriate UK<br/>MOD safety committee, the contractor<br/>shall participate"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_6_f07a791d["6.2.6 Where there is no appropriate<br/>safety committee, the contractor shall<br/>work with the UK MOD"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_7_a762fa40["6.2.7 Where appropriate the safety<br/>committee may delegate work to<br/>subsidiary committees"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_8_063ed569["6.2.8 Where the contract involves<br/>support, the contractor shall ensure the<br/>safety committee approves changes"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_9_8a048aff["6.2.9 The contractor shall record all<br/>their support given to the safety<br/>committee"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_85fcccb1["6.3 Competencies"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_1_14819bdc["6.3.1 The contractor shall ensure that<br/>all safety-relevant tasks are carried<br/>out by competent individuals"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_2_91b47c8c["6.3.2 The contractor shall record the<br/>evidence of competence"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_3_f4eec01c["6.3.3 The contractor shall undertake<br/>competence management"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_308f5f1e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_1_5d9c027f
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_308f5f1e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_2_c6dbace3
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_308f5f1e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_3_7bac4d3a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_308f5f1e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_4_35f53ea6
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_308f5f1e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_5_26565fe4
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_308f5f1e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_6_f07a791d
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_308f5f1e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_7_a762fa40
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_308f5f1e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_8_063ed569
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_308f5f1e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_2_9_8a048aff
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_85fcccb1 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_1_14819bdc
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_85fcccb1 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_2_91b47c8c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_85fcccb1 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_3_f4eec01c
+end
+subgraph Page_19 [Page 19]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_4_06edeb26["6.3.4 Contractors shall ensure that<br/>competent personnel are appointed"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_5_3b135b94["6.3.5 The contractor shall ensure<br/>competence evidence is updated"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_1_5b044068["7.1 Organisational Interfaces"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_1_1_61bc74de["7.1.1 The contractor shall cooperate,<br/>and coordinate safety activities"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_1_2_7ece0afe["7.1.2 The contractor shall identify all<br/>stakeholders relevant to safety"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_1_3_f7318bdf["7.1.3 The contractor shall ensure timely<br/>and accurate communication"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_2_826a603f["7.2 Technical Interfaces"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_2_1_9c7663ef["7.2.1 The contractor shall record all<br/>assumptions and information"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_2_2_278a53e8["7.2.2 The contractor shall identify and<br/>record assumptions about PSS"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_2_3_a8f77e85["7.2.3 The contractor shall record<br/>assumptions for other organisations"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_2_4_c946c076["7.2.4 The contractor shall define and<br/>manage the technical interfaces"]
+    subgraph Page_19_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_MCSRP_30a9fac5["Managing Competence for Safety-Related<br/>Practitioners (MCSRP)"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_COPCSRSP_ee735b5a["IET Code of Practice for Competence for<br/>Safety-Related Systems Practitioners<br/>(COPCSRSP)"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_KID_e5067713["UK MOD safety-related competence through<br/>the KID"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_4_06edeb26 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_MCSRP_30a9fac5
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_4_06edeb26 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_COPCSRSP_ee735b5a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_6_3_4_06edeb26 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_KID_e5067713
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_1_5b044068 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_7_1_1_61bc74de
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_1_5b044068 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_7_1_2_7ece0afe
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_1_5b044068 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_7_1_3_f7318bdf
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_2_826a603f -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_7_2_1_9c7663ef
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_2_826a603f -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_7_2_2_278a53e8
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_2_826a603f -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_7_2_3_a8f77e85
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_2_826a603f -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_7_2_4_c946c076
+end
+subgraph Page_20 [Page 20]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_3_9e1acd75["7.3 External Interacting Interfaces"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_3_1_59538a6e["7.3.1 Assessment of Information by<br/>Contractor"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_3_2_bb538783["7.3.2 Reconciliation of Assumptions"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_d07e5599["8 Safety Audits"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_1_0bd4b3e5["8.1 Audits and Reports"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_1_1_ea7c618b["8.1.1 Contractor Safety Auditor<br/>Responsibilities"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_1_2_702644ba["8.1.2 Safety Audit Report"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_1_3_9cbb5607["8.1.3 Assessment of Audit Findings"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_1_4_0cba611d["8.1.4 Audit of Sub-contract Activity"]
+    subgraph Page_20_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_IET_ISA_8edcfa95["IET ISA Working Group"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_3_9e1acd75 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_7_3_1_59538a6e
+    DEFENCE_STANDARD_00_056_PART_01_INSA_7_3_9e1acd75 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_7_3_2_bb538783
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_d07e5599 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_8_1_0bd4b3e5
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_1_0bd4b3e5 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_8_1_1_ea7c618b
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_1_0bd4b3e5 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_8_1_2_702644ba
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_1_0bd4b3e5 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_8_1_3_9cbb5607
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_1_0bd4b3e5 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_8_1_4_0cba611d
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_d07e5599 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_IET_ISA_8edcfa95
+end
+subgraph Page_21 [Page 21]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_2_f01d5b2c["8.2 Contractor Safety Auditor<br/>Independence"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_2_1_678e936a["8.2.1 The contractor shall ensure the<br/>CSA is independent"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_3_a9741b69["8.3 Independent Safety Audit"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_3_1_aedbf776["8.3.1 The contractor shall allow an ISA<br/>reasonable access"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_3_2_8b84f111["8.3.2 Restrictions on access to<br/>information set"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_4_47eebf12["8.4 Remedial Action"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_4_1_71e2a2a4["8.4.1 Identify and implement timely<br/>remedial actions"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_4_2_acce6445["8.4.2 Agree remedial actions with the UK<br/>MOD"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_4_3_6925a068["8.4.3 Update the SMP to reflect agreed<br/>remedial actions"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8ebecb98["9 Safety Requirements, Hazard and Risk<br/>Analysis"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_ebe64939["9.1 Hazards and Accidents"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_1_dfc32a99["9.1.1 Identify all hazards and potential<br/>accidents"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_2_c5b87f3e["9.1.2 Employ systematic analysis<br/>processes"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_3_a63ca4fa["9.1.3 Consider human factors in hazard<br/>analysis"]
+    subgraph Page_21_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_IET_COPISA_27a59eb5["IET Code of Practice for Independent<br/>Safety Assessors (COPISA)"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_STPA_HANDBOOK_8c77ff06["STPA Handbook"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_2_f01d5b2c -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_8_2_1_678e936a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_2_1_678e936a -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_IET_COPISA_27a59eb5
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_3_a9741b69 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_8_3_1_aedbf776
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_3_a9741b69 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_8_3_2_8b84f111
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_4_47eebf12 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_8_4_1_71e2a2a4
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_4_47eebf12 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_8_4_2_acce6445
+    DEFENCE_STANDARD_00_056_PART_01_INSA_8_4_47eebf12 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_8_4_3_6925a068
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8ebecb98 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_ebe64939
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_ebe64939 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_1_dfc32a99
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_ebe64939 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_2_c5b87f3e
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_ebe64939 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_3_a63ca4fa
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8ebecb98 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_STPA_HANDBOOK_8c77ff06
+end
+subgraph Page_22 [Page 22]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_4_6978a4da["9.1.4 Cyber Security Considerations"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_5_9f96ed87["9.1.5 Systematic and Random Failures"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_6_8d96e07a["9.1.6 Undesired Impact of Normal<br/>Functions"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_7_3124b232["9.1.7 New or Novel Technologies"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_5eba4eaf["9.2 Hazard Tracking"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_1_9a2edf27["9.2.1 Visibility of Hazard Control"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_2_da15ff1b["9.2.2 Implementation of Hazard Log"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_3_9bc2abac["9.2.3 Hazard Log Reports"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_4_3d0c9edf["9.2.4 Updating Hazard Log"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_3_86997b5a["9.3 Safety Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_3_1_f78d6d91["9.3.1 Identification and Tracking of<br/>Safety Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_3_2_e815dac4["9.3.2 Documenting Safety Requirements<br/>Process"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_3_3_bbf91672["9.3.3 Tracking Derived Safety<br/>Requirements"]
+    subgraph Page_22_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_251_83660f6a["Def Stan 00-251"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_JSP_440_559a5ff8["JSP 440"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_138_ce475515["Def Stan 05-138"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_135_e69da347["Def Stan 05-135"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_2d2f4c30["Def Stan 00-055"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_4_6978a4da -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_138_ce475515
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_5_9f96ed87 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_2d2f4c30
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_6_8d96e07a -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_135_e69da347
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_1_7_3124b232 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_251_83660f6a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_5eba4eaf -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_1_9a2edf27
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_5eba4eaf -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_2_da15ff1b
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_5eba4eaf -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_3_9bc2abac
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_5eba4eaf -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_2_4_3d0c9edf
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_3_86997b5a -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_3_1_f78d6d91
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_3_86997b5a -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_3_2_e815dac4
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_3_86997b5a -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_3_3_bbf91672
+end
+subgraph Page_23 [Page 23]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_3613dd32["9.4 Safety Requirements Management"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_1_534d9b91["9.4.1 Bi-directional Traceability"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_2_478cedf9["9.4.2 Validation of Safety Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_3_9a6abc6c["9.4.3 Evidence of Requirement<br/>Fulfillment"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_4_a4302608["9.4.4 Inclusion in Hazard Log"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_6b1ed3be["9.5 Design for Safety"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_1_4a4f941d["9.5.1 Design to Meet Safety Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_2_2e3a5b3c["9.5.2 Identification of Mitigation<br/>Strategies"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_3_571b42f2["9.5.3 Implementation of Mitigation<br/>Strategies"]
+    subgraph Page_23_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_2d2f4c30["Def Stan 00-055"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_3613dd32 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_1_534d9b91
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_3613dd32 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_2_478cedf9
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_3613dd32 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_3_9a6abc6c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_3613dd32 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_4_a4302608
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_6b1ed3be -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_1_4a4f941d
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_6b1ed3be -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_2_2e3a5b3c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_6b1ed3be -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_3_571b42f2
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_4_3613dd32 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_2d2f4c30
+end
+subgraph Page_24 [Page 24]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_4_22c1ce27["9.5.4 Effectiveness of Mitigation<br/>Strategies"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_5_662b343f["9.5.5 Management of Mitigation<br/>Strategies"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_6_160c1017["9.5.6 Identification of Derived Safety<br/>Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_7_a15d5b7f["9.5.7 Allocation of Safety Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_8_e56b0aa2["9.5.8 Mitigation Strategy Satisfaction"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_9_69b0e413["9.5.9 Indirect Safety Requirement<br/>Shortfalls"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_10_e50efa16["9.5.10 Recording Mitigation Strategies"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_a441c85c["9.6 Safety Analysis"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_1_1d0811a0["9.6.1 Conducting Safety Analysis"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_2_f431f37d["9.6.2 Coverage of Safety Analysis"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_3_bb2df226["9.6.3 Using Safety Analysis Results"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_4_83670786["9.6.4 Documentation of Safety Analysis"]
+    subgraph Page_24_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_2d2f4c30["Def Stan 00-055"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_4_22c1ce27 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_5_662b343f
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_5_662b343f -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_6_160c1017
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_6_160c1017 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_7_a15d5b7f
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_7_a15d5b7f -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_8_e56b0aa2
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_8_e56b0aa2 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_9_69b0e413
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_9_69b0e413 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_10_e50efa16
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_a441c85c -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_1_1d0811a0
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_1_1d0811a0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_2_f431f37d
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_2_f431f37d -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_3_bb2df226
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_3_bb2df226 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_4_83670786
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_5_7_a15d5b7f -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_2d2f4c30
+end
+subgraph Page_25 [Page 25]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_6_5_cef4ec62["9.6.5 The contractor shall ensure that<br/>the safety analysis results remain<br/>consistent with the design."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722["9.7 Failure Modes"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_1_58dc1ca2["9.7.1 The contractor shall identify all<br/>potential failure modes that might<br/>contribute to a hazard in the PSS, or in<br/>any known interfacing or interacting<br/>PSS, whether extant or planned."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_2_8a6d27c5["9.7.2 The contractor shall ensure that<br/>the status of control of all identified<br/>failure modes that contribute to a<br/>hazard is visible throughout the<br/>contract."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_3_e20cd588["9.7.3 The contractor shall include, in<br/>the information set, information about<br/>all identified failure modes."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_4_59f18870["9.7.4 The contractor shall include in<br/>the ISSS, information on the status of<br/>all identified failure modes."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_5_b0ed3b41["9.7.5 The contractor shall estimate the<br/>likelihood of occurrence and<br/>opportunities for mitigation for all<br/>identified failure modes that contribute<br/>to a hazard and record the results in<br/>the information set."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_6_2261baf7["9.7.6 The contractor shall identify and<br/>justify in the information set the units<br/>used for likelihood of occurrence<br/>estimates."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_7_fdc425a5["9.7.7 The contractor shall employ<br/>systematic safety analysis processes for<br/>identification of failure modes which<br/>might contribute to a hazard in the PSS<br/>as defined in the SMP."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_8_2b243168["9.7.8 The contractor shall ensure that<br/>human factors are considered where they<br/>might be a contributory cause of a<br/>failure mode."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_9_2eae6f5c["9.7.9 The contractor shall ensure that<br/>cyber security is considered where<br/>intentional or unintentional<br/>unauthorised electronic interactions<br/>might be a contributory cause of a<br/>failure mode."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_10_c70d9d8a["9.7.10 The contractor shall ensure that<br/>systematic failures are considered where<br/>they might be a contributory cause of a<br/>failure mode."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_11_c1cf6f49["9.7.11 The contractor shall ensure that<br/>the undesired impacts of normal<br/>functions are considered; this is<br/>especially important for contractors<br/>carrying out systems integration."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_12_3e57db55["9.7.12 The contractor shall update<br/>information on identified failure modes<br/>throughout the contract to ensure that<br/>it accurately reflects the status of the<br/>design, safety analysis and safety<br/>engineering activities."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_13_1f4699e8["9.7.13 The contractor shall use<br/>qualitative estimates where it is not<br/>practicable to quantify likelihood."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_14_13e44508["9.7.14 The contractor shall identify<br/>potential mitigations for the failure<br/>modes that contribute to a hazard where<br/>this is practicable; in particular they<br/>shall identify any observable attributes<br/>of the PSS which could be used as<br/>triggers for mitigations."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_15_e442e0d4["9.7.15 The contractor shall consider<br/>human factors where they might provide<br/>risk mitigation."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_16_26512c83["9.7.16 The contractor shall consider<br/>cyber security controls where they might<br/>provide risk mitigation."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_17_f97190ce["9.7.17 The contractor shall record the<br/>results of the failure mode assessment<br/>in the information set."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_18_d6a267fe["9.7.18 The contractor shall record all<br/>assumptions, data, judgements and<br/>calculations underpinning the failure<br/>mode assessment in the information set."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_1_58dc1ca2
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_2_8a6d27c5
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_3_e20cd588
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_4_59f18870
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_5_b0ed3b41
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_6_2261baf7
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_7_fdc425a5
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_8_2b243168
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_9_2eae6f5c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_10_c70d9d8a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_11_c1cf6f49
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_12_3e57db55
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_13_1f4699e8
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_14_13e44508
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_15_e442e0d4
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_16_26512c83
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_17_f97190ce
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_50041722 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_7_18_d6a267fe
+end
+subgraph Page_26 [Page 26]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_d645a375["9.8 Risk Estimation"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_1_b2307bcd["9.8.1 Risk Estimation Process"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_2_ee431f4b["9.8.2 Qualitative Risk Assessment"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_3_8c34f33f["9.8.3 Residual Risk Determination"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_4_331ca6c7["9.8.4 Documentation of Risk Estimation"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_4236e7bb["9.9 Risk and Compliance Evaluation"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_1_e3702767["9.9.1 Evaluation of Risk to Life"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_2_ba2a7617["9.9.2 Risk Criteria Evaluation"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_3_35c525fa["9.9.3 Documentation of Evaluations"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_4_3bfb0c3b["9.9.4 Compliance Evaluation"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_5_35658555["9.9.5 Recording Evaluation Results"]
+    subgraph Page_26_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_138_ce475515["Def Stan 05-138"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_251_83660f6a["Def Stan 00-251"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_2d2f4c30["Def Stan 00-055"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_d645a375 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_1_b2307bcd
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_d645a375 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_2_ee431f4b
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_d645a375 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_3_8c34f33f
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_d645a375 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_4_331ca6c7
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_4236e7bb -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_1_e3702767
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_4236e7bb -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_2_ba2a7617
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_4236e7bb -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_3_35c525fa
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_4236e7bb -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_4_3bfb0c3b
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_4236e7bb -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_9_5_35658555
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_d645a375 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_138_ce475515
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_d645a375 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_251_83660f6a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_8_d645a375 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_2d2f4c30
+end
+subgraph Page_27 [Page 27]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_790cba47["9.10 Satisfaction of Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_1_f6a85290["9.10.1 The contractor shall carry out<br/>safety and systems engineering<br/>activities to provide evidence that all<br/>safety requirements, including derived<br/>safety requirements, have been met."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_2_87d1cd3a["9.10.2 The contractor shall undertake<br/>systems engineering activities which are<br/>capable of detecting counter-evidence."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_3_2e5aae6d["9.10.3 The contractor shall identify the<br/>most effective method, or methods, for<br/>showing satisfaction of requirements, or<br/>providing counter-evidence, and include<br/>this information in the SMP."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_4_6a74c91f["9.10.4 Whilst there might be general<br/>identification of techniques early in<br/>the process, the contractor shall ensure<br/>that the methods chosen are appropriate<br/>to the specific derived safety<br/>requirements identified."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_63b65d41["10 Safety Reporting"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_d59eba9b["10.1 Information Set Safety Summary"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_1_d53f0ea4["10.1.1 The contractor shall produce an<br/>ISSS as defined in the SMP."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_2_d5f3967b["10.1.2 The contractor shall ensure that<br/>the ISSS contains sufficient information<br/>from the information set to enable a<br/>system integrator and a system operator<br/>to discharge their safety<br/>responsibilities."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_3_65272c13["10.1.3 The contractor shall ensure that<br/>the ISSS contains information on<br/>assumptions and limitations regarding<br/>the safe use of the PSS."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_4_ce20da37["10.1.4 The contractor shall ensure that<br/>the ISSS includes a justification of the<br/>scope of the information provided."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_5_7f050e3f["10.1.5 The contractor shall ensure that<br/>the ISSS is delivered incrementally, as<br/>contracted and as defined in the SMP, to<br/>give the UK MOD visibility of progress<br/>in safety engineering and safety<br/>analysis."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_f5d7d560["10.2 Safety Case"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_1_57e58d3a["10.2.1 The contractor shall produce a<br/>safety case or safety cases for a PSS as<br/>defined in the SMP."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_2_e98a9ad3["10.2.2 The contractor shall ensure that<br/>the safety case consists of a structured<br/>argument, supported by a body of<br/>evidence that provides a compelling,<br/>comprehensible and valid case that a<br/>system is safe for a given application<br/>in a given environment."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_3_0b59a8e8["10.2.3 The contractor shall ensure that<br/>the evidence for the safety case is<br/>drawn from the information set."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_4_114e8cf9["10.2.4 The contractor shall address<br/>safety throughout the life of the PSS<br/>within the safety case, to the extent<br/>required by the scope of contract."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_5_6a86a3d5["10.2.5 The contractor shall provide<br/>evidence that supports claims for the<br/>verification and validation of all<br/>safety requirements, including evidence<br/>from sub-contractors."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_790cba47 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_1_f6a85290
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_790cba47 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_2_87d1cd3a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_790cba47 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_3_2e5aae6d
+    DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_790cba47 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_9_10_4_6a74c91f
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_63b65d41 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_d59eba9b
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_d59eba9b -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_1_d53f0ea4
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_d59eba9b -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_2_d5f3967b
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_d59eba9b -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_3_65272c13
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_d59eba9b -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_4_ce20da37
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_d59eba9b -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_1_5_7f050e3f
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_63b65d41 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_f5d7d560
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_f5d7d560 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_1_57e58d3a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_f5d7d560 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_2_e98a9ad3
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_f5d7d560 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_3_0b59a8e8
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_f5d7d560 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_4_114e8cf9
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_f5d7d560 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_5_6a86a3d5
+end
+subgraph Page_28 [Page 28]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_6_6b7480bf["10.2.6 The contractor shall provide<br/>evidence of compliance with relevant<br/>legislation, regulations, standards,<br/>policy and approved codes of practice."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_7_b4115d7d["10.2.7 The contractor shall ensure that<br/>the safety case identifies how to<br/>address any residual shortfalls in<br/>meeting safety requirements."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_8_2873d0db["10.2.8 The contractor shall develop,<br/>maintain and refine the safety case as<br/>defined in the SMP."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_10_427b1d5c["10.2.10 The contractor shall provide<br/>diverse evidence, to ensure that that<br/>the overall safety argument is not<br/>compromised by errors or uncertainties<br/>in individual pieces of evidence."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_12_8ad88b8b["10.2.12 The contractor shall justify the<br/>adequacy and suitability of the methods<br/>and techniques used for hazard analysis,<br/>design for safety, safety analysis and<br/>other relevant safety engineering<br/>activities."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_a3d53825["10.3 Safety Case Reports"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_1_d145953e["10.3.1 The contractor shall produce a<br/>safety case report or reports as defined<br/>in the SMP."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_2_0afffa35["10.3.2 The contractor shall produce<br/>safety case reports that incorporate the<br/>key elements of the safety argument and<br/>provision of evidence."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_3_0716e787["10.3.3 Where there are shortfalls in the<br/>evidence the contractor shall ensure<br/>safety case reports provide the<br/>rationale for operating the PSS, and the<br/>ways of mitigating the residual risk."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_4_c2f3bbd0["10.3.4 The contractor shall ensure that<br/>safety case reports contain information<br/>on assumptions and limitations regarding<br/>the safe use of the PSS."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_6_6b7480bf -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_7_b4115d7d
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_7_b4115d7d -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_8_2873d0db
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_8_2873d0db -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_10_427b1d5c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_10_427b1d5c -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_2_12_8ad88b8b
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_a3d53825 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_1_d145953e
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_1_d145953e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_2_0afffa35
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_2_0afffa35 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_3_0716e787
+    DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_3_0716e787 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_10_3_4_c2f3bbd0
+end
+subgraph Page_29 [Page 29]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_e57e92e8["11 Supply and Change Management"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_1_42b24dfb["11.1 Build State Definition"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_2_6d94caa8["11.2 Change Control"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_3_c4d23b3e["11.3 Planning for Change"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyCase_6e26dcd5["Safety Case"]
+    subgraph Page_29_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_057_2528c017["Def Stan 05-057"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_e57e92e8 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_1_42b24dfb
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_e57e92e8 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_2_6d94caa8
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_e57e92e8 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_3_c4d23b3e
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_1_42b24dfb -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_057_2528c017
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_2_6d94caa8 -->|"relates_to"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyCase_6e26dcd5
+end
+subgraph Page_30 [Page 30]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_2fa15526["11.4 Safety of Changes"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_1_b16150b3["11.4.1 The contractor shall manage all<br/>changes under their control..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_2_ce1112e3["11.4.2 The contractor shall review and<br/>update the information set..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_3_094b6cfa["11.4.3 The contractor shall review and<br/>update the safety case..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_4_e96029c5["11.4.4 The contractor shall update the<br/>design where there are agreed changes..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_5_21f624a5["11.4.5 The contractor shall update the<br/>hazard analysis and safety analysis..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_6_e455793c["11.4.6 Following any change which has an<br/>adverse effect on safety..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_5_89879230["11.5 Safe Update"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_5_1_a6dcd716["11.5.1 The contractor shall supply<br/>updated PSS and associated<br/>information..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_5_2_060b52c0["11.5.2 The contractor shall supply<br/>appropriate installation instructions..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_5_3_f3418ba6["11.5.3 The contractor shall update the<br/>build state definition..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_6_6aad233e["11.6 Monitoring Change"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_6_1_6b7f0b3e["11.6.1 The contractor shall monitor<br/>changes to in-service PSS..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_6_2_521a0624["11.6.2 Where undesired safety impacts<br/>are identified..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_6_3_0ba72050["11.6.3 To ensure visibility of<br/>changes..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_bd8c9afa["11.7 Incorporating Change"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_1_d7386b23["11.7.1 The contractor shall incorporate<br/>any new or modified PSS..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_2_21c52793["11.7.2 The contractor shall provide<br/>information to other relevant<br/>stakeholders..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_3_206e0ab3["11.7.3 The contractor shall assess<br/>supplied PSS..."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_2fa15526 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_1_b16150b3
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_2fa15526 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_2_ce1112e3
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_2fa15526 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_3_094b6cfa
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_2fa15526 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_4_e96029c5
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_2fa15526 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_5_21f624a5
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_2fa15526 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_4_6_e455793c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_5_89879230 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_5_1_a6dcd716
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_5_89879230 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_5_2_060b52c0
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_5_89879230 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_5_3_f3418ba6
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_6_6aad233e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_6_1_6b7f0b3e
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_6_6aad233e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_6_2_521a0624
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_6_6aad233e -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_6_3_0ba72050
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_bd8c9afa -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_1_d7386b23
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_bd8c9afa -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_2_21c52793
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_bd8c9afa -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_3_206e0ab3
+end
+subgraph Page_31 [Page 31]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_4_a8f887dc["11.7.4 Installation Plans and Changeover"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_5_471294db["11.7.5 Temporary Modifications"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_6_de79f867["11.7.6 Stakeholder Agreement on Changes"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_17e6a8ad["12 Supporting Systems In-Service"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_1_60002aa8["12.1 Management of Safety-Related In-<br/>Service Data"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_1_1_f242eb8d["12.1.1 Coordination of Safety-Related<br/>Data"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_1_2_f5b01903["12.1.2 Exchange of In-Service Data"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyCase_6e26dcd5["Safety Case"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_4_a8f887dc -->|"relates_to"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyCase_6e26dcd5
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_5_471294db -->|"relates_to"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyCase_6e26dcd5
+    DEFENCE_STANDARD_00_056_PART_01_INSA_11_7_6_de79f867 -->|"relates_to"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyCase_6e26dcd5
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_17e6a8ad -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_1_60002aa8
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_1_60002aa8 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_1_1_f242eb8d
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_1_60002aa8 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_1_2_f5b01903
+end
+subgraph Page_32 [Page 32]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_30db1da7["12.2 Monitoring, Reporting and In-<br/>service Data Analysis"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_1_e67bf150["12.2.1 The contractor shall define and<br/>operate a process for collecting,<br/>analysing and documenting safety-<br/>relevant in-service data"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_2_1ac8e8c9["12.2.2 The contractor shall review the<br/>safety case in light of the recorded<br/>data"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_3_52a57635["12.2.3 The contractor shall sentence the<br/>results of analysis of the data"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_4_d501cba1["12.2.4 The contractor shall inform all<br/>relevant stakeholders where they have<br/>identified the need for remedial action"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_5_814c53b5["12.2.5 The contractor shall define and<br/>operate a process for collecting and<br/>analysing incident, accident and near<br/>miss reports"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_6_02536083["12.2.6 The contractor shall analyse all<br/>collected data to identify root causes<br/>which require action"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_7_c73fe503["12.2.7 The contractor shall monitor and<br/>report changes to relevant safety<br/>legislation"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_8_836c1549["12.2.8 The contractor shall liaise with<br/>the UK MOD to establish a Failure<br/>Reporting Analysis and Corrective Action<br/>Systems (FRACAS)"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_9_d8bea48b["12.2.9 Where the contractor supports in-<br/>service PSS which are in use by multiple<br/>stakeholders"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_3_40292566["12.3 Remedial Action"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_3_1_3a350dfb["12.3.1 The contractor shall implement<br/>remedial actions to preserve or improve<br/>safety"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_3_2_6eb5376e["12.3.2 The contractor shall plan<br/>remedial actions taking into account the<br/>need for efficient change management"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_3_3_90aa7e28["12.3.3 The contractor shall plan<br/>remedial actions taking into account the<br/>need to deal with foreseeable changes"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_30db1da7 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_1_e67bf150
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_30db1da7 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_2_1ac8e8c9
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_30db1da7 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_3_52a57635
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_30db1da7 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_4_d501cba1
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_30db1da7 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_5_814c53b5
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_30db1da7 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_6_02536083
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_30db1da7 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_7_c73fe503
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_30db1da7 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_8_836c1549
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_30db1da7 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_2_9_d8bea48b
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_3_40292566 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_3_1_3a350dfb
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_3_40292566 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_3_2_6eb5376e
+    DEFENCE_STANDARD_00_056_PART_01_INSA_12_3_40292566 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_12_3_3_90aa7e28
+end
+subgraph Page_33 [Page 33]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_be9f5d5f["13 Service Provision"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_dedbf400["13.1 Safety Case Report"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_1_98d5f466["13.1.1 The contractor shall produce a<br/>safety case report and command summary<br/>and deliver them to the UK MOD for<br/>approval before commencement of<br/>services."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_2_1d227dee["13.1.2 The contractor shall maintain the<br/>safety case, safety case report and<br/>command summary so they are accurate<br/>representations of the service."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_3_5158775a["13.1.3 The contractor shall produce<br/>command summaries so that each provision<br/>of the service can be properly assessed<br/>and controlled in terms of risk."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_4_4d392af2["13.1.4 The contractor shall provide<br/>information to support domain specific<br/>processes providing essential<br/>information for the accountable person<br/>responsible for the service to manage<br/>risk to life."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_0948fbf0["13.2 Service Provision Planning"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_1_d68e3c32["13.2.1 The contractor shall produce<br/>plans for management of service<br/>operations, covering all reasonably<br/>foreseeable situations including<br/>abnormal and emergency situations."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_2_459299fd["13.2.2 The contractor shall ensure that<br/>the plans cover the safety of the full<br/>range of normal services and operations,<br/>including but not limited to defining<br/>standard operating procedures,<br/>resourcing, training, and oversight<br/>arrangements."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_3_a0f4738a["13.2.3 The contractor shall ensure that<br/>the plans cover the safety of emergency<br/>situations, including but not limited to<br/>defining emergency response,<br/>coordination and decision making,<br/>including liaison with the service<br/>accountable person and relevant<br/>stakeholders."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_4_d5674ada["13.2.4 The contractor shall ensure that<br/>these plans cover safe update, including<br/>ways of making changes on continuously<br/>running systems, if necessary, building<br/>on installation instructions supplied<br/>from support, as appropriate."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_5_7896e147["13.2.5 The contractor shall ensure that<br/>the communications plan, detailed in the<br/>SMP, includes processes for delivery of<br/>in-service data and build state<br/>definition."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_6_971aa302["13.2.6 The contractor shall provide<br/>information to those not employed as<br/>part of the provision of the service<br/>about relevant undertakings, where this<br/>might affect their health and safety.<br/>How this will be achieved shall be<br/>included in the relevant plans."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_7_a0556ac6["13.2.7 The contractor shall provide<br/>access to health and safety advice<br/>relating to the service, and<br/>consultation on the risks to employees,<br/>contractors and any other people who<br/>could be affected by them."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_be9f5d5f -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_dedbf400
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_be9f5d5f -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_0948fbf0
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_dedbf400 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_1_98d5f466
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_dedbf400 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_2_1d227dee
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_dedbf400 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_3_5158775a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_dedbf400 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_1_4_4d392af2
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_0948fbf0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_1_d68e3c32
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_0948fbf0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_2_459299fd
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_0948fbf0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_3_a0f4738a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_0948fbf0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_4_d5674ada
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_0948fbf0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_5_7896e147
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_0948fbf0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_6_971aa302
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_0948fbf0 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_2_7_a0556ac6
+end
+subgraph Page_34 [Page 34]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_552e38aa["13.3 Risk Management"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_1_d93ab1d9["13.3.1 The contractor shall support the<br/>UK MOD in managing predicted or emergent<br/>risk to life"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_2_4da46e07["13.3.2 The contractor shall cooperate<br/>with the accountable persons for<br/>interfacing or interacting services"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_3_26183034["13.3.3 Where necessary and with the<br/>accountable person’s agreement, the<br/>contractor shall implement immediate<br/>action"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_ALARP_122ed4e9["ALARP principle"]
+    subgraph Page_34_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_JSP_822_7d735479["JSP 822"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_2d2f4c30["DEF STAN 00-055"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_552e38aa -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_1_d93ab1d9
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_552e38aa -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_2_4da46e07
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_552e38aa -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_3_26183034
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_552e38aa -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_JSP_822_7d735479
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_552e38aa -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_2d2f4c30
+    DEFENCE_STANDARD_00_056_PART_01_INSA_13_3_552e38aa -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_ALARP_122ed4e9
+end
+subgraph Page_35 [Page 35]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1f751308["3 Normative References"]
+    subgraph Page_35_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_52c66eeb["Def Stan’s can be downloaded free of<br/>charge from the DStan web site"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_STANAG_9d2d80f1["STANAGs"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_AlliedPublications_b62d0f5d["Allied Publications"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_OtherReferences_1d9591e6["Other References"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1f751308 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_52c66eeb
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1f751308 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_STANAG_9d2d80f1
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1f751308 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_AlliedPublications_b62d0f5d
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1f751308 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_OtherReferences_1d9591e6
+end
+subgraph Page_36 [Page 36]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Definitions_991c925e["Definitions"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_Accident_fc5c59bd["Accident"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_ALARP_4db8de6c["ALARP"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_CADMIDT_1e769e61["CADMID/T"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_CommandSummary_4aac8832["Command Summary"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_ContractorSafetyAuditor_6d98965c["Contractor Safety Auditor"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_CounterEvidence_19d95e61["Counter-evidence"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_DataSafetyRequirements_cd026b06["Data Safety Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_DefenceAirEnvironment_51c96263["Defence Air Environment"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_DerivedSafetyRequirement_694e3327["Derived Safety Requirement"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_DesignIntegrity_3c04142e["Design Integrity"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_DutyHolder_83af72f0["Duty Holder"]
+    subgraph Page_36_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_ISOIEC_Guide2_82a7841a["ISO/IEC Guide 2 ‘Standardization and<br/>Related Activities – General Vocabulary’"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Definitions_991c925e -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_ISOIEC_Guide2_82a7841a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Definitions_991c925e -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_Accident_fc5c59bd
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Definitions_991c925e -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_ALARP_4db8de6c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Definitions_991c925e -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_CADMIDT_1e769e61
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Definitions_991c925e -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_CommandSummary_4aac8832
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Definitions_991c925e -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_ContractorSafetyAuditor_6d98965c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Definitions_991c925e -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_CounterEvidence_19d95e61
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Definitions_991c925e -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_DataSafetyRequirements_cd026b06
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Definitions_991c925e -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_DefenceAirEnvironment_51c96263
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Definitions_991c925e -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_DerivedSafetyRequirement_694e3327
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Definitions_991c925e -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_DesignIntegrity_3c04142e
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Definitions_991c925e -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_DutyHolder_83af72f0
+end
+subgraph Page_37 [Page 37]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_0740bf68["3-3 Definitions and Concepts"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_FailureMode_5d306485["Failure Mode"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_Harm_e7751e69["Harm"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_Hazard_82b93393["Hazard"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_HazardAnalysis_719f0d27["Hazard Analysis"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_HazardIdentification_1369552c["Hazard Identification"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_HazardLog_c81fe3a0["Hazard Log"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_HazardLogReport_d2830135["Hazard Log Report"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_HealthMonitoringAndReportingSystem_90e1488e["Health Monitoring and Reporting System"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_HumanFactors_73075325["Human Factors"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_Incident_3187be38["Incident"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_IndependentSafetyAuditor_6c4d0a7e["Independent Safety Auditor"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_InformationSet_5ed90db2["Information Set"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_0740bf68 -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_FailureMode_5d306485
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_0740bf68 -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_Harm_e7751e69
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_0740bf68 -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_Hazard_82b93393
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_0740bf68 -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_HazardAnalysis_719f0d27
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_0740bf68 -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_HazardIdentification_1369552c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_0740bf68 -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_HazardLog_c81fe3a0
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_0740bf68 -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_HazardLogReport_d2830135
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_0740bf68 -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_HealthMonitoringAndReportingSystem_90e1488e
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_0740bf68 -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_HumanFactors_73075325
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_0740bf68 -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_Incident_3187be38
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_0740bf68 -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_IndependentSafetyAuditor_6c4d0a7e
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_0740bf68 -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_InformationSet_5ed90db2
+end
+subgraph Page_38 [Page 38]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46["3.1 Information Set Safety Summary"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_2_45191222["3.2 Mitigation Strategies"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_66d344af["3.3 Operating environment"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_4_1a960f4b["3.4 PE Safety Requirement"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_5_0287b10c["3.5 Product"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_6_3453b3c0["3.6 Programmable Element"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_36938df6["3.7 Progress Report"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_8_b2b2536a["3.8 Risk"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_9_00c22545["3.9 Risk to Life"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_10_c64e7219["3.10 Regulator"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_11_3dc4df38["3.11 Risk Estimation"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_12_318c9485["3.12 Risk Management"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_13_0bd3474b["3.13 Safe"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_14_c32833ca["3.14 Safety Analysis"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_15_5d761f3d["3.15 Safety Audit"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_2_45191222
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_66d344af
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_4_1a960f4b
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_5_0287b10c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_6_3453b3c0
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_36938df6
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_8_b2b2536a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_9_00c22545
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_10_c64e7219
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_11_3dc4df38
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_12_318c9485
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_13_0bd3474b
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_14_c32833ca
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_75897f46 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_3_15_5d761f3d
+end
+subgraph Page_39 [Page 39]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_1_13b2526d["3.1 Safety Auditor"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_2_2bb7b012["3.2 Safety Audit Report"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_3_38d52a9e["3.3 Safety Case"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_4_1deb9224["3.4 Safety Case Report"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_5_8764c89e["3.5 Safety Committee"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_6_8826b06a["3.6 Safety Engineering"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_5ababa1d["3.7 Safety Management"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_8_9bf4b243["3.8 Safety Management System"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_9_1b0a68de["3.9 Safety Management Plan"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_10_f5343b8e["3.10 Safety Requirement"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_11_7bbcd771["3.11 Scope of Analysis"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_12_bfd144b3["3.12 Scope of Contract"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_13_5010b991["3.13 Scope of Supply"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_14_ba119a58["3.14 Sentencing"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_15_1f4d50b0["3.15 Service"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_16_d5fe898c["3.16 Severity"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_17_a4b78787["3.17 System"]
+end
+subgraph Page_40 [Page 40]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_SystemOfSystems_1e7be340["System of Systems"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_SystemIntegrator_d5c7d843["System Integrator"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_TopLevelSafetyRequirement_5567a4be["Top Level Safety Requirement"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_AccountablePerson_3e63e5e9["Accountable Person"]
+end
+subgraph Page_41 [Page 41]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253["3-7 Abbreviations"]
+    subgraph Page_41_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_ALARP_49e1359c["As Low As Reasonably Practicable"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_ARP_c8d700ed["Aerospace Recommended Practice"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_ASEMS_8f6fc0a8["Acquisition Safety & Environmental<br/>Management Systems"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_CADMID_T_7cd213d2["Concept, Assessment, Demonstration,<br/>Manufacture, In-service,<br/>Disposal/Termination"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_CSA_5855a4a3["Contractor Safety Auditor"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DAE_dfa5eadd["Defence Air Environment"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DefStan_0b4a16fa["Defence Standard"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DID_e9307170["Data Item Description"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DSA_75066b16["Defence Safety Authority"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DStan_ceee22a0["UK Defence Standardization"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_ESL_S_b2c0d660["Equipment, Services, Logistics and<br/>Support"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_FMEA_aea595ef["Failure Modes Effects and Analysis"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_FMECA_58cc119c["Failure Modes Effects and Criticality<br/>Analysis"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_FPGA_b35139b5["Field Programmable Gate Array"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_FRACAS_713ce524["Failure Reporting Analysis And<br/>Corrective Action System"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_GFX_0ba6629a["Government Furnished Equipment (GFE) or<br/>Assets (GFA)"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_IET_b2dedde2["Institute of Engineering and Technology"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_ISA_b6abe522["Independent Safety Auditor"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_ISAWG_b574d9ca["Independent Safety Assurance Working<br/>Group"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_ISO_8cedfeba["International Organisation for<br/>Standardisation"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_ISSS_821a855f["Information Set Safety Summary"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_ITT_bea963d0["Invitation to Tender"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_JSP_53be88d6["Joint Service Publication"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_KiD_d8b4ca71["Knowledge in Defence"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_MAA_ecf0027e["Military Aviation Authority"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_MIL_STD_9bfe9a2a["Military Standard"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_MOD_28ec5139["Ministry of Defence"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_ALARP_49e1359c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_ARP_c8d700ed
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_ASEMS_8f6fc0a8
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_CADMID_T_7cd213d2
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_CSA_5855a4a3
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DAE_dfa5eadd
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DefStan_0b4a16fa
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DID_e9307170
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DSA_75066b16
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DStan_ceee22a0
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_ESL_S_b2c0d660
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_FMEA_aea595ef
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_FMECA_58cc119c
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_FPGA_b35139b5
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_FRACAS_713ce524
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_GFX_0ba6629a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_IET_b2dedde2
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_ISA_b6abe522
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_ISAWG_b574d9ca
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_ISO_8cedfeba
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_ISSS_821a855f
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_ITT_bea963d0
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_JSP_53be88d6
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_KiD_d8b4ca71
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_MAA_ecf0027e
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_MIL_STD_9bfe9a2a
+    DEFENCE_STANDARD_00_056_PART_01_INSA_3_7_576e7253 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_MOD_28ec5139
+end
+subgraph Page_42 [Page 42]
+    subgraph Page_42_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_MRP_dc72f945["MRP MAA Regulatory Publications"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_PE_85e3f0bb["PE Programmable Elements"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_PLD_b7b16d92["PLD Programmable Logic Devices"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_POSMS_a6df0e40["POSMS Project Oriented Safety Management<br/>System"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_PSS_f280b9c6["PSS Products, Services and/or Systems"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_RGP_0bf5e8b2["RGP Relevant Good Practice"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_SRD_c4dfebe1["SRD System Requirement Document"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_SMP_031758d1["SMP Safety Management Plan"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_SMS_9f555bee["SMS Safety Management System"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_STPA_75294634["STPA System Theoretic Process Analysis"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_UKCA_7c6d1698["UKCA UK Conformity Assessed"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_URD_d5fe59bb["URD User Requirement Document"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_HSE_20bac237["HSE Health and Safety Executive"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DLOD_535ecdc5["DLOD Defence Lines of Development"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DevOps_e66f10b8["DevOps Development and Operations"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_ACOPs_0b4056bd["ACOPs Approved Code of Practice"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DO_6c029f71["DO Document Order"]
+    end
+end
+subgraph Page_43 [Page 43]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_AllPart1Requirements_71533b4d["All Part 1 Requirements All clauses<br/>where previously 'should', amended to<br/>'shall'"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_FormatChange_f8c8a467["Format Change Requirements numbering has<br/>moved up 2 in number"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Part1_28ca5b70["Part 1 Information pack containing<br/>Scope, triage of review feedback<br/>received and overlay document detailing<br/>changes from issue 7 to issue 8"]
+    subgraph Page_43_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_DStanHelpCentre_f25bd7c3["UK Defence Standardization Help Centre"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_AllPart1Requirements_71533b4d -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DStanHelpCentre_f25bd7c3
+    DEFENCE_STANDARD_00_056_PART_01_INSA_FormatChange_f8c8a467 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DStanHelpCentre_f25bd7c3
+    DEFENCE_STANDARD_00_056_PART_01_INSA_Part1_28ca5b70 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DStanHelpCentre_f25bd7c3
+end
+subgraph Page_44 [Page 44]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_1_5ebd57f3["1.1 Contract Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_2_f43fe930["1.2 Revision of Defence Standards"]
+    subgraph Page_44_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_STANMIS_be002c1b["Standardization Management Information<br/>System (StanMIS)"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DSTAN_63a5f458["UK Defence Standardization"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_1_5ebd57f3 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DSTAN_63a5f458
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_2_f43fe930 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DSTAN_63a5f458
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_2_f43fe930 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_STANMIS_be002c1b
+end

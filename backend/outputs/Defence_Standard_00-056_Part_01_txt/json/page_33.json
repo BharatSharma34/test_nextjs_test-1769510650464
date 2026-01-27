@@ -1,0 +1,226 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:13",
+      "number": "13",
+      "title": "Service Provision",
+      "kind": "section",
+      "appears_on_pages": [
+        33
+      ],
+      "primary_page": 33
+    },
+    {
+      "id": "INSA:13.1",
+      "number": "13.1",
+      "title": "Safety Case Report",
+      "kind": "subsection",
+      "appears_on_pages": [
+        33
+      ],
+      "primary_page": 33
+    },
+    {
+      "id": "INSA:13.1.1",
+      "number": "13.1.1",
+      "title": "The contractor shall produce a safety case report and command summary and deliver them to the UK MOD for approval before commencement of services.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        33
+      ],
+      "primary_page": 33
+    },
+    {
+      "id": "INSA:13.1.2",
+      "number": "13.1.2",
+      "title": "The contractor shall maintain the safety case, safety case report and command summary so they are accurate representations of the service.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        33
+      ],
+      "primary_page": 33
+    },
+    {
+      "id": "INSA:13.1.3",
+      "number": "13.1.3",
+      "title": "The contractor shall produce command summaries so that each provision of the service can be properly assessed and controlled in terms of risk.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        33
+      ],
+      "primary_page": 33
+    },
+    {
+      "id": "INSA:13.1.4",
+      "number": "13.1.4",
+      "title": "The contractor shall provide information to support domain specific processes providing essential information for the accountable person responsible for the service to manage risk to life.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        33
+      ],
+      "primary_page": 33
+    },
+    {
+      "id": "INSA:13.2",
+      "number": "13.2",
+      "title": "Service Provision Planning",
+      "kind": "subsection",
+      "appears_on_pages": [
+        33
+      ],
+      "primary_page": 33
+    },
+    {
+      "id": "INSA:13.2.1",
+      "number": "13.2.1",
+      "title": "The contractor shall produce plans for management of service operations, covering all reasonably foreseeable situations including abnormal and emergency situations.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        33
+      ],
+      "primary_page": 33
+    },
+    {
+      "id": "INSA:13.2.2",
+      "number": "13.2.2",
+      "title": "The contractor shall ensure that the plans cover the safety of the full range of normal services and operations, including but not limited to defining standard operating procedures, resourcing, training, and oversight arrangements.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        33
+      ],
+      "primary_page": 33
+    },
+    {
+      "id": "INSA:13.2.3",
+      "number": "13.2.3",
+      "title": "The contractor shall ensure that the plans cover the safety of emergency situations, including but not limited to defining emergency response, coordination and decision making, including liaison with the service accountable person and relevant stakeholders.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        33
+      ],
+      "primary_page": 33
+    },
+    {
+      "id": "INSA:13.2.4",
+      "number": "13.2.4",
+      "title": "The contractor shall ensure that these plans cover safe update, including ways of making changes on continuously running systems, if necessary, building on installation instructions supplied from support, as appropriate.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        33
+      ],
+      "primary_page": 33
+    },
+    {
+      "id": "INSA:13.2.5",
+      "number": "13.2.5",
+      "title": "The contractor shall ensure that the communications plan, detailed in the SMP, includes processes for delivery of in-service data and build state definition.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        33
+      ],
+      "primary_page": 33
+    },
+    {
+      "id": "INSA:13.2.6",
+      "number": "13.2.6",
+      "title": "The contractor shall provide information to those not employed as part of the provision of the service about relevant undertakings, where this might affect their health and safety. How this will be achieved shall be included in the relevant plans.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        33
+      ],
+      "primary_page": 33
+    },
+    {
+      "id": "INSA:13.2.7",
+      "number": "13.2.7",
+      "title": "The contractor shall provide access to health and safety advice relating to the service, and consultation on the risks to employees, contractors and any other people who could be affected by them.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        33
+      ],
+      "primary_page": 33
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:13",
+      "to": "INSA:13.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13",
+      "to": "INSA:13.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.1",
+      "to": "INSA:13.1.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.1",
+      "to": "INSA:13.1.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.1",
+      "to": "INSA:13.1.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.1",
+      "to": "INSA:13.1.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.2",
+      "to": "INSA:13.2.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.2",
+      "to": "INSA:13.2.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.2",
+      "to": "INSA:13.2.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.2",
+      "to": "INSA:13.2.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.2",
+      "to": "INSA:13.2.5",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.2",
+      "to": "INSA:13.2.6",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.2",
+      "to": "INSA:13.2.7",
+      "type": "contains",
+      "confidence": 1.0
+    }
+  ]
+}

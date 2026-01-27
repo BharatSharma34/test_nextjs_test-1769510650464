@@ -1,0 +1,130 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:4",
+      "number": "4",
+      "title": "Safety Management System",
+      "kind": "section",
+      "appears_on_pages": [
+        12
+      ],
+      "primary_page": 12
+    },
+    {
+      "id": "INSA:4.1",
+      "number": "4.1",
+      "title": "Safety Management Plan",
+      "kind": "subsection",
+      "appears_on_pages": [
+        12
+      ],
+      "primary_page": 12
+    },
+    {
+      "id": "REF:RA1200",
+      "number": "",
+      "title": "Regulatory Article (RA) RA1200",
+      "kind": "reference",
+      "appears_on_pages": [
+        12
+      ],
+      "primary_page": 12
+    },
+    {
+      "id": "REF:ManualOfAirSafety",
+      "number": "",
+      "title": "Manual of Air Safety",
+      "kind": "reference",
+      "appears_on_pages": [
+        12
+      ],
+      "primary_page": 12
+    },
+    {
+      "id": "REF:POSMS",
+      "number": "",
+      "title": "POSMS",
+      "kind": "reference",
+      "appears_on_pages": [
+        12
+      ],
+      "primary_page": 12
+    },
+    {
+      "id": "REF:WhiteBook",
+      "number": "",
+      "title": "An Introduction to Safety Management in the UK MOD (White Book)",
+      "kind": "reference",
+      "appears_on_pages": [
+        12
+      ],
+      "primary_page": 12
+    },
+    {
+      "id": "REF:ASEMS",
+      "number": "",
+      "title": "http://www.asems.mod.uk",
+      "kind": "reference",
+      "appears_on_pages": [
+        12
+      ],
+      "primary_page": 12
+    },
+    {
+      "id": "REF:KID",
+      "number": "",
+      "title": "KID",
+      "kind": "reference",
+      "appears_on_pages": [
+        12
+      ],
+      "primary_page": 12
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:4",
+      "to": "INSA:4.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4",
+      "to": "REF:RA1200",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4",
+      "to": "REF:ManualOfAirSafety",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4",
+      "to": "REF:POSMS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4",
+      "to": "REF:WhiteBook",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4",
+      "to": "REF:ASEMS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4.1",
+      "to": "REF:KID",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

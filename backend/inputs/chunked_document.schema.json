@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/chunked_document.schema.json",
+  "title": "ChunkedDocument",
+  "type": "object",
+  "required": ["document_name", "source_path", "chunking", "pages"],
+  "additionalProperties": false,
+  "properties": {
+    "document_name": {
+      "type": "string",
+      "description": "Human-readable document title or filename."
+    },
+    "source_path": {
+      "type": "string",
+      "description": "Original source file path or identifier."
+    },
+    "chunking": {
+      "type": "object",
+      "required": ["regex", "strategy"],
+      "additionalProperties": false,
+      "properties": {
+        "regex": {
+          "type": "string",
+          "description": "Regex used to split the source into pages."
+        },
+        "strategy": {
+          "type": "string",
+          "enum": ["split_on_delimiter_match"],
+          "description": "Chunking strategy identifier."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional notes about preprocessing or edge cases."
+        }
+      }
+    },
+    "pages": {
+      "type": "array",
+      "description": "Ordered list of page chunks from the source document.",
+      "items": {
+        "type": "object",
+        "required": ["page_index", "page_number", "text"],
+        "additionalProperties": false,
+        "properties": {
+          "page_index": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "1-based page order derived from chunking."
+          },
+          "page_number": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Printed page number extracted from the delimiter."
+          },
+          "page_label": {
+            "type": "string",
+            "description": "Printed page label extracted from the delimiter (e.g., '2-1')."
+          },
+          "text": {
+            "type": "string",
+            "description": "Full text content for the page chunk."
+          }
+        }
+      }
+    }
+  }
+}

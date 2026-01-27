@@ -1,0 +1,177 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "REF:MRP",
+      "number": "",
+      "title": "MRP MAA Regulatory Publications",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:PE",
+      "number": "",
+      "title": "PE Programmable Elements",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:PLD",
+      "number": "",
+      "title": "PLD Programmable Logic Devices",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:POSMS",
+      "number": "",
+      "title": "POSMS Project Oriented Safety Management System",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:PSS",
+      "number": "",
+      "title": "PSS Products, Services and/or Systems",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:RGP",
+      "number": "",
+      "title": "RGP Relevant Good Practice",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:SRD",
+      "number": "",
+      "title": "SRD System Requirement Document",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:SMP",
+      "number": "",
+      "title": "SMP Safety Management Plan",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:SMS",
+      "number": "",
+      "title": "SMS Safety Management System",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:STPA",
+      "number": "",
+      "title": "STPA System Theoretic Process Analysis",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:UKCA",
+      "number": "",
+      "title": "UKCA UK Conformity Assessed",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:URD",
+      "number": "",
+      "title": "URD User Requirement Document",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:HSE",
+      "number": "",
+      "title": "HSE Health and Safety Executive",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:DLOD",
+      "number": "",
+      "title": "DLOD Defence Lines of Development",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:DevOps",
+      "number": "",
+      "title": "DevOps Development and Operations",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:ACOPs",
+      "number": "",
+      "title": "ACOPs Approved Code of Practice",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    },
+    {
+      "id": "REF:DO",
+      "number": "",
+      "title": "DO Document Order",
+      "kind": "reference",
+      "appears_on_pages": [
+        42
+      ],
+      "primary_page": 42
+    }
+  ],
+  "edges": []
+}

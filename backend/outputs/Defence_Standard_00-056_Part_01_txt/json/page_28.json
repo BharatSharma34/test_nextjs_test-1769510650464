@@ -1,0 +1,156 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:10.2.6",
+      "number": "10.2.6",
+      "title": "The contractor shall provide evidence of compliance with relevant legislation, regulations, standards, policy and approved codes of practice.",
+      "kind": "section",
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    },
+    {
+      "id": "INSA:10.2.7",
+      "number": "10.2.7",
+      "title": "The contractor shall ensure that the safety case identifies how to address any residual shortfalls in meeting safety requirements.",
+      "kind": "section",
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    },
+    {
+      "id": "INSA:10.2.8",
+      "number": "10.2.8",
+      "title": "The contractor shall develop, maintain and refine the safety case as defined in the SMP.",
+      "kind": "section",
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    },
+    {
+      "id": "INSA:10.2.10",
+      "number": "10.2.10",
+      "title": "The contractor shall provide diverse evidence, to ensure that that the overall safety argument is not compromised by errors or uncertainties in individual pieces of evidence.",
+      "kind": "section",
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    },
+    {
+      "id": "INSA:10.2.12",
+      "number": "10.2.12",
+      "title": "The contractor shall justify the adequacy and suitability of the methods and techniques used for hazard analysis, design for safety, safety analysis and other relevant safety engineering activities.",
+      "kind": "section",
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    },
+    {
+      "id": "INSA:10.3",
+      "number": "10.3",
+      "title": "Safety Case Reports",
+      "kind": "section",
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    },
+    {
+      "id": "INSA:10.3.1",
+      "number": "10.3.1",
+      "title": "The contractor shall produce a safety case report or reports as defined in the SMP.",
+      "kind": "section",
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    },
+    {
+      "id": "INSA:10.3.2",
+      "number": "10.3.2",
+      "title": "The contractor shall produce safety case reports that incorporate the key elements of the safety argument and provision of evidence.",
+      "kind": "section",
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    },
+    {
+      "id": "INSA:10.3.3",
+      "number": "10.3.3",
+      "title": "Where there are shortfalls in the evidence the contractor shall ensure safety case reports provide the rationale for operating the PSS, and the ways of mitigating the residual risk.",
+      "kind": "section",
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    },
+    {
+      "id": "INSA:10.3.4",
+      "number": "10.3.4",
+      "title": "The contractor shall ensure that safety case reports contain information on assumptions and limitations regarding the safe use of the PSS.",
+      "kind": "section",
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:10.2.6",
+      "to": "INSA:10.2.7",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10.2.7",
+      "to": "INSA:10.2.8",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10.2.8",
+      "to": "INSA:10.2.10",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10.2.10",
+      "to": "INSA:10.2.12",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10.3",
+      "to": "INSA:10.3.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10.3.1",
+      "to": "INSA:10.3.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10.3.2",
+      "to": "INSA:10.3.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10.3.3",
+      "to": "INSA:10.3.4",
+      "type": "contains",
+      "confidence": 1.0
+    }
+  ]
+}

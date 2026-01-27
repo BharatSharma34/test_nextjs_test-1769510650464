@@ -1,0 +1,66 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:AllPart1Requirements",
+      "number": "All Part 1 Requirements",
+      "title": "All clauses where previously 'should', amended to 'shall'",
+      "kind": "section",
+      "appears_on_pages": [
+        43
+      ],
+      "primary_page": 43
+    },
+    {
+      "id": "INSA:FormatChange",
+      "number": "Format Change",
+      "title": "Requirements numbering has moved up 2 in number",
+      "kind": "section",
+      "appears_on_pages": [
+        43
+      ],
+      "primary_page": 43
+    },
+    {
+      "id": "INSA:Part1",
+      "number": "Part 1",
+      "title": "Information pack containing Scope, triage of review feedback received and overlay document detailing changes from issue 7 to issue 8",
+      "kind": "section",
+      "appears_on_pages": [
+        43
+      ],
+      "primary_page": 43
+    },
+    {
+      "id": "REF:DStanHelpCentre",
+      "number": "",
+      "title": "UK Defence Standardization Help Centre",
+      "kind": "reference",
+      "appears_on_pages": [
+        43
+      ],
+      "primary_page": 43
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:AllPart1Requirements",
+      "to": "REF:DStanHelpCentre",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:FormatChange",
+      "to": "REF:DStanHelpCentre",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:Part1",
+      "to": "REF:DStanHelpCentre",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

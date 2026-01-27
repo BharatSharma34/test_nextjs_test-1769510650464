@@ -1,0 +1,450 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:3.7",
+      "number": "3-7",
+      "title": "Abbreviations",
+      "kind": "section",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:ALARP",
+      "number": "",
+      "title": "As Low As Reasonably Practicable",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:ARP",
+      "number": "",
+      "title": "Aerospace Recommended Practice",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:ASEMS",
+      "number": "",
+      "title": "Acquisition Safety & Environmental Management Systems",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:CADMID/T",
+      "number": "",
+      "title": "Concept, Assessment, Demonstration, Manufacture, In-service, Disposal/Termination",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:CSA",
+      "number": "",
+      "title": "Contractor Safety Auditor",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:DAE",
+      "number": "",
+      "title": "Defence Air Environment",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:DefStan",
+      "number": "",
+      "title": "Defence Standard",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:DID",
+      "number": "",
+      "title": "Data Item Description",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:DSA",
+      "number": "",
+      "title": "Defence Safety Authority",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:DStan",
+      "number": "",
+      "title": "UK Defence Standardization",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:ESL&S",
+      "number": "",
+      "title": "Equipment, Services, Logistics and Support",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:FMEA",
+      "number": "",
+      "title": "Failure Modes Effects and Analysis",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:FMECA",
+      "number": "",
+      "title": "Failure Modes Effects and Criticality Analysis",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:FPGA",
+      "number": "",
+      "title": "Field Programmable Gate Array",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:FRACAS",
+      "number": "",
+      "title": "Failure Reporting Analysis And Corrective Action System",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:GFX",
+      "number": "",
+      "title": "Government Furnished Equipment (GFE) or Assets (GFA)",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:IET",
+      "number": "",
+      "title": "Institute of Engineering and Technology",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:ISA",
+      "number": "",
+      "title": "Independent Safety Auditor",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:ISAWG",
+      "number": "",
+      "title": "Independent Safety Assurance Working Group",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:ISO",
+      "number": "",
+      "title": "International Organisation for Standardisation",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:ISSS",
+      "number": "",
+      "title": "Information Set Safety Summary",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:ITT",
+      "number": "",
+      "title": "Invitation to Tender",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:JSP",
+      "number": "",
+      "title": "Joint Service Publication",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:KiD",
+      "number": "",
+      "title": "Knowledge in Defence",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:MAA",
+      "number": "",
+      "title": "Military Aviation Authority",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:MIL-STD",
+      "number": "",
+      "title": "Military Standard",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    },
+    {
+      "id": "REF:MOD",
+      "number": "",
+      "title": "Ministry of Defence",
+      "kind": "reference",
+      "appears_on_pages": [
+        41
+      ],
+      "primary_page": 41
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:3.7",
+      "to": "REF:ALARP",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:ARP",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:ASEMS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:CADMID/T",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:CSA",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:DAE",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:DefStan",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:DID",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:DSA",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:DStan",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:ESL&S",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:FMEA",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:FMECA",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:FPGA",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:FRACAS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:GFX",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:IET",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:ISA",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:ISAWG",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:ISO",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:ISSS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:ITT",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:JSP",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:KiD",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:MAA",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:MIL-STD",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.7",
+      "to": "REF:MOD",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

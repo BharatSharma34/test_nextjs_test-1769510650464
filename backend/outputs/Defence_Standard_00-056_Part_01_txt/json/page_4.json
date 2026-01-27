@@ -1,0 +1,132 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:0.1",
+      "number": "0.1",
+      "title": "Introduction",
+      "kind": "section",
+      "appears_on_pages": [
+        4
+      ],
+      "primary_page": 4
+    },
+    {
+      "id": "REF:GOVUK",
+      "number": "",
+      "title": "Secretary of State\u2019s policy statement",
+      "kind": "reference",
+      "appears_on_pages": [
+        4
+      ],
+      "primary_page": 4
+    },
+    {
+      "id": "INSA:0.2",
+      "number": "0.2",
+      "title": "General guidance by UK Health and Safety Executive",
+      "kind": "section",
+      "appears_on_pages": [
+        4
+      ],
+      "primary_page": 4
+    },
+    {
+      "id": "REF:HSE",
+      "number": "",
+      "title": "UK Health and Safety Executive (HSE)",
+      "kind": "reference",
+      "appears_on_pages": [
+        4
+      ],
+      "primary_page": 4
+    },
+    {
+      "id": "REF:JSP815",
+      "number": "",
+      "title": "Joint Service Publication (JSP) 815",
+      "kind": "reference",
+      "appears_on_pages": [
+        4
+      ],
+      "primary_page": 4
+    },
+    {
+      "id": "INSA:0.3",
+      "number": "0.3",
+      "title": "Defence acquisition projects",
+      "kind": "section",
+      "appears_on_pages": [
+        4
+      ],
+      "primary_page": 4
+    },
+    {
+      "id": "REF:KiD",
+      "number": "",
+      "title": "KiD through the Defence gateway",
+      "kind": "reference",
+      "appears_on_pages": [
+        4
+      ],
+      "primary_page": 4
+    },
+    {
+      "id": "INSA:0.4",
+      "number": "0.4",
+      "title": "Delivery of safety-related PSS",
+      "kind": "section",
+      "appears_on_pages": [
+        4
+      ],
+      "primary_page": 4
+    },
+    {
+      "id": "INSA:0.5",
+      "number": "0.5",
+      "title": "UK MOD operating accountable persons",
+      "kind": "section",
+      "appears_on_pages": [
+        4
+      ],
+      "primary_page": 4
+    },
+    {
+      "id": "INSA:0.6",
+      "number": "0.6",
+      "title": "Contractors' roles in safety of PSS",
+      "kind": "section",
+      "appears_on_pages": [
+        4
+      ],
+      "primary_page": 4
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:0.1",
+      "to": "REF:GOVUK",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:0.2",
+      "to": "REF:HSE",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:0.2",
+      "to": "REF:JSP815",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:0.3",
+      "to": "REF:KiD",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

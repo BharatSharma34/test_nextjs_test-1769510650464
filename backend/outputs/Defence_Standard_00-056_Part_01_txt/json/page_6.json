@@ -1,0 +1,64 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:0.15",
+      "number": "0.15",
+      "title": "UK MOD and contractors subject to UK Law",
+      "kind": "section",
+      "appears_on_pages": [
+        6
+      ],
+      "primary_page": 6
+    },
+    {
+      "id": "INSA:0.16",
+      "number": "0.16",
+      "title": "Definition of safe and risk to life",
+      "kind": "section",
+      "appears_on_pages": [
+        6
+      ],
+      "primary_page": 6
+    },
+    {
+      "id": "INSA:0.17",
+      "number": "0.17",
+      "title": "Requirements for safety achievement, assurance, and management",
+      "kind": "section",
+      "appears_on_pages": [
+        6
+      ],
+      "primary_page": 6
+    },
+    {
+      "id": "INSA:0.18",
+      "number": "0.18",
+      "title": "Requirements for contractor safety management system",
+      "kind": "section",
+      "appears_on_pages": [
+        6
+      ],
+      "primary_page": 6
+    },
+    {
+      "id": "REF:DEFSTAN:00-056-2",
+      "number": "",
+      "title": "Defence Standard 00-056 Part 2 Issue 6",
+      "kind": "reference",
+      "appears_on_pages": [
+        6
+      ],
+      "primary_page": 6
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:0.17",
+      "to": "REF:DEFSTAN:00-056-2",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

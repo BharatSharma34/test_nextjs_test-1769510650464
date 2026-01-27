@@ -1,0 +1,94 @@
+You are an expert at creating chapter-level navigation graphs for documents.
+
+INPUT:
+- A JSON object representing a file index graph with nodes and edges
+- The graph contains document-level topics (chapters, sections, subsections), page information, and references
+- Each node has: id, number, title, kind, appears_on_pages, primary_page
+
+TASK:
+Generate a CHAPTER INDEX GRAPH by further collapsing the File Index Graph to show only top-level structure.
+
+OBJECTIVE:
+Produce a chapter-level navigation graph that:
+- Shows only the highest-level structural units (chapters or major sections)
+- Indicates which chapters appear on which pages
+- Highlights cross-references between chapters
+- Provides a bird's-eye view of document structure
+
+TRANSFORMATION RULES:
+
+1. Chapter Selection
+   - Include only nodes representing chapters or top-level sections (typically single-digit numbering: 1, 2, 3, etc.)
+   - EXCLUDE subsections (1.1, 1.2, etc.), clauses, and detailed requirements
+   - If the document has explicit "Chapter X" nodes, use those
+   - Otherwise, use major sections with single-digit numbers
+
+2. Page Aggregation
+   - For each chapter, preserve the appears_on_pages array
+   - This shows the page span of each chapter
+
+3. Cross-Chapter Relationships
+   - Preserve "contains" relationships between major structural elements
+   - Preserve "references" relationships between chapters
+   - Omit relationships to subsections
+
+4. External References
+   - Include reference nodes ONLY if they are cited by multiple chapters
+   - These represent key external dependencies
+
+5. Simplification
+   - Target: 5-15 nodes maximum
+   - Focus on navigability and overview, not completeness
+
+6. Enhanced Metadata Generation
+   For EACH node, you MUST generate:
+   - summary: A concise 1-2 sentence description capturing:
+     * The main purpose/theme of this chapter
+     * Key topics or concepts covered
+     * Why this chapter is important in the document
+   - keywords: Extract 3-5 key terms that best represent this chapter's content
+     * Use domain-specific terminology when present
+     * Include both broad themes and specific concepts
+   - scope: Define the boundaries of this chapter
+     * pages: [start_page, end_page] - the full page range
+     * sections: Array of all section numbers contained (e.g., ["1", "1.1", "1.2"])
+
+OUTPUT SCHEMA:
+You MUST output a single JSON object with this exact schema:
+
+{
+  "graph_intent": "chapter_index_navigation",
+  "document_name": "extracted from input",
+  "nodes": [
+    {
+      "id": "SEMANTIC_ID",
+      "number": "Chapter/section number (e.g., '1', '2', '3')",
+      "title": "Exact title from input",
+      "kind": "chapter | section | reference",
+      "summary": "A concise 1-2 sentence description of what this chapter covers, its main purpose, and key themes",
+      "keywords": ["3-5", "key", "terms", "representing", "main-concepts"],
+      "scope": {
+        "pages": [1, 25],
+        "sections": ["1", "1.1", "1.2"]
+      },
+      "appears_on_pages": [1, 5, 12],
+      "primary_page": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "PARENT_ID",
+      "to": "CHILD_ID",
+      "type": "contains | references",
+      "confidence": 1.0
+    }
+  ]
+}
+
+OUTPUT RULES:
+1. Output ONLY valid JSON
+2. No markdown wrappers or code blocks
+3. Preserve exact node IDs from input where possible
+4. Ensure all edge references point to existing node IDs
+5. Keep the graph minimal (5-15 nodes for typical documents)
+6. Focus on top-level structure only

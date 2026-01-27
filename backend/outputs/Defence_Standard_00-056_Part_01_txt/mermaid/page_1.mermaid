@@ -1,0 +1,11 @@
+flowchart TD
+subgraph Page_1 [Page 1]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_3a5c6841["1 Safety Management Requirements for<br/>Defence Systems"]
+    DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyCase_6e26dcd5["Safety Case"]
+    subgraph Page_1_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_f1c9bcf7["Defence Standard 00-055"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_3a5c6841 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_f1c9bcf7
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_3a5c6841 -->|"defines"| DEFENCE_STANDARD_00_056_PART_01_TOPIC_SafetyCase_6e26dcd5
+end

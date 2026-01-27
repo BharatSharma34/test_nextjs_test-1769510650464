@@ -1,0 +1,72 @@
+You are an expert at extracting reference dependency graphs from structured document data.
+
+INPUT:
+- A JSON object representing a master document graph with nodes and edges
+
+TASK:
+Generate a REFERENCE INDEX GRAPH focusing on external sources and their usage.
+
+TRANSFORMATION RULES:
+
+1. Select ALL external source nodes (kind: "reference").
+
+2. For each external source:
+   - Track which internal sections/topics reference it
+   - Preserve the relationship edges
+
+3. Merge duplicate references across pages.
+
+4. Include page provenance in the "appears_on_pages" field.
+
+5. Target: 10-40 nodes (all external references + key referencing sections)
+
+6. Enhanced Metadata Generation
+   For EACH node, you MUST generate:
+   - summary: A concise 1-2 sentence description that captures:
+     * For references: What standard/document this is and its purpose
+     * For sections: Why this section references external sources
+     * The relationship between internal content and external references
+   - keywords: Extract 3-5 key terms:
+     * Standard names, document identifiers
+     * Topic areas covered by the reference
+     * Key concepts linking internal and external content
+   - scope: Define the usage context:
+     * pages: Array of ALL pages where this reference appears
+     * sections: Array of section numbers that cite this reference
+
+OUTPUT SCHEMA:
+Return ONLY a valid JSON object (no markdown fences, no explanatory text) with this exact structure:
+
+{
+  "graph_intent": "reference_index",
+  "document_name": "extracted from input",
+  "nodes": [
+    {
+      "id": "SEMANTIC_ID",
+      "number": "Reference number or section number",
+      "title": "Exact title from input",
+      "kind": "reference | section | subsection | topic",
+      "summary": "Description of what this reference is and how it's used in the document",
+      "keywords": ["standard-name", "document-id", "topic-area", "concepts"],
+      "scope": {
+        "pages": [1, 5, 12],
+        "sections": ["2.1", "3.4"]
+      },
+      "appears_on_pages": [1, 5, 12],
+      "primary_page": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "NODE_ID",
+      "to": "NODE_ID",
+      "type": "references | cited_by | defined_in",
+      "confidence": 1.0
+    }
+  ]
+}
+
+SEMANTIC ID RULES:
+- References: "REF:SHORTCODE" (e.g., "REF:DEFSTAN:00-055")
+- Sections: "INSA:Number" (e.g., "INSA:2.1.3")
+- Topics: "TOPIC:KeyPhrase" (e.g., "TOPIC:SafetyCase")

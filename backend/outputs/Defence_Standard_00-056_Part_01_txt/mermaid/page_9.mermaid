@@ -1,0 +1,15 @@
+flowchart TD
+subgraph Page_9 [Page 9]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_1_05f48829["1.1 This standard specifies the<br/>requirements for achieving, assuring and<br/>managing the safety of PSS defined by<br/>the scope of contract."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_2_e5039df5["1.2 The contractor, together with the UK<br/>MOD, has responsibility for safety of<br/>all deliverable PSS."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_3_5f521dcf["1.3 The responsibility of the contractor<br/>also varies with the scope of analysis."]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_4_49eac461["1.4 Whilst contract life might be<br/>limited, this standard considers the<br/>whole life cycle of the PSS, including<br/>disposal."]
+    subgraph Page_9_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_KID_75865653["Knowledge in Defence website"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_1_05f48829 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_1_2_e5039df5
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_2_e5039df5 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_1_3_5f521dcf
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_3_5f521dcf -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_1_4_49eac461
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_2_e5039df5 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_KID_75865653
+end

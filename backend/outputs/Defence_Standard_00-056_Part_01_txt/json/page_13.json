@@ -1,0 +1,182 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:4.2",
+      "number": "4.2",
+      "title": "Agreement",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4.2.1",
+      "number": "4.2.1",
+      "title": "The contractor shall define an SMP as part of the tendering process",
+      "kind": "subsection",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4.2.2",
+      "number": "4.2.2",
+      "title": "The contractor shall agree their SMP with the UK MOD",
+      "kind": "subsection",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4.3",
+      "number": "4.3",
+      "title": "Review and Update",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4.3.1",
+      "number": "4.3.1",
+      "title": "The contractor shall review and update the SMP",
+      "kind": "subsection",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4.3.2",
+      "number": "4.3.2",
+      "title": "The contractor shall review the SMP on a regular basis",
+      "kind": "subsection",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4.3.3",
+      "number": "4.3.3",
+      "title": "Changes required to the SMP shall be agreed with the UK MOD",
+      "kind": "subsection",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4.3.4",
+      "number": "4.3.4",
+      "title": "Ensure all changes in design are managed in accordance with the SMP",
+      "kind": "subsection",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4.4",
+      "number": "4.4",
+      "title": "Progress Reports",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4.4.1",
+      "number": "4.4.1",
+      "title": "The contractor shall report progress against the SMP",
+      "kind": "subsection",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4.4.2",
+      "number": "4.4.2",
+      "title": "Ensure progress reports highlight all safety issues",
+      "kind": "subsection",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "REF:DEFSTAN:00-055",
+      "number": "",
+      "title": "DEF STAN 00-055",
+      "kind": "reference",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:4.2",
+      "to": "INSA:4.2.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4.2",
+      "to": "INSA:4.2.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4.3",
+      "to": "INSA:4.3.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4.3",
+      "to": "INSA:4.3.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4.3",
+      "to": "INSA:4.3.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4.3",
+      "to": "INSA:4.3.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4.4",
+      "to": "INSA:4.4.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4.4",
+      "to": "INSA:4.4.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4.2",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

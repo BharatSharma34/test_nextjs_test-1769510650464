@@ -1,0 +1,26 @@
+flowchart TD
+subgraph Page_10 [Page 10]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_5_5ec67cea["1.5 Application of Standard"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_5_1_88180c33["1.5.1 Accountability and Responsibility"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_5_2_79f92487["1.5.2 Safety Management System"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37["2.2 Informative References"]
+    subgraph Page_10_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_ASEMS_5ea020ee["ASEMS DE&S Acquisition Safety and<br/>Environmental Management System"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_be3d5fc4["Def Stan 00-055 Requirements for Safety<br/>of Programmable Elements (PE) in Defence<br/>Systems"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_251_a99e2beb["Def Stan 00-251 Human Factors<br/>Integration for Defence Systems"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_057_f1d9ee79["Def Stan 05-057 Configuration Management<br/>of Defence Materiel"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_135_551bb2c2["Def Stan 05-135 Avoidance of Counterfeit<br/>Materiel"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_138_df177ff4["Def Stan 05-138 Cyber Security for<br/>Defence Suppliers"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_IEC_61508_2c6f7c94["IEC 61508 Functional Safety of<br/>Electrical/Electronic/Programmable<br/>Electronic Safety-Related Systems"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_5_5ec67cea -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_1_5_1_88180c33
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_5_5ec67cea -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_1_5_2_79f92487
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_ASEMS_5ea020ee
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_055_be3d5fc4
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_00_251_a99e2beb
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_057_f1d9ee79
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_135_551bb2c2
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DEFSTAN_05_138_df177ff4
+    DEFENCE_STANDARD_00_056_PART_01_INSA_2_2_f7ad1e37 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_IEC_61508_2c6f7c94
+end

@@ -1,0 +1,863 @@
+{
+  "graph_intent": "reference_index",
+  "document_name": "DEFENCE_STANDARD_00_056_PART_01",
+  "nodes": [
+    {
+      "id": "INSA:2.2",
+      "number": "2.2",
+      "title": "Informative References",
+      "kind": "subsection",
+      "summary": "This subsection enumerates informative external standards and guidance that support the document\u2019s safety management requirements and provide additional context for implementation.",
+      "keywords": [
+        "informative-references",
+        "external-standards",
+        "safety-management",
+        "guidance"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          10
+        ],
+        "sections": [
+          "2.2"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        10
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:0.2",
+      "number": "0.2",
+      "title": "General guidance by UK Health and Safety Executive",
+      "kind": "section",
+      "summary": "This introductory guidance section anchors the document\u2019s safety expectations in UK regulatory guidance and MOD policy publications to align defence safety practice with national H&S principles.",
+      "keywords": [
+        "HSE",
+        "JSP815",
+        "UK-health-and-safety",
+        "guidance"
+      ],
+      "scope": {
+        "pages": [
+          4
+        ],
+        "sections": [
+          "0.2"
+        ]
+      },
+      "appears_on_pages": [
+        4
+      ],
+      "primary_page": 4
+    },
+    {
+      "id": "INSA:4",
+      "number": "4",
+      "title": "Safety Management System",
+      "kind": "section",
+      "summary": "This section references external MOD and aviation safety governance documents to define how a Safety Management System should be planned, evidenced, and aligned with authoritative processes.",
+      "keywords": [
+        "safety-management-system",
+        "RA1200",
+        "POSMS",
+        "ASEMS"
+      ],
+      "scope": {
+        "pages": [
+          1
+        ],
+        "sections": [
+          "4"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:5.2",
+      "number": "5.2",
+      "title": "Legislation, Regulations, Standards, Policy and Approved Codes of Practice",
+      "kind": "section",
+      "summary": "This section cites external codes of practice and MOD safety management frameworks to ensure legal and policy compliance is identified, documented, and agreed within the contract.",
+      "keywords": [
+        "legislation",
+        "codes-of-practice",
+        "POSMS",
+        "compliance"
+      ],
+      "scope": {
+        "pages": [
+          14
+        ],
+        "sections": [
+          "5.2"
+        ]
+      },
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "INSA:6.3.4",
+      "number": "6.3.4",
+      "title": "Contractors shall ensure that competent personnel are appointed",
+      "kind": "section",
+      "summary": "This competency requirement references external competence frameworks and MOD sources to define expectations for safety practitioner capability and evidence of competence.",
+      "keywords": [
+        "competence",
+        "safety-practitioners",
+        "IET",
+        "KID"
+      ],
+      "scope": {
+        "pages": [
+          19
+        ],
+        "sections": [
+          "6.3.4"
+        ]
+      },
+      "appears_on_pages": [
+        19
+      ],
+      "primary_page": 19
+    },
+    {
+      "id": "INSA:8.2.1",
+      "number": "8.2.1",
+      "title": "The contractor shall ensure the CSA is independent",
+      "kind": "subsection",
+      "summary": "This subsection references an external IET code of practice to justify and standardize independence expectations for contractor safety auditors and independent assessment roles.",
+      "keywords": [
+        "independent-safety-assessor",
+        "IET",
+        "COPISA",
+        "audit-independence"
+      ],
+      "scope": {
+        "pages": [
+          21
+        ],
+        "sections": [
+          "8.2.1"
+        ]
+      },
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:9",
+      "number": "9",
+      "title": "Safety Requirements, Hazard and Risk Analysis",
+      "kind": "section",
+      "summary": "This section references external hazard analysis methods and related standards to support systematic identification, analysis, and management of hazards, risks, and safety requirements.",
+      "keywords": [
+        "hazard-analysis",
+        "risk-analysis",
+        "STPA",
+        "safety-requirements"
+      ],
+      "scope": {
+        "pages": [
+          1
+        ],
+        "sections": [
+          "9"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:9.1.4",
+      "number": "9.1.4",
+      "title": "Cyber Security Considerations",
+      "kind": "subsection",
+      "summary": "This subsection references cyber security standards to ensure hazard analysis explicitly considers cyber-related threats and controls as part of safety risk management.",
+      "keywords": [
+        "cyber-security",
+        "hazard-analysis",
+        "Def-Stan-05-138",
+        "risk"
+      ],
+      "scope": {
+        "pages": [
+          22
+        ],
+        "sections": [
+          "9.1.4"
+        ]
+      },
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:13.3",
+      "number": "13.3",
+      "title": "Risk Management",
+      "kind": "section",
+      "summary": "This section references MOD publications and safety standards to frame how contractors support MOD risk-to-life management and apply recognized risk management principles.",
+      "keywords": [
+        "risk-management",
+        "JSP822",
+        "risk-to-life",
+        "ALARP"
+      ],
+      "scope": {
+        "pages": [
+          34
+        ],
+        "sections": [
+          "13.3"
+        ]
+      },
+      "appears_on_pages": [
+        34
+      ],
+      "primary_page": 34
+    },
+    {
+      "id": "REF:DEFSTAN:00-055",
+      "number": "",
+      "title": "Defence Standard 00-055",
+      "kind": "reference",
+      "summary": "Defence Standard 00-055 defines requirements for safety of programmable elements in defence systems and is cited to align software/programmable safety expectations with this document\u2019s safety management and hazard analysis requirements.",
+      "keywords": [
+        "Def-Stan-00-055",
+        "programmable-elements",
+        "functional-safety",
+        "hazard-analysis"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          10,
+          25,
+          34,
+          35
+        ],
+        "sections": [
+          "1",
+          "2.2",
+          "3",
+          "4.2",
+          "9.1.5",
+          "9.4",
+          "9.5.7",
+          "9.8",
+          "13.3"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        10,
+        25,
+        34,
+        35
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "REF:IEC:61508",
+      "number": "",
+      "title": "IEC 61508 Functional Safety of Electrical/Electronic/Programmable Electronic Safety-Related Systems",
+      "kind": "reference",
+      "summary": "IEC 61508 is the foundational functional safety standard for E/E/PE safety-related systems and is referenced to support recognized good practice for safety lifecycle and integrity in defence safety management.",
+      "keywords": [
+        "IEC-61508",
+        "functional-safety",
+        "safety-lifecycle",
+        "E/E/PE-systems"
+      ],
+      "scope": {
+        "pages": [
+          10
+        ],
+        "sections": [
+          "2.2"
+        ]
+      },
+      "appears_on_pages": [
+        10
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:DEFSTAN:00-251",
+      "number": "",
+      "title": "Def Stan 00-251 Human Factors Integration for Defence Systems",
+      "kind": "reference",
+      "summary": "Def Stan 00-251 provides human factors integration guidance for defence systems and is cited to ensure hazard analysis and safety requirements consider human factors as a contributory cause and mitigation route.",
+      "keywords": [
+        "Def-Stan-00-251",
+        "human-factors",
+        "hazard-analysis",
+        "defence-systems"
+      ],
+      "scope": {
+        "pages": [
+          10,
+          22
+        ],
+        "sections": [
+          "2.2",
+          "9.1.7",
+          "9.8"
+        ]
+      },
+      "appears_on_pages": [
+        10,
+        22
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:DEFSTAN:05-138",
+      "number": "",
+      "title": "Def Stan 05-138 Cyber Security for Defence Suppliers",
+      "kind": "reference",
+      "summary": "Def Stan 05-138 sets cyber security expectations for defence suppliers and is referenced to integrate cyber security considerations into hazard analysis and risk evaluation activities.",
+      "keywords": [
+        "Def-Stan-05-138",
+        "cyber-security",
+        "defence-suppliers",
+        "hazard-analysis"
+      ],
+      "scope": {
+        "pages": [
+          10,
+          22
+        ],
+        "sections": [
+          "2.2",
+          "9.1.4",
+          "9.8"
+        ]
+      },
+      "appears_on_pages": [
+        10,
+        22
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:DEFSTAN:05-135",
+      "number": "",
+      "title": "Def Stan 05-135 Avoidance of Counterfeit Materiel",
+      "kind": "reference",
+      "summary": "Def Stan 05-135 addresses avoidance of counterfeit materiel and is cited to ensure safety hazard analysis and risk considerations include supply-chain and counterfeit-related safety impacts.",
+      "keywords": [
+        "Def-Stan-05-135",
+        "counterfeit-materiel",
+        "supply-chain",
+        "risk"
+      ],
+      "scope": {
+        "pages": [
+          10,
+          22
+        ],
+        "sections": [
+          "2.2",
+          "9.1.6"
+        ]
+      },
+      "appears_on_pages": [
+        10,
+        22
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:STPA-HANDBOOK",
+      "number": "",
+      "title": "STPA Handbook",
+      "kind": "reference",
+      "summary": "The STPA Handbook describes System-Theoretic Process Analysis and is referenced to justify and guide systematic hazard identification and analysis methods used within the document\u2019s safety requirements process.",
+      "keywords": [
+        "STPA",
+        "hazard-analysis",
+        "system-theoretic",
+        "safety-methods"
+      ],
+      "scope": {
+        "pages": [
+          21
+        ],
+        "sections": [
+          "9"
+        ]
+      },
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "REF:RA1200",
+      "number": "",
+      "title": "Regulatory Article (RA) RA1200",
+      "kind": "reference",
+      "summary": "RA1200 is an aviation regulatory article used to align safety management planning and assurance activities with recognized regulatory expectations referenced by the Safety Management System section.",
+      "keywords": [
+        "RA1200",
+        "aviation-regulation",
+        "safety-management-plan",
+        "assurance"
+      ],
+      "scope": {
+        "pages": [
+          12
+        ],
+        "sections": [
+          "4"
+        ]
+      },
+      "appears_on_pages": [
+        12
+      ],
+      "primary_page": 12
+    },
+    {
+      "id": "REF:POSMS",
+      "number": "",
+      "title": "POSMS",
+      "kind": "reference",
+      "summary": "POSMS (Project Oriented Safety Management System) provides MOD safety management process guidance and is referenced to structure safety planning, compliance management, and project safety governance within the document.",
+      "keywords": [
+        "POSMS",
+        "MOD-safety-management",
+        "project-safety",
+        "governance"
+      ],
+      "scope": {
+        "pages": [
+          12,
+          14,
+          42
+        ],
+        "sections": [
+          "4",
+          "5.2"
+        ]
+      },
+      "appears_on_pages": [
+        12,
+        14,
+        42
+      ],
+      "primary_page": 12
+    },
+    {
+      "id": "REF:ASEMS",
+      "number": "",
+      "title": "ASEMS DE&S Acquisition Safety and Environmental Management System",
+      "kind": "reference",
+      "summary": "ASEMS is the DE&S acquisition safety and environmental management system and is referenced to align safety management system expectations and supporting guidance with MOD acquisition processes.",
+      "keywords": [
+        "ASEMS",
+        "DE&S",
+        "acquisition-safety",
+        "environmental-management"
+      ],
+      "scope": {
+        "pages": [
+          10,
+          12,
+          41
+        ],
+        "sections": [
+          "2.2",
+          "4",
+          "3.7"
+        ]
+      },
+      "appears_on_pages": [
+        10,
+        12,
+        41
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:HSE",
+      "number": "",
+      "title": "UK Health and Safety Executive (HSE)",
+      "kind": "reference",
+      "summary": "The UK Health and Safety Executive is the national regulator and guidance authority for workplace safety and is referenced to ground the document\u2019s safety approach in UK H&S expectations.",
+      "keywords": [
+        "HSE",
+        "UK-regulator",
+        "health-and-safety",
+        "guidance"
+      ],
+      "scope": {
+        "pages": [
+          4,
+          42
+        ],
+        "sections": [
+          "0.2"
+        ]
+      },
+      "appears_on_pages": [
+        4,
+        42
+      ],
+      "primary_page": 4
+    },
+    {
+      "id": "REF:JSP815",
+      "number": "",
+      "title": "Joint Service Publication (JSP) 815",
+      "kind": "reference",
+      "summary": "JSP 815 is an MOD Joint Service Publication referenced to connect the document\u2019s safety guidance with MOD policy and governance for health and safety management.",
+      "keywords": [
+        "JSP815",
+        "MOD-policy",
+        "health-and-safety",
+        "governance"
+      ],
+      "scope": {
+        "pages": [
+          4
+        ],
+        "sections": [
+          "0.2"
+        ]
+      },
+      "appears_on_pages": [
+        4
+      ],
+      "primary_page": 4
+    },
+    {
+      "id": "REF:HSE_ACOP",
+      "number": "",
+      "title": "HSE Approved Codes of Practice",
+      "kind": "reference",
+      "summary": "HSE Approved Codes of Practice provide practical guidance for meeting legal duties and are referenced to ensure compliance expectations in the document are tied to recognized UK regulatory practice.",
+      "keywords": [
+        "HSE-ACOP",
+        "approved-codes-of-practice",
+        "legal-compliance",
+        "UK-regulation"
+      ],
+      "scope": {
+        "pages": [
+          14
+        ],
+        "sections": [
+          "5.2"
+        ]
+      },
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "REF:DCOP",
+      "number": "",
+      "title": "Defence Codes of Practice",
+      "kind": "reference",
+      "summary": "Defence Codes of Practice are referenced to ensure defence-specific compliance and good practice are considered alongside civil regulation when defining contractual safety obligations.",
+      "keywords": [
+        "defence-codes-of-practice",
+        "compliance",
+        "MOD",
+        "safety-governance"
+      ],
+      "scope": {
+        "pages": [
+          14
+        ],
+        "sections": [
+          "5.2"
+        ]
+      },
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "REF:MCSRP",
+      "number": "",
+      "title": "Managing Competence for Safety-Related Practitioners (MCSRP)",
+      "kind": "reference",
+      "summary": "MCSRP provides a competence management framework for safety-related practitioners and is referenced to support the document\u2019s requirements for appointing and evidencing competent safety personnel.",
+      "keywords": [
+        "competence-management",
+        "safety-practitioners",
+        "MCSRP",
+        "assurance"
+      ],
+      "scope": {
+        "pages": [
+          19
+        ],
+        "sections": [
+          "6.3.4"
+        ]
+      },
+      "appears_on_pages": [
+        19
+      ],
+      "primary_page": 19
+    },
+    {
+      "id": "REF:COPCSRSP",
+      "number": "",
+      "title": "IET Code of Practice for Competence for Safety-Related Systems Practitioners (COPCSRSP)",
+      "kind": "reference",
+      "summary": "COPCSRSP is an IET code of practice defining competence expectations for safety-related systems practitioners and is referenced to standardize competence criteria used in contractor staffing and assurance.",
+      "keywords": [
+        "IET",
+        "code-of-practice",
+        "competence",
+        "safety-related-systems"
+      ],
+      "scope": {
+        "pages": [
+          19
+        ],
+        "sections": [
+          "6.3.4"
+        ]
+      },
+      "appears_on_pages": [
+        19
+      ],
+      "primary_page": 19
+    },
+    {
+      "id": "REF:IET-COPISA",
+      "number": "",
+      "title": "IET Code of Practice for Independent Safety Assessors (COPISA)",
+      "kind": "reference",
+      "summary": "COPISA defines good practice for independent safety assessors and is referenced to justify independence requirements for contractor safety auditing and independent safety assurance activities.",
+      "keywords": [
+        "IET",
+        "COPISA",
+        "independent-safety-assessor",
+        "audit"
+      ],
+      "scope": {
+        "pages": [
+          21
+        ],
+        "sections": [
+          "8.2.1"
+        ]
+      },
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "REF:KID",
+      "number": "",
+      "title": "Knowledge in Defence website",
+      "kind": "reference",
+      "summary": "Knowledge in Defence (KID) is an MOD knowledge portal referenced as a source for safety-related competence and supporting information used across guidance and competency requirements.",
+      "keywords": [
+        "KID",
+        "Knowledge-in-Defence",
+        "competence",
+        "MOD-portal"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          12,
+          19
+        ],
+        "sections": [
+          "1.2",
+          "4.1",
+          "6.3.4"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        12,
+        19
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "REF:JSP:822",
+      "number": "",
+      "title": "JSP 822",
+      "kind": "reference",
+      "summary": "JSP 822 is an MOD Joint Service Publication referenced to support risk management and risk-to-life governance expectations within service provision and operational safety management.",
+      "keywords": [
+        "JSP822",
+        "risk-management",
+        "MOD-policy",
+        "risk-to-life"
+      ],
+      "scope": {
+        "pages": [
+          34
+        ],
+        "sections": [
+          "13.3"
+        ]
+      },
+      "appears_on_pages": [
+        34
+      ],
+      "primary_page": 34
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:2.2",
+      "to": "REF:ASEMS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:DEFSTAN:00-251",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:DEFSTAN:05-135",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:DEFSTAN:05-138",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:IEC:61508",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:0.2",
+      "to": "REF:HSE",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:0.2",
+      "to": "REF:JSP815",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4",
+      "to": "REF:RA1200",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4",
+      "to": "REF:POSMS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4",
+      "to": "REF:ASEMS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.2",
+      "to": "REF:POSMS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.2",
+      "to": "REF:HSE_ACOP",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.2",
+      "to": "REF:DCOP",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.3.4",
+      "to": "REF:MCSRP",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.3.4",
+      "to": "REF:COPCSRSP",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.3.4",
+      "to": "REF:KID",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:8.2.1",
+      "to": "REF:IET-COPISA",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "REF:STPA-HANDBOOK",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.1.4",
+      "to": "REF:DEFSTAN:05-138",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.3",
+      "to": "REF:JSP:822",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.3",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:3.3",
+      "number": "3-3",
+      "title": "Definitions and Concepts",
+      "kind": "section",
+      "appears_on_pages": [
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:FailureMode",
+      "number": "",
+      "title": "Failure Mode",
+      "kind": "topic",
+      "appears_on_pages": [
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:Harm",
+      "number": "",
+      "title": "Harm",
+      "kind": "topic",
+      "appears_on_pages": [
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:Hazard",
+      "number": "",
+      "title": "Hazard",
+      "kind": "topic",
+      "appears_on_pages": [
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:HazardAnalysis",
+      "number": "",
+      "title": "Hazard Analysis",
+      "kind": "topic",
+      "appears_on_pages": [
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:HazardIdentification",
+      "number": "",
+      "title": "Hazard Identification",
+      "kind": "topic",
+      "appears_on_pages": [
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:HazardLog",
+      "number": "",
+      "title": "Hazard Log",
+      "kind": "topic",
+      "appears_on_pages": [
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:HazardLogReport",
+      "number": "",
+      "title": "Hazard Log Report",
+      "kind": "topic",
+      "appears_on_pages": [
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:HealthMonitoringAndReportingSystem",
+      "number": "",
+      "title": "Health Monitoring and Reporting System",
+      "kind": "topic",
+      "appears_on_pages": [
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:HumanFactors",
+      "number": "",
+      "title": "Human Factors",
+      "kind": "topic",
+      "appears_on_pages": [
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:Incident",
+      "number": "",
+      "title": "Incident",
+      "kind": "topic",
+      "appears_on_pages": [
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:IndependentSafetyAuditor",
+      "number": "",
+      "title": "Independent Safety Auditor",
+      "kind": "topic",
+      "appears_on_pages": [
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:InformationSet",
+      "number": "",
+      "title": "Information Set",
+      "kind": "topic",
+      "appears_on_pages": [
+        37
+      ],
+      "primary_page": 37
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:3.3",
+      "to": "TOPIC:FailureMode",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.3",
+      "to": "TOPIC:Harm",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.3",
+      "to": "TOPIC:Hazard",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.3",
+      "to": "TOPIC:HazardAnalysis",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.3",
+      "to": "TOPIC:HazardIdentification",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.3",
+      "to": "TOPIC:HazardLog",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.3",
+      "to": "TOPIC:HazardLogReport",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.3",
+      "to": "TOPIC:HealthMonitoringAndReportingSystem",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.3",
+      "to": "TOPIC:HumanFactors",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.3",
+      "to": "TOPIC:Incident",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.3",
+      "to": "TOPIC:IndependentSafetyAuditor",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.3",
+      "to": "TOPIC:InformationSet",
+      "type": "defines",
+      "confidence": 1.0
+    }
+  ]
+}

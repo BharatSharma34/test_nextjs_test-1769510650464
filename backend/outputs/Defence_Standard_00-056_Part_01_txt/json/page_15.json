@@ -1,0 +1,230 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:5.3",
+      "number": "5.3",
+      "title": "Sub-Contracting",
+      "kind": "section",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.3.1",
+      "number": "5.3.1",
+      "title": "Sub-Contractor Assurance",
+      "kind": "subsection",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.3.2",
+      "number": "5.3.2",
+      "title": "Sub-Contractor Requirements Identification",
+      "kind": "subsection",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.3.3",
+      "number": "5.3.3",
+      "title": "Sub-Contractor Compliance",
+      "kind": "subsection",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.3.4",
+      "number": "5.3.4",
+      "title": "Deliverables and Audit Mechanisms",
+      "kind": "subsection",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.4",
+      "number": "5.4",
+      "title": "Multiple Deliverables",
+      "kind": "section",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.4.1",
+      "number": "5.4.1",
+      "title": "Application of Clauses to PSS",
+      "kind": "subsection",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.4.2",
+      "number": "5.4.2",
+      "title": "Discussion and Agreement on Requirements",
+      "kind": "subsection",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.4.3",
+      "number": "5.4.3",
+      "title": "Safety Case Reports and ISSS",
+      "kind": "subsection",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.5",
+      "number": "5.5",
+      "title": "Information Management",
+      "kind": "section",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.5.1",
+      "number": "5.5.1",
+      "title": "Visibility of Safety Activities",
+      "kind": "subsection",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.5.2",
+      "number": "5.5.2",
+      "title": "Information Set Definition",
+      "kind": "subsection",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.5.3",
+      "number": "5.5.3",
+      "title": "Information Set Maintenance",
+      "kind": "subsection",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.5.4",
+      "number": "5.5.4",
+      "title": "Consistency and Configuration Management",
+      "kind": "subsection",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "REF:DEFSTAN:05-057",
+      "number": "",
+      "title": "Def Stan 05-057",
+      "kind": "reference",
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:5.3",
+      "to": "INSA:5.3.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.3",
+      "to": "INSA:5.3.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.3",
+      "to": "INSA:5.3.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.3",
+      "to": "INSA:5.3.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.4",
+      "to": "INSA:5.4.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.4",
+      "to": "INSA:5.4.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.4",
+      "to": "INSA:5.4.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.5",
+      "to": "INSA:5.5.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.5",
+      "to": "INSA:5.5.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.5",
+      "to": "INSA:5.5.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.5",
+      "to": "INSA:5.5.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.5.3",
+      "to": "REF:DEFSTAN:05-057",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

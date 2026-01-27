@@ -1,0 +1,104 @@
+flowchart TD
+    INSA_0_14["0.14 Requirements Grouping<br/>(Pages: 1)"]
+    INSA_0_17["0.17 Requirements for safety achievement, assurance, and management<br/>(Pages: 6)"]
+    INSA_1["1 Scope and Applicability<br/>(Pages: 1, 3)"]
+    INSA_1_1["1.1 Purpose and Scope<br/>(Pages: 1, 3)"]
+    INSA_1_5["1.5 Application of Standard<br/>(Pages: 1)"]
+    INSA_1_5_1["1.5.1 Accountability and Responsibility<br/>(Pages: 1)"]
+    INSA_1_5_2["1.5.2 Safety Management System<br/>(Pages: 1)"]
+    INSA_2["2 Technical Information<br/>(Pages: 1)"]
+    INSA_2_1["2.1 Normative References<br/>(Pages: 1)"]
+    INSA_2_2["2.2 Informative References<br/>(Pages: 1, 10)"]
+    INSA_3["3 Definitions<br/>(Pages: 1)"]
+    INSA_3_2["3.2 Mandatory Requirements<br/>(Pages: 11)"]
+    INSA_4["4 Safety Management System<br/>(Pages: 1)"]
+    INSA_4_1["4.1 Safety Management Plan<br/>(Pages: 12)"]
+    INSA_5_2["5.2 Legislation, Regulations, Standards, Policy and Approved Codes of Practice<br/>(Pages: 14)"]
+    INSA_5_5["5.5 Information Management<br/>(Pages: 15)"]
+    INSA_6_3_4["6.3.4 Contractors shall ensure that competent personnel are appointed<br/>(Pages: 19)"]
+    INSA_8["8 Safety Audits<br/>(Pages: 1)"]
+    INSA_8_2["8.2 Contractor Safety Auditor Independence<br/>(Pages: 21)"]
+    INSA_9["9 Safety Requirements, Hazard and Risk Analysis<br/>(Pages: 1)"]
+    INSA_9_1["9.1 Hazards and Accidents<br/>(Pages: 21)"]
+    INSA_9_2["9.2 Hazard Tracking<br/>(Pages: 19)"]
+    INSA_9_3["9.3 Safety Requirements<br/>(Pages: 19)"]
+    INSA_9_4["9.4 Safety Requirements Management<br/>(Pages: 20)"]
+    INSA_9_5["9.5 Design for Safety<br/>(Pages: 20)"]
+    INSA_9_6["9.6 Safety Analysis<br/>(Pages: 21)"]
+    INSA_9_7["9.7 Failure Modes<br/>(Pages: 22)"]
+    INSA_9_8["9.8 Risk Estimation<br/>(Pages: 23)"]
+    INSA_9_9["9.9 Risk and Compliance Evaluation<br/>(Pages: 23)"]
+    INSA_9_10["9.10 Satisfaction of Requirements<br/>(Pages: 24)"]
+    INSA_10["10 Safety Reporting<br/>(Pages: 24)"]
+    INSA_10_1["10.1 Information Set Safety Summary<br/>(Pages: 24, 27)"]
+    INSA_10_2["10.2 Safety Case<br/>(Pages: 24, 27, 28)"]
+    INSA_10_3["10.3 Safety Case Reports<br/>(Pages: 25, 28)"]
+    INSA_11["11 Supply and Change Management<br/>(Pages: 26)"]
+    INSA_11_2["11.2 Change Control<br/>(Pages: 26)"]
+    INSA_12["12 Supporting Systems In-Service<br/>(Pages: 28)"]
+    INSA_12_2["12.2 Monitoring, Reporting and In-service Data Analysis<br/>(Pages: 29, 32)"]
+    INSA_13["13 Service Provision<br/>(Pages: 30)"]
+    INSA_13_3["13.3 Risk Management<br/>(Pages: 31, 34)"]
+    REF_DEFSTAN_00-055["Defence Standard 00-055<br/>(Pages: 1, 10, 22, 28, 34, 35)"]
+    REF_IEC_61508["IEC 61508 Functional Safety of Electrical/Electronic/Programmable Electronic Safety-Related Systems<br/>(Pages: 10)"]
+    REF_DEFSTAN_05-057["Def Stan 05-057 Configuration Management of Defence Materiel<br/>(Pages: 10, 15)"]
+    REF_DEFSTAN_05-138["Def Stan 05-138 Cyber Security for Defence Suppliers<br/>(Pages: 10, 22)"]
+    REF_DEFSTAN_00-251["Def Stan 00-251 Human Factors Integration for Defence Systems<br/>(Pages: 10, 22)"]
+    REF_STPA-HANDBOOK["STPA Handbook<br/>(Pages: 21)"]
+    REF_IET-COPISA["IET Code of Practice for Independent Safety Assessors (COPISA)<br/>(Pages: 21)"]
+    REF_JSP_822["JSP 822<br/>(Pages: 34)"]
+    TOPIC_SafetyCase["Safety Case<br/>(Pages: 1, 24, 27, 39)"]
+    TOPIC_ALARP["ALARP principle<br/>(Pages: 34, 36)"]
+    TOPIC_SafetyManagement["Safety Management<br/>(Pages: 1)"]
+    TOPIC_SafetyEngineering["Safety Engineering<br/>(Pages: 1)"]
+    TOPIC_SafetyInService["Safety In-Service<br/>(Pages: 1)"]
+    INSA_0_14 -->|"defines"| TOPIC_SafetyManagement
+    INSA_0_14 -->|"defines"| TOPIC_SafetyEngineering
+    INSA_0_14 -->|"defines"| TOPIC_SafetyInService
+    INSA_0_17 -->|"references"| REF_DEFSTAN_00-056-2
+    INSA_1 -->|"contains"| INSA_1_1
+    INSA_1 -->|"contains"| INSA_1_5
+    INSA_1 -->|"references"| REF_DEFSTAN_00-055
+    INSA_1 -->|"relates_to"| TOPIC_SafetyCase
+    INSA_2 -->|"contains"| INSA_2_1
+    INSA_2 -->|"contains"| INSA_2_2
+    INSA_2_2 -->|"references"| REF_IEC_61508
+    INSA_2_2 -->|"references"| REF_DEFSTAN_00-055
+    INSA_2_2 -->|"references"| REF_DEFSTAN_00-251
+    INSA_2_2 -->|"references"| REF_DEFSTAN_05-057
+    INSA_2_2 -->|"references"| REF_DEFSTAN_05-138
+    INSA_3 -->|"contains"| INSA_3_2
+    INSA_4 -->|"contains"| INSA_4_1
+    INSA_5_2 -->|"references"| REF_POSMS
+    INSA_5_2 -->|"references"| REF_HSE_ACOP
+    INSA_5_2 -->|"references"| REF_DCOP
+    INSA_5_5 -->|"references"| REF_DEFSTAN_05-057
+    INSA_6_3_4 -->|"references"| REF_MCSRP
+    INSA_6_3_4 -->|"references"| REF_COPCSRSP
+    INSA_8 -->|"contains"| INSA_8_2
+    INSA_8_2 -->|"references"| REF_IET-COPISA
+    INSA_9 -->|"contains"| INSA_9_1
+    INSA_9 -->|"contains"| INSA_9_2
+    INSA_9 -->|"contains"| INSA_9_3
+    INSA_9 -->|"contains"| INSA_9_4
+    INSA_9 -->|"contains"| INSA_9_5
+    INSA_9 -->|"contains"| INSA_9_6
+    INSA_9 -->|"contains"| INSA_9_7
+    INSA_9 -->|"contains"| INSA_9_8
+    INSA_9 -->|"contains"| INSA_9_9
+    INSA_9 -->|"contains"| INSA_9_10
+    INSA_9 -->|"references"| REF_STPA-HANDBOOK
+    INSA_9_1 -->|"references"| REF_DEFSTAN_05-138
+    INSA_9_1 -->|"references"| REF_DEFSTAN_00-251
+    INSA_9_8 -->|"references"| REF_DEFSTAN_00-055
+    INSA_10 -->|"contains"| INSA_10_1
+    INSA_10 -->|"contains"| INSA_10_2
+    INSA_10 -->|"contains"| INSA_10_3
+    INSA_10_2 -->|"defines"| TOPIC_SafetyCase
+    INSA_11 -->|"contains"| INSA_11_2
+    INSA_11_2 -->|"relates_to"| TOPIC_SafetyCase
+    INSA_12 -->|"contains"| INSA_12_2
+    INSA_12_2 -->|"references"| REF_FRACAS
+    INSA_13 -->|"contains"| INSA_13_3
+    INSA_13_3 -->|"references"| REF_JSP_822
+    INSA_13_3 -->|"defines"| TOPIC_ALARP

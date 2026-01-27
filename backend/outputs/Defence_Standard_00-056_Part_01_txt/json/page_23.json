@@ -1,0 +1,156 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:9.4",
+      "number": "9.4",
+      "title": "Safety Requirements Management",
+      "kind": "section",
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "INSA:9.4.1",
+      "number": "9.4.1",
+      "title": "Bi-directional Traceability",
+      "kind": "subsection",
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "INSA:9.4.2",
+      "number": "9.4.2",
+      "title": "Validation of Safety Requirements",
+      "kind": "subsection",
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "INSA:9.4.3",
+      "number": "9.4.3",
+      "title": "Evidence of Requirement Fulfillment",
+      "kind": "subsection",
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "INSA:9.4.4",
+      "number": "9.4.4",
+      "title": "Inclusion in Hazard Log",
+      "kind": "subsection",
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "INSA:9.5",
+      "number": "9.5",
+      "title": "Design for Safety",
+      "kind": "section",
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "INSA:9.5.1",
+      "number": "9.5.1",
+      "title": "Design to Meet Safety Requirements",
+      "kind": "subsection",
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "INSA:9.5.2",
+      "number": "9.5.2",
+      "title": "Identification of Mitigation Strategies",
+      "kind": "subsection",
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "INSA:9.5.3",
+      "number": "9.5.3",
+      "title": "Implementation of Mitigation Strategies",
+      "kind": "subsection",
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "REF:DEFSTAN:00-055",
+      "number": "",
+      "title": "Def Stan 00-055",
+      "kind": "reference",
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:9.4",
+      "to": "INSA:9.4.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.4",
+      "to": "INSA:9.4.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.4",
+      "to": "INSA:9.4.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.4",
+      "to": "INSA:9.4.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.5",
+      "to": "INSA:9.5.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.5",
+      "to": "INSA:9.5.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.5",
+      "to": "INSA:9.5.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.4",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

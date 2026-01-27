@@ -1,0 +1,34 @@
+flowchart TD
+    INSA_0["0 Introduction<br/>(Pages: 1)"]
+    INSA_1["1 Safety Management Requirements for Defence Systems<br/>(Pages: 1)"]
+    INSA_2["2 Technical Information<br/>(Pages: 1)"]
+    INSA_3["3 Definitions<br/>(Pages: 1)"]
+    INSA_4["4 Safety Management System<br/>(Pages: 1)"]
+    INSA_5["5 General Requirements<br/>(Pages: 1)"]
+    INSA_6["6 Roles and Responsibilities<br/>(Pages: 1)"]
+    INSA_7["7 Interfaces<br/>(Pages: 1)"]
+    INSA_8["8 Safety Audits<br/>(Pages: 1)"]
+    INSA_9["9 Safety Requirements, Hazard and Risk Analysis<br/>(Pages: 1)"]
+    INSA_10["10 Safety Reporting<br/>(Pages: 24)"]
+    INSA_11["11 Supply and Change Management<br/>(Pages: 26)"]
+    INSA_12["12 Supporting Systems In-Service<br/>(Pages: 28)"]
+    INSA_13["13 Service Provision<br/>(Pages: 30)"]
+    REF_ASEMS["ASEMS DE&S Acquisition Safety and Environmental Management System<br/>(Pages: 10, 12, 41)"]
+    REF_KID["Knowledge in Defence website<br/>(Pages: 1, 12, 19)"]
+    INSA_1 -->|"contains"| INSA_0
+    INSA_1 -->|"contains"| INSA_2
+    INSA_1 -->|"contains"| INSA_3
+    INSA_1 -->|"contains"| INSA_4
+    INSA_1 -->|"contains"| INSA_5
+    INSA_1 -->|"contains"| INSA_6
+    INSA_1 -->|"contains"| INSA_7
+    INSA_1 -->|"contains"| INSA_8
+    INSA_1 -->|"contains"| INSA_9
+    INSA_1 -->|"contains"| INSA_10
+    INSA_1 -->|"contains"| INSA_11
+    INSA_1 -->|"contains"| INSA_12
+    INSA_1 -->|"contains"| INSA_13
+    INSA_2 -->|"references"| REF_ASEMS
+    INSA_4 -->|"references"| REF_ASEMS
+    INSA_0 -->|"references"| REF_KID
+    INSA_4 -->|"references"| REF_KID

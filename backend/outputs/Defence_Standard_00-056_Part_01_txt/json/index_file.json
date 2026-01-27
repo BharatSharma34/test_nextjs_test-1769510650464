@@ -1,0 +1,1893 @@
+{
+  "graph_intent": "query_classification_index",
+  "document_name": "DEFENCE_STANDARD_00_056_PART_01",
+  "description": "High-level document overview for query classification and routing",
+  "nodes": [
+    {
+      "id": "INSA:1",
+      "number": "1",
+      "title": "Safety Management Requirements for Defence Systems",
+      "kind": "section",
+      "summary": "Top-level entry point for the standard, framing the overall intent: how safety is achieved, assured, and managed for defence Products, Services and/or Systems (PSS). It is used to route broad questions about what the standard is, what it covers, and how it relates to key concepts like the Safety Case and Health & Safety obligations. Use this node for high-level \u201cwhat is this standard about?\u201d and \u201cwhere do I find X?\u201d queries.",
+      "keywords": [
+        "safety management requirements",
+        "defence systems",
+        "PSS",
+        "how to comply",
+        "overview of standard",
+        "what does the standard cover",
+        "safety case context"
+      ],
+      "content_type": "structural",
+      "scope": {
+        "pages": [
+          1,
+          44
+        ],
+        "sections": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:0",
+      "number": "0",
+      "title": "Introduction",
+      "kind": "section",
+      "summary": "Sets the context for applying the standard in UK defence acquisition and through-life support, including policy drivers and how safety-related PSS are delivered. It helps answer conceptual questions about why the standard exists, who it applies to (MOD, contractors), and how it fits into acquisition governance. Route \u201cbackground/rationale\u201d and \u201chow this fits UK MOD policy\u201d queries here.",
+      "keywords": [
+        "introduction",
+        "UK MOD policy",
+        "defence acquisition",
+        "PSS delivery",
+        "contractor roles",
+        "why the standard",
+        "context and guidance"
+      ],
+      "content_type": "conceptual",
+      "scope": {
+        "pages": [
+          1,
+          6
+        ],
+        "sections": [
+          "0.1",
+          "0.2",
+          "0.3",
+          "0.4",
+          "0.5",
+          "0.6",
+          "0.7",
+          "0.8",
+          "0.9",
+          "0.10",
+          "0.11",
+          "0.12",
+          "0.13",
+          "0.14",
+          "0.15",
+          "0.16",
+          "0.17",
+          "0.18"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:1.1",
+      "number": "1.1",
+      "title": "Purpose and Scope",
+      "kind": "subsection",
+      "summary": "Defines what the standard is intended to achieve and the boundaries of applicability, including what types of PSS and contractual situations are in scope. It answers \u201cis my project in scope?\u201d and \u201cwhat does the standard require at a high level?\u201d questions. Use for routing queries about applicability, scope statements, and intended outcomes.",
+      "keywords": [
+        "purpose",
+        "scope",
+        "applicability",
+        "in scope / out of scope",
+        "requirements for achieving safety",
+        "contract scope",
+        "how to apply the standard"
+      ],
+      "content_type": "definitional",
+      "scope": {
+        "pages": [
+          1,
+          3
+        ],
+        "sections": [
+          "1.1"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        3,
+        44
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:1.5",
+      "number": "1.5",
+      "title": "Application of Standard",
+      "kind": "section",
+      "summary": "Explains how the standard is applied in practice, including accountability, responsibility, and the expectation that a Safety Management System is in place. It answers \u201cwho is responsible for what?\u201d and \u201cwhat must be established to apply the standard?\u201d questions. Route queries about application rules, governance, and role allocation here.",
+      "keywords": [
+        "application of standard",
+        "accountability",
+        "responsibility",
+        "safety management system",
+        "who is responsible",
+        "how to apply",
+        "governance"
+      ],
+      "content_type": "procedural",
+      "scope": {
+        "pages": [
+          1,
+          1
+        ],
+        "sections": [
+          "1.5",
+          "1.5.1",
+          "1.5.2"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:2",
+      "number": "2",
+      "title": "Technical Information",
+      "kind": "section",
+      "summary": "Provides the document\u2019s technical framing and reference structure, including how normative and informative references are organized. It is used to route questions about which external standards apply and how to interpret referenced material. Use for \u201cwhat standards are referenced?\u201d and \u201cwhich references are mandatory vs informative?\u201d queries.",
+      "keywords": [
+        "technical information",
+        "normative references",
+        "informative references",
+        "external standards",
+        "which standard applies",
+        "reference list",
+        "dependency chain"
+      ],
+      "content_type": "structural",
+      "scope": {
+        "pages": [
+          1,
+          10
+        ],
+        "sections": [
+          "2",
+          "2.1",
+          "2.2"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:2.1",
+      "number": "2.1",
+      "title": "Normative References",
+      "kind": "subsection",
+      "summary": "Lists references that are required to claim compliance or to correctly apply the standard. It answers \u201cwhat must I follow in addition to this standard?\u201d and \u201cwhich documents are mandatory?\u201d questions. Route compliance and dependency questions here.",
+      "keywords": [
+        "normative references",
+        "mandatory documents",
+        "compliance dependencies",
+        "required standards",
+        "what must be followed",
+        "reference requirements",
+        "external obligations"
+      ],
+      "content_type": "reference",
+      "scope": {
+        "pages": [
+          1,
+          1
+        ],
+        "sections": [
+          "2.1"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:2.2",
+      "number": "2.2",
+      "title": "Informative References",
+      "kind": "subsection",
+      "summary": "Lists supporting guidance and related standards that inform good practice but are not necessarily mandatory for compliance. It answers \u201cwhat guidance should I consult?\u201d and \u201cwhat related standards are relevant?\u201d questions. Route \u201cbest practice\u201d and \u201csupporting guidance\u201d queries here.",
+      "keywords": [
+        "informative references",
+        "supporting guidance",
+        "related standards",
+        "best practice",
+        "where to find guidance",
+        "reference list",
+        "context documents"
+      ],
+      "content_type": "reference",
+      "scope": {
+        "pages": [
+          1,
+          10
+        ],
+        "sections": [
+          "2.2"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        10
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:3",
+      "number": "3",
+      "title": "Definitions",
+      "kind": "section",
+      "summary": "Defines terminology and rules for interpreting requirements language, including what counts as mandatory requirements and how notes should be treated. It answers \u201cwhat does term X mean?\u201d and \u201chow do I interpret \u2018shall\u2019?\u201d questions. Route definitional and interpretation queries here.",
+      "keywords": [
+        "definitions",
+        "terms and definitions",
+        "mandatory requirements meaning",
+        "interpretation of shall",
+        "definition of",
+        "vocabulary",
+        "notes guidance"
+      ],
+      "content_type": "definitional",
+      "scope": {
+        "pages": [
+          1,
+          11
+        ],
+        "sections": [
+          "3",
+          "3.1",
+          "3.2",
+          "3.3"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4",
+      "number": "4",
+      "title": "Safety Management System",
+      "kind": "section",
+      "summary": "Specifies how a contractor\u2019s Safety Management System (SMS) is expected to be planned, agreed, maintained, and reported, including the Safety Management Plan (SMP) as a central artifact. It answers \u201cwhat must the SMS/SMP include?\u201d and \u201chow is it agreed and updated with MOD?\u201d questions. Route SMS/SMP governance and planning queries here.",
+      "keywords": [
+        "safety management system",
+        "SMP",
+        "safety management plan",
+        "tendering process",
+        "agreement with MOD",
+        "review and update",
+        "progress reporting"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          1,
+          13
+        ],
+        "sections": [
+          "4",
+          "4.1",
+          "4.2",
+          "4.3",
+          "4.4"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4.1",
+      "number": "4.1",
+      "title": "Safety Management Plan",
+      "kind": "subsection",
+      "summary": "Describes the Safety Management Plan as the controlling plan for safety activities, deliverables, and governance across the contract lifecycle. It answers \u201cwhat is an SMP?\u201d and \u201cwhat is it used for during tendering and delivery?\u201d questions. Route SMP content and lifecycle questions here.",
+      "keywords": [
+        "safety management plan",
+        "SMP definition",
+        "planning safety activities",
+        "tendering",
+        "deliverables planning",
+        "how to write an SMP",
+        "SMP governance"
+      ],
+      "content_type": "definitional",
+      "scope": {
+        "pages": [
+          1,
+          12
+        ],
+        "sections": [
+          "4.1"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        12,
+        39,
+        42
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:5",
+      "number": "5",
+      "title": "General Requirements",
+      "kind": "section",
+      "summary": "Covers cross-cutting contractual and governance requirements: handling deviations, aligning with legislation/standards/policy, managing sub-contracting, defining deliverables, and maintaining the safety information set. It answers \u201cwhat general obligations apply across the contract?\u201d and \u201chow do we manage documentation and compliance evidence?\u201d questions. Route broad compliance-process queries here.",
+      "keywords": [
+        "general requirements",
+        "deviation management",
+        "legislation and standards",
+        "sub-contracting",
+        "information management",
+        "documentary deliverables",
+        "how to demonstrate compliance"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          1,
+          17
+        ],
+        "sections": [
+          "5",
+          "5.1",
+          "5.2",
+          "5.3",
+          "5.4",
+          "5.5",
+          "5.6",
+          "5.7"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:5.1",
+      "number": "5.1",
+      "title": "Deviation from Requirements",
+      "kind": "section",
+      "summary": "Defines how deviations from the standard\u2019s requirements are proposed, agreed, and documented, including conflict resolution and compliance matrices. It answers \u201ccan we deviate?\u201d and \u201chow do we document intended deviations?\u201d questions. Route waiver/deviation and compliance-matrix queries here.",
+      "keywords": [
+        "deviation from requirements",
+        "waiver process",
+        "deviation agreement",
+        "conflict resolution",
+        "compliance matrix",
+        "intended deviations",
+        "how to deviate"
+      ],
+      "content_type": "procedural",
+      "scope": {
+        "pages": [
+          14,
+          14
+        ],
+        "sections": [
+          "5.1",
+          "5.1.1",
+          "5.1.2",
+          "5.1.3",
+          "5.1.4",
+          "5.1.5"
+        ]
+      },
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "INSA:5.2",
+      "number": "5.2",
+      "title": "Legislation, Regulations, Standards, Policy and Approved Codes of Practice",
+      "kind": "section",
+      "summary": "Specifies expectations for identifying, documenting, and agreeing applicable legal and policy obligations and relevant good practice. It answers \u201cwhich laws/standards apply?\u201d and \u201chow do we agree policy/legislation applicability with MOD?\u201d questions. Route legal/policy alignment and compliance-basis queries here.",
+      "keywords": [
+        "legislation",
+        "regulations",
+        "policy agreement",
+        "approved codes of practice",
+        "identify applicable standards",
+        "how to document compliance basis",
+        "legal obligations"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          14,
+          14
+        ],
+        "sections": [
+          "5.2",
+          "5.2.1",
+          "5.2.2",
+          "5.2.3"
+        ]
+      },
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "INSA:5.3",
+      "number": "5.3",
+      "title": "Sub-Contracting",
+      "kind": "section",
+      "summary": "Defines how safety obligations flow down to sub-contractors, including assurance, requirement identification, compliance, and audit mechanisms. It answers \u201cwhat must sub-contractors do?\u201d and \u201chow do we assure sub-contracted safety work?\u201d questions. Route supply-chain safety governance queries here.",
+      "keywords": [
+        "sub-contracting",
+        "flow-down requirements",
+        "sub-contractor assurance",
+        "audit mechanisms",
+        "deliverables",
+        "how to manage suppliers",
+        "supply chain compliance"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          15,
+          15
+        ],
+        "sections": [
+          "5.3",
+          "5.3.1",
+          "5.3.2",
+          "5.3.3",
+          "5.3.4"
+        ]
+      },
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.5",
+      "number": "5.5",
+      "title": "Information Management",
+      "kind": "section",
+      "summary": "Specifies how the safety information set is defined, maintained, kept accessible over time, and protected (including confidentiality, integrity, and availability). It answers \u201cwhat is the information set?\u201d and \u201chow do we preserve and manage safety information through tool/technology change?\u201d questions. Route information-set governance and retention/security queries here.",
+      "keywords": [
+        "information management",
+        "information set",
+        "configuration management",
+        "retention period",
+        "accessibility over time",
+        "confidentiality integrity availability",
+        "how to maintain evidence"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          15,
+          16
+        ],
+        "sections": [
+          "5.5",
+          "5.5.1",
+          "5.5.2",
+          "5.5.3",
+          "5.5.4",
+          "5.5.5",
+          "5.5.6",
+          "5.5.7",
+          "5.5.8",
+          "5.5.9",
+          "5.5.10",
+          "5.5.11",
+          "5.5.12"
+        ]
+      },
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:5.6",
+      "number": "5.6",
+      "title": "Documentary Deliverables",
+      "kind": "section",
+      "summary": "Defines expectations for producing safety-related documentary deliverables (including interim versions), and agreeing format/content with MOD, considering DIDs and other standards. It answers \u201cwhat documents must we deliver?\u201d and \u201chow do we agree deliverable format and content?\u201d questions. Route deliverables and documentation-format queries here.",
+      "keywords": [
+        "documentary deliverables",
+        "safety deliverables",
+        "DID",
+        "format and content agreement",
+        "interim versions",
+        "what documents are required",
+        "deliverable planning"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          16,
+          17
+        ],
+        "sections": [
+          "5.6",
+          "5.6.1",
+          "5.6.2",
+          "5.6.3",
+          "5.6.4"
+        ]
+      },
+      "appears_on_pages": [
+        16
+      ],
+      "primary_page": 16
+    },
+    {
+      "id": "INSA:6",
+      "number": "6",
+      "title": "Roles and Responsibilities",
+      "kind": "section",
+      "summary": "Specifies how safety roles are defined, delegated, and kept current, including competence requirements and participation in safety committees. It answers \u201cwho does what for safety?\u201d and \u201cwhat competence evidence is required?\u201d questions. Route organizational/people/competence queries here.",
+      "keywords": [
+        "roles and responsibilities",
+        "safety organisation",
+        "competence management",
+        "safety committees",
+        "delegation of responsibility",
+        "competency evidence",
+        "who is accountable"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          17,
+          19
+        ],
+        "sections": [
+          "6",
+          "6.1",
+          "6.2",
+          "6.3"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:7",
+      "number": "7",
+      "title": "Interfaces",
+      "kind": "section",
+      "summary": "Defines how organisational, technical, and external interfaces are identified and managed, including recording assumptions and reconciling information between parties. It answers \u201chow do we manage safety across interfaces?\u201d and \u201cwhat assumptions must be recorded?\u201d questions. Route interface-management and stakeholder coordination queries here.",
+      "keywords": [
+        "interfaces",
+        "organisational interfaces",
+        "technical interfaces",
+        "external interacting interfaces",
+        "assumptions recording",
+        "stakeholder coordination",
+        "how to manage interfaces"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          19,
+          20
+        ],
+        "sections": [
+          "7",
+          "7.1",
+          "7.2",
+          "7.3"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:8",
+      "number": "8",
+      "title": "Safety Audits",
+      "kind": "section",
+      "summary": "Specifies audit expectations, including audit reporting, independence of the Contractor Safety Auditor (CSA), independent safety audit access, and remedial action handling. It answers \u201cwhat audits are required?\u201d and \u201cwhat independence/access constraints apply?\u201d questions. Route audit/assurance and ISA/CSA queries here.",
+      "keywords": [
+        "safety audits",
+        "audit report",
+        "contractor safety auditor",
+        "independent safety audit",
+        "auditor independence",
+        "access to information set",
+        "remedial action"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          20,
+          21
+        ],
+        "sections": [
+          "8",
+          "8.1",
+          "8.2",
+          "8.3",
+          "8.4"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:9",
+      "number": "9",
+      "title": "Safety Requirements, Hazard and Risk Analysis",
+      "kind": "section",
+      "summary": "Core technical chapter for hazard identification, hazard tracking, safety requirements definition/management, design for safety, safety analysis, failure modes, and risk estimation/evaluation. It answers \u201chow do we identify hazards and derive/manage safety requirements?\u201d and \u201chow do we estimate and evaluate risk?\u201d questions. Route technical safety engineering and analysis queries here.",
+      "keywords": [
+        "hazard and risk analysis",
+        "safety requirements",
+        "hazard tracking",
+        "design for safety",
+        "safety analysis",
+        "failure modes",
+        "risk estimation and evaluation"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          19,
+          27
+        ],
+        "sections": [
+          "9",
+          "9.1",
+          "9.2",
+          "9.3",
+          "9.4",
+          "9.5",
+          "9.6",
+          "9.7",
+          "9.8",
+          "9.9",
+          "9.10"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:9.1",
+      "number": "9.1",
+      "title": "Hazards and Accidents",
+      "kind": "section",
+      "summary": "Defines expectations for identifying hazards and potential accidents using systematic processes, including consideration of human factors, cyber security, systematic/random failures, and novel technologies. It answers \u201cwhat must be considered during hazard identification?\u201d and \u201cwhat analysis approaches are expected?\u201d questions. Route hazard identification and scope-of-hazard-analysis queries here.",
+      "keywords": [
+        "hazards and accidents",
+        "hazard identification",
+        "systematic analysis",
+        "human factors",
+        "cyber security considerations",
+        "novel technologies",
+        "how to identify hazards"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          21,
+          22
+        ],
+        "sections": [
+          "9.1",
+          "9.1.1",
+          "9.1.2",
+          "9.1.3",
+          "9.1.4",
+          "9.1.5",
+          "9.1.6",
+          "9.1.7"
+        ]
+      },
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:9.2",
+      "number": "9.2",
+      "title": "Hazard Tracking",
+      "kind": "section",
+      "summary": "Specifies how hazards are tracked and controlled over time, typically via a hazard log, including visibility of hazard control and reporting. It answers \u201chow do we implement and maintain a hazard log?\u201d and \u201cwhat reporting is required for hazard status?\u201d questions. Route hazard log and hazard tracking process queries here.",
+      "keywords": [
+        "hazard tracking",
+        "hazard log",
+        "visibility of hazard control",
+        "hazard log reports",
+        "updating hazard log",
+        "how to track hazards",
+        "hazard status management"
+      ],
+      "content_type": "procedural",
+      "scope": {
+        "pages": [
+          19,
+          22
+        ],
+        "sections": [
+          "9.2",
+          "9.2.1",
+          "9.2.2",
+          "9.2.3",
+          "9.2.4"
+        ]
+      },
+      "appears_on_pages": [
+        19
+      ],
+      "primary_page": 19
+    },
+    {
+      "id": "INSA:9.3",
+      "number": "9.3",
+      "title": "Safety Requirements",
+      "kind": "section",
+      "summary": "Covers identification, documentation, and tracking of safety requirements, including derived safety requirements. It answers \u201chow are safety requirements captured and traced?\u201d and \u201chow do we manage derived requirements?\u201d questions. Route safety requirement definition and derivation queries here.",
+      "keywords": [
+        "safety requirements",
+        "derived safety requirements",
+        "requirements identification",
+        "requirements tracking",
+        "documenting requirements",
+        "how to derive requirements",
+        "requirements lifecycle"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          19,
+          22
+        ],
+        "sections": [
+          "9.3",
+          "9.3.1",
+          "9.3.2",
+          "9.3.3"
+        ]
+      },
+      "appears_on_pages": [
+        19
+      ],
+      "primary_page": 19
+    },
+    {
+      "id": "INSA:9.4",
+      "number": "9.4",
+      "title": "Safety Requirements Management",
+      "kind": "section",
+      "summary": "Defines management controls for safety requirements, including bi-directional traceability, validation, evidence of fulfillment, and inclusion in the hazard log. It answers \u201chow do we prove requirements are met?\u201d and \u201cwhat traceability is required?\u201d questions. Route traceability/validation/evidence queries here.",
+      "keywords": [
+        "requirements management",
+        "bi-directional traceability",
+        "validation",
+        "evidence of fulfillment",
+        "hazard log linkage",
+        "how to prove compliance",
+        "requirements evidence"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          20,
+          23
+        ],
+        "sections": [
+          "9.4",
+          "9.4.1",
+          "9.4.2",
+          "9.4.3",
+          "9.4.4"
+        ]
+      },
+      "appears_on_pages": [
+        20
+      ],
+      "primary_page": 20
+    },
+    {
+      "id": "INSA:9.5",
+      "number": "9.5",
+      "title": "Design for Safety",
+      "kind": "section",
+      "summary": "Specifies how design activities must meet safety requirements, including identification, implementation, and management of mitigation strategies and allocation of derived requirements. It answers \u201chow do we design to meet safety requirements?\u201d and \u201chow are mitigations selected and recorded?\u201d questions. Route design/mitigation strategy queries here.",
+      "keywords": [
+        "design for safety",
+        "mitigation strategies",
+        "allocation of requirements",
+        "derived requirements",
+        "effectiveness of mitigations",
+        "how to implement mitigations",
+        "design compliance"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          20,
+          24
+        ],
+        "sections": [
+          "9.5",
+          "9.5.1",
+          "9.5.2",
+          "9.5.3",
+          "9.5.4",
+          "9.5.5",
+          "9.5.6",
+          "9.5.7",
+          "9.5.8",
+          "9.5.9",
+          "9.5.10"
+        ]
+      },
+      "appears_on_pages": [
+        20
+      ],
+      "primary_page": 20
+    },
+    {
+      "id": "INSA:9.6",
+      "number": "9.6",
+      "title": "Safety Analysis",
+      "kind": "section",
+      "summary": "Defines expectations for conducting safety analysis, ensuring adequate coverage, using results to support decisions, and documenting analysis so it remains consistent with the design. It answers \u201cwhat safety analyses are required and how should they be documented?\u201d questions. Route analysis-method and analysis-documentation queries here.",
+      "keywords": [
+        "safety analysis",
+        "analysis coverage",
+        "documentation of analysis",
+        "use of analysis results",
+        "consistency with design",
+        "how to conduct safety analysis",
+        "analysis evidence"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          21,
+          25
+        ],
+        "sections": [
+          "9.6",
+          "9.6.1",
+          "9.6.2",
+          "9.6.3",
+          "9.6.4",
+          "9.6.5"
+        ]
+      },
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:9.7",
+      "number": "9.7",
+      "title": "Failure Modes",
+      "kind": "section",
+      "summary": "Specifies identification and management of failure modes contributing to hazards, including visibility of control status, likelihood estimation (including qualitative where needed), and recording assumptions and evidence in the information set. It answers \u201chow do we identify failure modes and estimate likelihood?\u201d and \u201cwhat must be recorded?\u201d questions. Route FMEA/FMECA-style and failure-mode evidence queries here.",
+      "keywords": [
+        "failure modes",
+        "likelihood estimation",
+        "qualitative estimates",
+        "human factors in failure modes",
+        "cyber security in failure modes",
+        "information set recording",
+        "how to perform FMEA"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          22,
+          25
+        ],
+        "sections": [
+          "9.7",
+          "9.7.1",
+          "9.7.2",
+          "9.7.3",
+          "9.7.4",
+          "9.7.5",
+          "9.7.6",
+          "9.7.7",
+          "9.7.8",
+          "9.7.9",
+          "9.7.10",
+          "9.7.11",
+          "9.7.12",
+          "9.7.13",
+          "9.7.14",
+          "9.7.15",
+          "9.7.16",
+          "9.7.17",
+          "9.7.18"
+        ]
+      },
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.8",
+      "number": "9.8",
+      "title": "Risk Estimation",
+      "kind": "section",
+      "summary": "Defines the risk estimation process, including qualitative assessment, residual risk determination, and documentation requirements. It answers \u201chow do we estimate risk?\u201d and \u201chow do we determine residual risk and record it?\u201d questions. Route risk estimation method and documentation queries here.",
+      "keywords": [
+        "risk estimation",
+        "qualitative risk assessment",
+        "residual risk",
+        "risk estimation process",
+        "documentation",
+        "how to estimate risk",
+        "risk assessment method"
+      ],
+      "content_type": "procedural",
+      "scope": {
+        "pages": [
+          23,
+          26
+        ],
+        "sections": [
+          "9.8",
+          "9.8.1",
+          "9.8.2",
+          "9.8.3",
+          "9.8.4"
+        ]
+      },
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "INSA:9.9",
+      "number": "9.9",
+      "title": "Risk and Compliance Evaluation",
+      "kind": "section",
+      "summary": "Specifies how risk to life and risk criteria are evaluated, how compliance is evaluated, and how results are documented and recorded. It answers \u201chow do we judge acceptability/compliance?\u201d and \u201cwhat records are required for evaluation decisions?\u201d questions. Route risk acceptance and compliance evaluation queries here.",
+      "keywords": [
+        "risk evaluation",
+        "risk to life evaluation",
+        "risk criteria",
+        "compliance evaluation",
+        "recording results",
+        "how to evaluate risk",
+        "acceptability criteria"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          23,
+          26
+        ],
+        "sections": [
+          "9.9",
+          "9.9.1",
+          "9.9.2",
+          "9.9.3",
+          "9.9.4",
+          "9.9.5"
+        ]
+      },
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "INSA:10",
+      "number": "10",
+      "title": "Safety Reporting",
+      "kind": "section",
+      "summary": "Defines required safety reporting outputs, including the Information Set Safety Summary (ISSS), Safety Case, and Safety Case Reports. It answers \u201cwhat safety reports must be produced and what do they contain?\u201d questions. Route reporting deliverables and safety case documentation queries here.",
+      "keywords": [
+        "safety reporting",
+        "ISSS",
+        "safety case",
+        "safety case reports",
+        "reporting requirements",
+        "what reports are required",
+        "documentation outputs"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          24,
+          28
+        ],
+        "sections": [
+          "10",
+          "10.1",
+          "10.2",
+          "10.3"
+        ]
+      },
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:10.1",
+      "number": "10.1",
+      "title": "Information Set Safety Summary",
+      "kind": "subsection",
+      "summary": "Specifies the ISSS as a curated subset of the information set to enable system integrators and operators to discharge safety responsibilities, including assumptions, limitations, and incremental delivery. It answers \u201cwhat is an ISSS and what must it include?\u201d questions. Route ISSS content and delivery cadence queries here.",
+      "keywords": [
+        "ISSS",
+        "information set safety summary",
+        "assumptions and limitations",
+        "incremental delivery",
+        "system integrator needs",
+        "operator safety responsibilities",
+        "what must ISSS contain"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          24,
+          27
+        ],
+        "sections": [
+          "10.1",
+          "10.1.1",
+          "10.1.2",
+          "10.1.3",
+          "10.1.4",
+          "10.1.5"
+        ]
+      },
+      "appears_on_pages": [
+        24,
+        38,
+        41
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:10.2",
+      "number": "10.2",
+      "title": "Safety Case",
+      "kind": "subsection",
+      "summary": "Defines the Safety Case as a structured argument supported by evidence drawn from the information set, addressing life-of-PSS safety and verification/validation evidence, including sub-contractor evidence. It answers \u201cwhat is a safety case?\u201d and \u201cwhat evidence and structure are required?\u201d questions. Route safety case structure, evidence, and lifecycle coverage queries here.",
+      "keywords": [
+        "safety case",
+        "structured argument",
+        "body of evidence",
+        "verification and validation evidence",
+        "life cycle coverage",
+        "how to build a safety case",
+        "evidence from information set"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          24,
+          28
+        ],
+        "sections": [
+          "10.2",
+          "10.2.1",
+          "10.2.2",
+          "10.2.3",
+          "10.2.4",
+          "10.2.5",
+          "10.2.6",
+          "10.2.7",
+          "10.2.8",
+          "10.2.10",
+          "10.2.12"
+        ]
+      },
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:11",
+      "number": "11",
+      "title": "Supply and Change Management",
+      "kind": "section",
+      "summary": "Defines how build state, change control, planning for change, safety of changes, safe update, monitoring change, and incorporating change are managed. It answers \u201chow do we control changes without compromising safety?\u201d and \u201cwhat must be updated (design, hazard analysis, safety case, information set) after change?\u201d questions. Route configuration/change management and safe update queries here.",
+      "keywords": [
+        "change management",
+        "build state definition",
+        "change control",
+        "safety of changes",
+        "safe update",
+        "monitoring change",
+        "incorporating change"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          26,
+          31
+        ],
+        "sections": [
+          "11",
+          "11.1",
+          "11.2",
+          "11.3",
+          "11.4",
+          "11.5",
+          "11.6",
+          "11.7"
+        ]
+      },
+      "appears_on_pages": [
+        26
+      ],
+      "primary_page": 26
+    },
+    {
+      "id": "INSA:12",
+      "number": "12",
+      "title": "Supporting Systems In-Service",
+      "kind": "section",
+      "summary": "Covers in-service safety support, including management of safety-related in-service data, monitoring/reporting/data analysis, and remedial action. It answers \u201cwhat must we do during in-service to maintain safety?\u201d and \u201chow do we use operational data to update the safety case?\u201d questions. Route in-service monitoring, FRACAS, and remedial action queries here.",
+      "keywords": [
+        "in-service support",
+        "in-service data",
+        "monitoring and reporting",
+        "data analysis",
+        "FRACAS",
+        "remedial action",
+        "update safety case from data"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          28,
+          32
+        ],
+        "sections": [
+          "12",
+          "12.1",
+          "12.2",
+          "12.3"
+        ]
+      },
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    },
+    {
+      "id": "INSA:13",
+      "number": "13",
+      "title": "Service Provision",
+      "kind": "section",
+      "summary": "Defines safety requirements for service provision, including pre-commencement safety case reporting/approval, service provision planning for normal and emergency situations, and risk management support to MOD. It answers \u201cwhat must be in place before services start?\u201d and \u201chow is risk to life managed during service delivery?\u201d questions. Route service operations and operational risk management queries here.",
+      "keywords": [
+        "service provision",
+        "service planning",
+        "emergency situations",
+        "safety case report approval",
+        "command summary",
+        "risk management",
+        "risk to life during service"
+      ],
+      "content_type": "requirements",
+      "scope": {
+        "pages": [
+          30,
+          34
+        ],
+        "sections": [
+          "13",
+          "13.1",
+          "13.2",
+          "13.3"
+        ]
+      },
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "TOPIC:SafetyCase",
+      "number": "",
+      "title": "Safety Case",
+      "kind": "topic",
+      "summary": "Cross-cutting concept describing a structured safety argument supported by evidence, used throughout reporting, change management, and in-service support. It is central to queries about what a safety case is, what it must contain, and how it is maintained over the lifecycle. Route conceptual \u201cdefinition of safety case\u201d queries here, and procedural/requirements queries to section 10.2 and related change/in-service sections.",
+      "keywords": [
+        "safety case definition",
+        "structured argument",
+        "evidence",
+        "lifecycle safety",
+        "how to write a safety case",
+        "safety case maintenance",
+        "safety case reports"
+      ],
+      "content_type": "conceptual",
+      "scope": {
+        "pages": [
+          1,
+          39
+        ],
+        "sections": [
+          "10.2",
+          "10.3",
+          "11.4",
+          "12.2",
+          "13.1"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        24
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:SafetyManagement",
+      "number": "",
+      "title": "Safety Management",
+      "kind": "topic",
+      "summary": "Cross-cutting theme covering governance, planning, roles, reporting, and assurance activities that ensure safety is managed systematically. It helps route queries that are not purely technical analysis but about management controls, plans, committees, audits, and compliance processes. Use to route to sections 4\u20138 and general requirements in section 5.",
+      "keywords": [
+        "safety management",
+        "governance",
+        "safety management plan",
+        "roles and responsibilities",
+        "audits",
+        "how to manage safety",
+        "management system"
+      ],
+      "content_type": "conceptual",
+      "scope": {
+        "pages": [
+          1,
+          39
+        ],
+        "sections": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:SafetyEngineering",
+      "number": "",
+      "title": "Safety Engineering",
+      "kind": "topic",
+      "summary": "Cross-cutting theme for technical safety activities: hazard analysis, requirements derivation, design for safety, and safety analysis. It routes technical questions about methods, evidence, and engineering practices to section 9 and safety case evidence requirements in section 10.2. Use for \u201chow do we engineer safety?\u201d queries.",
+      "keywords": [
+        "safety engineering",
+        "hazard analysis",
+        "design for safety",
+        "safety analysis",
+        "requirements derivation",
+        "how to engineer safety",
+        "technical safety methods"
+      ],
+      "content_type": "conceptual",
+      "scope": {
+        "pages": [
+          1,
+          27
+        ],
+        "sections": [
+          "9",
+          "10.2"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:SafetyInService",
+      "number": "",
+      "title": "Safety In-Service",
+      "kind": "topic",
+      "summary": "Cross-cutting theme for maintaining and assuring safety during operation and support, including monitoring, reporting, data analysis, and remedial action. It routes queries about operational feedback, incident reporting, and updating safety arguments to section 12 and service provision section 13. Use for \u201cin-service safety obligations\u201d queries.",
+      "keywords": [
+        "in-service safety",
+        "monitoring and reporting",
+        "in-service data analysis",
+        "remedial action",
+        "FRACAS",
+        "update safety case",
+        "operational safety"
+      ],
+      "content_type": "conceptual",
+      "scope": {
+        "pages": [
+          28,
+          34
+        ],
+        "sections": [
+          "12",
+          "13"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:ALARP",
+      "number": "",
+      "title": "ALARP principle",
+      "kind": "topic",
+      "summary": "Defines the ALARP concept used for judging risk acceptability and demonstrating that risk has been reduced as low as reasonably practicable. It routes queries about risk acceptance rationale and risk-to-life decision-making to risk evaluation (9.9) and service risk management (13.3). Use for \u201cwhat is ALARP?\u201d and \u201chow is ALARP applied?\u201d queries.",
+      "keywords": [
+        "ALARP",
+        "as low as reasonably practicable",
+        "risk acceptability",
+        "risk to life",
+        "how to justify ALARP",
+        "risk criteria",
+        "compliance evaluation"
+      ],
+      "content_type": "definitional",
+      "scope": {
+        "pages": [
+          34,
+          41
+        ],
+        "sections": [
+          "9.9",
+          "13.3"
+        ]
+      },
+      "appears_on_pages": [
+        34,
+        36
+      ],
+      "primary_page": 34
+    },
+    {
+      "id": "REF:DEFSTAN:00-055",
+      "number": "",
+      "title": "Defence Standard 00-055",
+      "kind": "reference",
+      "summary": "Frequently cited external standard governing safety of programmable elements (PE) in defence systems, referenced across hazard analysis, failure considerations, and compliance evidence. It is used when queries involve software/programmable logic safety obligations, systematic failures, or PE-specific requirements. Route \u201cwhat does 00-055 require?\u201d and \u201chow does 00-056 relate to 00-055?\u201d queries here.",
+      "keywords": [
+        "Def Stan 00-055",
+        "programmable elements",
+        "PE safety",
+        "systematic failures",
+        "software safety",
+        "external standard",
+        "requirements for programmable elements"
+      ],
+      "content_type": "reference",
+      "scope": {
+        "pages": [
+          1,
+          35
+        ],
+        "sections": [
+          "2.2",
+          "4.2",
+          "9.1",
+          "9.4",
+          "9.5",
+          "9.8",
+          "13.3"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        10,
+        35
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "REF:ASEMS",
+      "number": "",
+      "title": "ASEMS DE&S Acquisition Safety and Environmental Management System",
+      "kind": "reference",
+      "summary": "Frequently cited MOD acquisition safety and environmental management framework used as supporting guidance for safety management planning and governance. It is relevant to queries about how MOD expects safety to be managed within acquisition processes and how contractor plans align with MOD systems. Route \u201cASEMS guidance\u201d and \u201calignment with DE&S processes\u201d queries here.",
+      "keywords": [
+        "ASEMS",
+        "DE&S",
+        "acquisition safety management",
+        "environmental management",
+        "MOD governance",
+        "supporting guidance",
+        "how to align with MOD processes"
+      ],
+      "content_type": "reference",
+      "scope": {
+        "pages": [
+          10,
+          41
+        ],
+        "sections": [
+          "2.2",
+          "4",
+          "4.1"
+        ]
+      },
+      "appears_on_pages": [
+        10,
+        12,
+        41
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:POSMS",
+      "number": "",
+      "title": "POSMS",
+      "kind": "reference",
+      "summary": "Frequently cited MOD safety management system reference used to support project-oriented safety management practices and initiation procedures. It is relevant to queries about MOD safety management processes, initiation, and how contractor safety management integrates with MOD expectations. Route \u201cPOSMS process\u201d and \u201cproject safety management system\u201d queries here.",
+      "keywords": [
+        "POSMS",
+        "project oriented safety management system",
+        "project safety initiation",
+        "MOD safety management",
+        "process guidance",
+        "how to initiate safety management",
+        "integration with MOD"
+      ],
+      "content_type": "reference",
+      "scope": {
+        "pages": [
+          12,
+          42
+        ],
+        "sections": [
+          "4",
+          "5.2"
+        ]
+      },
+      "appears_on_pages": [
+        12,
+        14,
+        42
+      ],
+      "primary_page": 12
+    },
+    {
+      "id": "REF:DEFSTAN:05-057",
+      "number": "",
+      "title": "Def Stan 05-057 Configuration Management of Defence Materiel",
+      "kind": "reference",
+      "summary": "Frequently cited configuration management standard used to support information set consistency and change/build state control. It is relevant to queries about configuration management expectations, build state definition, and maintaining consistency of safety evidence across changes. Route configuration management dependency queries here.",
+      "keywords": [
+        "Def Stan 05-057",
+        "configuration management",
+        "build state definition",
+        "change control",
+        "information set consistency",
+        "how to manage configuration",
+        "defence materiel"
+      ],
+      "content_type": "reference",
+      "scope": {
+        "pages": [
+          10,
+          15
+        ],
+        "sections": [
+          "2.2",
+          "5.5",
+          "11.1"
+        ]
+      },
+      "appears_on_pages": [
+        10,
+        15
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:KID",
+      "number": "",
+      "title": "Knowledge in Defence website",
+      "kind": "reference",
+      "summary": "Frequently cited MOD knowledge portal referenced for accessing defence standards and safety-related competence resources. It is relevant to queries about where to obtain standards, competence frameworks, and supporting materials. Route \u201cwhere do I find X?\u201d and \u201chow to access MOD resources\u201d queries here.",
+      "keywords": [
+        "KID",
+        "Knowledge in Defence",
+        "where to download standards",
+        "competence resources",
+        "MOD portal",
+        "access guidance",
+        "reference source"
+      ],
+      "content_type": "reference",
+      "scope": {
+        "pages": [
+          1,
+          19
+        ],
+        "sections": [
+          "0.3",
+          "1.2",
+          "4.1",
+          "6.3"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        12,
+        19
+      ],
+      "primary_page": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:1",
+      "to": "INSA:0",
+      "type": "contains",
+      "confidence": 0.7
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:1.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2",
+      "to": "INSA:2.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2",
+      "to": "INSA:2.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:3",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:4",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:5",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:6",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:7",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:8",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:9",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:10",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:11",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:12",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:13",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:4",
+      "to": "INSA:4.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5",
+      "to": "INSA:5.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5",
+      "to": "INSA:5.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5",
+      "to": "INSA:5.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5",
+      "to": "INSA:5.5",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5",
+      "to": "INSA:5.6",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.5",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.6",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.7",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.8",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.9",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10",
+      "to": "INSA:10.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10",
+      "to": "INSA:10.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11",
+      "to": "INSA:12",
+      "type": "relates_to",
+      "confidence": 0.85
+    },
+    {
+      "from": "INSA:12",
+      "to": "INSA:13",
+      "type": "relates_to",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:10.2",
+      "to": "TOPIC:SafetyCase",
+      "type": "relates_to",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "TOPIC:SafetyEngineering",
+      "type": "relates_to",
+      "confidence": 0.95
+    },
+    {
+      "from": "INSA:4",
+      "to": "TOPIC:SafetyManagement",
+      "type": "relates_to",
+      "confidence": 0.95
+    },
+    {
+      "from": "INSA:12",
+      "to": "TOPIC:SafetyInService",
+      "type": "relates_to",
+      "confidence": 0.95
+    },
+    {
+      "from": "INSA:13",
+      "to": "TOPIC:ALARP",
+      "type": "relates_to",
+      "confidence": 0.9
+    },
+    {
+      "from": "INSA:1",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:ASEMS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4",
+      "to": "REF:ASEMS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4",
+      "to": "REF:POSMS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.5",
+      "to": "REF:DEFSTAN:05-057",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:0",
+      "to": "REF:KID",
+      "type": "references",
+      "confidence": 0.7
+    },
+    {
+      "from": "INSA:4.1",
+      "to": "REF:KID",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ],
+  "routing_guidance": {
+    "use_chapter_index_for": [
+      "high-level overview",
+      "document structure",
+      "broad topic areas"
+    ],
+    "use_section_index_for": [
+      "specific requirements",
+      "detailed procedures",
+      "technical content"
+    ],
+    "use_topic_index_for": [
+      "concept definitions",
+      "cross-cutting themes",
+      "related topics"
+    ],
+    "use_reference_index_for": [
+      "external standards",
+      "citations",
+      "dependencies"
+    ]
+  }
+}

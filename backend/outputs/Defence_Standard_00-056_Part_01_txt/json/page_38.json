@@ -1,0 +1,242 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:3.1",
+      "number": "3.1",
+      "title": "Information Set Safety Summary",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    },
+    {
+      "id": "INSA:3.2",
+      "number": "3.2",
+      "title": "Mitigation Strategies",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    },
+    {
+      "id": "INSA:3.3",
+      "number": "3.3",
+      "title": "Operating environment",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    },
+    {
+      "id": "INSA:3.4",
+      "number": "3.4",
+      "title": "PE Safety Requirement",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    },
+    {
+      "id": "INSA:3.5",
+      "number": "3.5",
+      "title": "Product",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    },
+    {
+      "id": "INSA:3.6",
+      "number": "3.6",
+      "title": "Programmable Element",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    },
+    {
+      "id": "INSA:3.7",
+      "number": "3.7",
+      "title": "Progress Report",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    },
+    {
+      "id": "INSA:3.8",
+      "number": "3.8",
+      "title": "Risk",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    },
+    {
+      "id": "INSA:3.9",
+      "number": "3.9",
+      "title": "Risk to Life",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    },
+    {
+      "id": "INSA:3.10",
+      "number": "3.10",
+      "title": "Regulator",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    },
+    {
+      "id": "INSA:3.11",
+      "number": "3.11",
+      "title": "Risk Estimation",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    },
+    {
+      "id": "INSA:3.12",
+      "number": "3.12",
+      "title": "Risk Management",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    },
+    {
+      "id": "INSA:3.13",
+      "number": "3.13",
+      "title": "Safe",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    },
+    {
+      "id": "INSA:3.14",
+      "number": "3.14",
+      "title": "Safety Analysis",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    },
+    {
+      "id": "INSA:3.15",
+      "number": "3.15",
+      "title": "Safety Audit",
+      "kind": "section",
+      "appears_on_pages": [
+        38
+      ],
+      "primary_page": 38
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:3.1",
+      "to": "INSA:3.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.1",
+      "to": "INSA:3.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.1",
+      "to": "INSA:3.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.1",
+      "to": "INSA:3.5",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.1",
+      "to": "INSA:3.6",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.1",
+      "to": "INSA:3.7",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.1",
+      "to": "INSA:3.8",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.1",
+      "to": "INSA:3.9",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.1",
+      "to": "INSA:3.10",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.1",
+      "to": "INSA:3.11",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.1",
+      "to": "INSA:3.12",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.1",
+      "to": "INSA:3.13",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.1",
+      "to": "INSA:3.14",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.1",
+      "to": "INSA:3.15",
+      "type": "contains",
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:9.2",
+      "number": "9.2",
+      "title": "Hazard Tracking",
+      "kind": "section",
+      "appears_on_pages": [
+        19
+      ],
+      "primary_page": 19
+    },
+    {
+      "id": "INSA:9.3",
+      "number": "9.3",
+      "title": "Safety Requirements",
+      "kind": "section",
+      "appears_on_pages": [
+        19
+      ],
+      "primary_page": 19
+    },
+    {
+      "id": "INSA:9.4",
+      "number": "9.4",
+      "title": "Safety Requirements Management",
+      "kind": "section",
+      "appears_on_pages": [
+        20
+      ],
+      "primary_page": 20
+    },
+    {
+      "id": "INSA:9.5",
+      "number": "9.5",
+      "title": "Design for Safety",
+      "kind": "section",
+      "appears_on_pages": [
+        20
+      ],
+      "primary_page": 20
+    },
+    {
+      "id": "INSA:9.6",
+      "number": "9.6",
+      "title": "Safety Analysis",
+      "kind": "section",
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:9.7",
+      "number": "9.7",
+      "title": "Failure Modes",
+      "kind": "section",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.8",
+      "number": "9.8",
+      "title": "Risk Estimation",
+      "kind": "section",
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "INSA:9.9",
+      "number": "9.9",
+      "title": "Risk and Compliance Evaluation",
+      "kind": "section",
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "INSA:9.10",
+      "number": "9.10",
+      "title": "Satisfaction of Requirements",
+      "kind": "section",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:10",
+      "number": "10",
+      "title": "Safety Reporting",
+      "kind": "section",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:10.1",
+      "number": "10.1",
+      "title": "Information Set Safety Summary",
+      "kind": "subsection",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:10.2",
+      "number": "10.2",
+      "title": "Safety Case",
+      "kind": "subsection",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:10.3",
+      "number": "10.3",
+      "title": "Safety Case Reports",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:11",
+      "number": "11",
+      "title": "Supply and Change Management",
+      "kind": "section",
+      "appears_on_pages": [
+        26
+      ],
+      "primary_page": 26
+    },
+    {
+      "id": "INSA:11.1",
+      "number": "11.1",
+      "title": "Build State Definition",
+      "kind": "subsection",
+      "appears_on_pages": [
+        26
+      ],
+      "primary_page": 26
+    },
+    {
+      "id": "INSA:11.2",
+      "number": "11.2",
+      "title": "Change Control",
+      "kind": "subsection",
+      "appears_on_pages": [
+        26
+      ],
+      "primary_page": 26
+    },
+    {
+      "id": "INSA:11.3",
+      "number": "11.3",
+      "title": "Planning for Change",
+      "kind": "subsection",
+      "appears_on_pages": [
+        26
+      ],
+      "primary_page": 26
+    },
+    {
+      "id": "INSA:11.4",
+      "number": "11.4",
+      "title": "Safety of Changes",
+      "kind": "subsection",
+      "appears_on_pages": [
+        27
+      ],
+      "primary_page": 27
+    },
+    {
+      "id": "INSA:11.5",
+      "number": "11.5",
+      "title": "Safe Update",
+      "kind": "subsection",
+      "appears_on_pages": [
+        27
+      ],
+      "primary_page": 27
+    },
+    {
+      "id": "INSA:11.6",
+      "number": "11.6",
+      "title": "Monitoring Change",
+      "kind": "subsection",
+      "appears_on_pages": [
+        27
+      ],
+      "primary_page": 27
+    },
+    {
+      "id": "INSA:11.7",
+      "number": "11.7",
+      "title": "Incorporating Change",
+      "kind": "subsection",
+      "appears_on_pages": [
+        27
+      ],
+      "primary_page": 27
+    },
+    {
+      "id": "INSA:12",
+      "number": "12",
+      "title": "Supporting Systems In-Service",
+      "kind": "section",
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    },
+    {
+      "id": "INSA:12.1",
+      "number": "12.1",
+      "title": "Management of Safety-Related In-Service Data",
+      "kind": "subsection",
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    },
+    {
+      "id": "INSA:12.2",
+      "number": "12.2",
+      "title": "Monitoring, Reporting and In-service Data Analysis",
+      "kind": "subsection",
+      "appears_on_pages": [
+        29
+      ],
+      "primary_page": 29
+    },
+    {
+      "id": "INSA:12.3",
+      "number": "12.3",
+      "title": "Remedial Action",
+      "kind": "subsection",
+      "appears_on_pages": [
+        29
+      ],
+      "primary_page": 29
+    },
+    {
+      "id": "INSA:13",
+      "number": "13",
+      "title": "Service Provision",
+      "kind": "section",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:13.1",
+      "number": "13.1",
+      "title": "Safety Case Report",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:13.2",
+      "number": "13.2",
+      "title": "Service Provision Planning",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:13.3",
+      "number": "13.3",
+      "title": "Risk Management",
+      "kind": "subsection",
+      "appears_on_pages": [
+        31
+      ],
+      "primary_page": 31
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:9.2",
+      "to": "INSA:9.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.3",
+      "to": "INSA:9.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.4",
+      "to": "INSA:9.5",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.5",
+      "to": "INSA:9.6",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.6",
+      "to": "INSA:9.7",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.8",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.8",
+      "to": "INSA:9.9",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.9",
+      "to": "INSA:9.10",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10",
+      "to": "INSA:10.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10.1",
+      "to": "INSA:10.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10.2",
+      "to": "INSA:10.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11",
+      "to": "INSA:11.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.1",
+      "to": "INSA:11.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.2",
+      "to": "INSA:11.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.3",
+      "to": "INSA:11.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.4",
+      "to": "INSA:11.5",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.5",
+      "to": "INSA:11.6",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.6",
+      "to": "INSA:11.7",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12",
+      "to": "INSA:12.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12.1",
+      "to": "INSA:12.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12.2",
+      "to": "INSA:12.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13",
+      "to": "INSA:13.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.1",
+      "to": "INSA:13.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.2",
+      "to": "INSA:13.3",
+      "type": "contains",
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:9.6.5",
+      "number": "9.6.5",
+      "title": "The contractor shall ensure that the safety analysis results remain consistent with the design.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7",
+      "number": "9.7",
+      "title": "Failure Modes",
+      "kind": "section",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.1",
+      "number": "9.7.1",
+      "title": "The contractor shall identify all potential failure modes that might contribute to a hazard in the PSS, or in any known interfacing or interacting PSS, whether extant or planned.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.2",
+      "number": "9.7.2",
+      "title": "The contractor shall ensure that the status of control of all identified failure modes that contribute to a hazard is visible throughout the contract.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.3",
+      "number": "9.7.3",
+      "title": "The contractor shall include, in the information set, information about all identified failure modes.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.4",
+      "number": "9.7.4",
+      "title": "The contractor shall include in the ISSS, information on the status of all identified failure modes.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.5",
+      "number": "9.7.5",
+      "title": "The contractor shall estimate the likelihood of occurrence and opportunities for mitigation for all identified failure modes that contribute to a hazard and record the results in the information set.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.6",
+      "number": "9.7.6",
+      "title": "The contractor shall identify and justify in the information set the units used for likelihood of occurrence estimates.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.7",
+      "number": "9.7.7",
+      "title": "The contractor shall employ systematic safety analysis processes for identification of failure modes which might contribute to a hazard in the PSS as defined in the SMP.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.8",
+      "number": "9.7.8",
+      "title": "The contractor shall ensure that human factors are considered where they might be a contributory cause of a failure mode.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.9",
+      "number": "9.7.9",
+      "title": "The contractor shall ensure that cyber security is considered where intentional or unintentional unauthorised electronic interactions might be a contributory cause of a failure mode.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.10",
+      "number": "9.7.10",
+      "title": "The contractor shall ensure that systematic failures are considered where they might be a contributory cause of a failure mode.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.11",
+      "number": "9.7.11",
+      "title": "The contractor shall ensure that the undesired impacts of normal functions are considered; this is especially important for contractors carrying out systems integration.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.12",
+      "number": "9.7.12",
+      "title": "The contractor shall update information on identified failure modes throughout the contract to ensure that it accurately reflects the status of the design, safety analysis and safety engineering activities.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.13",
+      "number": "9.7.13",
+      "title": "The contractor shall use qualitative estimates where it is not practicable to quantify likelihood.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.14",
+      "number": "9.7.14",
+      "title": "The contractor shall identify potential mitigations for the failure modes that contribute to a hazard where this is practicable; in particular they shall identify any observable attributes of the PSS which could be used as triggers for mitigations.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.15",
+      "number": "9.7.15",
+      "title": "The contractor shall consider human factors where they might provide risk mitigation.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.16",
+      "number": "9.7.16",
+      "title": "The contractor shall consider cyber security controls where they might provide risk mitigation.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.17",
+      "number": "9.7.17",
+      "title": "The contractor shall record the results of the failure mode assessment in the information set.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:9.7.18",
+      "number": "9.7.18",
+      "title": "The contractor shall record all assumptions, data, judgements and calculations underpinning the failure mode assessment in the information set.",
+      "kind": "subsection",
+      "appears_on_pages": [
+        25
+      ],
+      "primary_page": 25
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.5",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.6",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.7",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.8",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.9",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.10",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.11",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.12",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.13",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.14",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.15",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.16",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.17",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.7",
+      "to": "INSA:9.7.18",
+      "type": "contains",
+      "confidence": 1.0
+    }
+  ]
+}

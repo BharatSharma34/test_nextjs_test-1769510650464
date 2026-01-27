@@ -1,0 +1,20 @@
+flowchart TD
+subgraph Page_4 [Page 4]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_1_6d7f8e36["0.1 Introduction"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_2_c2209e8f["0.2 General guidance by UK Health and<br/>Safety Executive"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_3_1bc56724["0.3 Defence acquisition projects"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_4_540d95d5["0.4 Delivery of safety-related PSS"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_5_4d2abb09["0.5 UK MOD operating accountable persons"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_6_86f9ea16["0.6 Contractors' roles in safety of PSS"]
+    subgraph Page_4_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_GOVUK_f8258001["Secretary of State’s policy statement"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_HSE_1bcf83c0["UK Health and Safety Executive (HSE)"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_JSP815_c09d4351["Joint Service Publication (JSP) 815"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_KiD_83637946["KiD through the Defence gateway"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_1_6d7f8e36 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_GOVUK_f8258001
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_2_c2209e8f -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_HSE_1bcf83c0
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_2_c2209e8f -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_JSP815_c09d4351
+    DEFENCE_STANDARD_00_056_PART_01_INSA_0_3_1bc56724 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_KiD_83637946
+end

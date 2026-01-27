@@ -1,0 +1,1891 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEFENCE_STANDARD_00_056_PART_01",
+  "nodes": [
+    {
+      "id": "INSA:0.14",
+      "number": "0.14",
+      "title": "Requirements Grouping",
+      "kind": "section",
+      "summary": "Introduces how the standard\u2019s requirements are grouped and framed, including the main safety disciplines covered. It provides a conceptual map for navigating safety management, safety engineering, and in-service safety requirements.",
+      "keywords": [
+        "requirements grouping",
+        "safety management",
+        "safety engineering",
+        "in-service safety",
+        "structure"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          1
+        ],
+        "sections": [
+          "0.14"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:0.17",
+      "number": "0.17",
+      "title": "Requirements for safety achievement, assurance, and management",
+      "kind": "section",
+      "summary": "Sets out overarching expectations for achieving, assuring, and managing safety across the contracted scope. It anchors the standard\u2019s intent and links to related Defence Standard requirements.",
+      "keywords": [
+        "safety achievement",
+        "safety assurance",
+        "safety management",
+        "requirements",
+        "Def Stan 00-056 Part 2"
+      ],
+      "scope": {
+        "pages": [
+          6,
+          6
+        ],
+        "sections": [
+          "0.17"
+        ]
+      },
+      "appears_on_pages": [
+        6
+      ],
+      "primary_page": 6
+    },
+    {
+      "id": "INSA:1",
+      "number": "1",
+      "title": "Scope and Applicability",
+      "kind": "section",
+      "summary": "Defines the applicability of the standard and the responsibilities for safety between the contractor and UK MOD. It establishes the life-cycle perspective and the baseline context for safety case and health and safety considerations.",
+      "keywords": [
+        "scope",
+        "applicability",
+        "contractor responsibility",
+        "UK MOD",
+        "safety case"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          3
+        ],
+        "sections": [
+          "1",
+          "1.1",
+          "1.5"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        3
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:1.1",
+      "number": "1.1",
+      "title": "Purpose and Scope",
+      "kind": "subsection",
+      "summary": "States the purpose of the standard and the boundaries of what it covers for safety of deliverable PSS. It clarifies that requirements address achieving, assuring, and managing safety within the contract scope.",
+      "keywords": [
+        "purpose",
+        "scope",
+        "PSS",
+        "safety requirements",
+        "contract scope"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          3
+        ],
+        "sections": [
+          "1.1"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        3
+      ],
+      "primary_page": 3
+    },
+    {
+      "id": "INSA:1.5",
+      "number": "1.5",
+      "title": "Application of Standard",
+      "kind": "section",
+      "summary": "Explains how the standard is to be applied in contracts, including how accountability and safety management system expectations are interpreted. It provides the practical entry point for tailoring and applying requirements to a specific PSS contract.",
+      "keywords": [
+        "application",
+        "contract",
+        "accountability",
+        "safety management system",
+        "tailoring"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          1
+        ],
+        "sections": [
+          "1.5",
+          "1.5.1",
+          "1.5.2"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:1.5.1",
+      "number": "1.5.1",
+      "title": "Accountability and Responsibility",
+      "kind": "subsection",
+      "summary": "Specifies how accountability and responsibility for safety are to be defined and managed between parties. It supports consistent assignment of safety duties across the contract and lifecycle.",
+      "keywords": [
+        "accountability",
+        "responsibility",
+        "safety duties",
+        "contract roles",
+        "governance"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          1
+        ],
+        "sections": [
+          "1.5.1"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:1.5.2",
+      "number": "1.5.2",
+      "title": "Safety Management System",
+      "kind": "subsection",
+      "summary": "Introduces expectations for the contractor\u2019s safety management system as used to meet the standard\u2019s requirements. It links the standard\u2019s clauses to an organisational system for planning, control, and assurance.",
+      "keywords": [
+        "safety management system",
+        "contractor SMS",
+        "assurance",
+        "planning",
+        "governance"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          1
+        ],
+        "sections": [
+          "1.5.2"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:2",
+      "number": "2",
+      "title": "Technical Information",
+      "kind": "section",
+      "summary": "Provides the reference framework for the standard, including normative and informative sources used to interpret and apply requirements. It supports traceability to external standards and guidance.",
+      "keywords": [
+        "technical information",
+        "normative references",
+        "informative references",
+        "standards",
+        "guidance"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          10
+        ],
+        "sections": [
+          "2",
+          "2.1",
+          "2.2"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:2.1",
+      "number": "2.1",
+      "title": "Normative References",
+      "kind": "subsection",
+      "summary": "Lists the normative documents that are required for correct application of the standard. These references define mandatory external requirements and definitions that the standard relies upon.",
+      "keywords": [
+        "normative references",
+        "mandatory documents",
+        "external standards",
+        "compliance",
+        "requirements basis"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          1
+        ],
+        "sections": [
+          "2.1"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:2.2",
+      "number": "2.2",
+      "title": "Informative References",
+      "kind": "subsection",
+      "summary": "Lists supporting (non-mandatory) references that provide additional guidance for implementing the standard. It connects the standard to related MOD systems and widely used safety and engineering standards.",
+      "keywords": [
+        "informative references",
+        "guidance",
+        "ASEMS",
+        "IEC 61508",
+        "related Def Stan"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          10
+        ],
+        "sections": [
+          "2.2"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        10
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:3",
+      "number": "3",
+      "title": "Definitions",
+      "kind": "section",
+      "summary": "Defines key terms and how mandatory requirements and notes are to be interpreted within the standard. It provides the vocabulary and interpretation rules needed for consistent application and compliance assessment.",
+      "keywords": [
+        "definitions",
+        "terms",
+        "mandatory requirements",
+        "interpretation",
+        "notes"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          11
+        ],
+        "sections": [
+          "3",
+          "3.1",
+          "3.2",
+          "3.3"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:3.2",
+      "number": "3.2",
+      "title": "Mandatory Requirements",
+      "kind": "subsection",
+      "summary": "Explains how mandatory requirements are expressed and should be interpreted (e.g., use of \u201cshall\u201d). It supports consistent compliance evaluation and links to authoritative glossaries/process references where relevant.",
+      "keywords": [
+        "mandatory requirements",
+        "shall",
+        "compliance",
+        "interpretation",
+        "MAA references"
+      ],
+      "scope": {
+        "pages": [
+          11,
+          11
+        ],
+        "sections": [
+          "3.2"
+        ]
+      },
+      "appears_on_pages": [
+        11
+      ],
+      "primary_page": 11
+    },
+    {
+      "id": "INSA:4",
+      "number": "4",
+      "title": "Safety Management System",
+      "kind": "section",
+      "summary": "Specifies the safety management system expectations, including planning, agreement, review/update, and progress reporting. It links the contractor\u2019s safety management plan and governance activities to recognised MOD and regulatory guidance.",
+      "keywords": [
+        "safety management system",
+        "safety management plan",
+        "agreement",
+        "review and update",
+        "progress reporting"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          12
+        ],
+        "sections": [
+          "4",
+          "4.1",
+          "4.2",
+          "4.3",
+          "4.4"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4.1",
+      "number": "4.1",
+      "title": "Safety Management Plan",
+      "kind": "subsection",
+      "summary": "Defines the role and expected content of the Safety Management Plan (SMP) as the primary planning and control artefact for safety activities. It positions the SMP within MOD guidance and related safety management frameworks.",
+      "keywords": [
+        "Safety Management Plan",
+        "SMP",
+        "planning",
+        "safety governance",
+        "MOD guidance"
+      ],
+      "scope": {
+        "pages": [
+          12,
+          12
+        ],
+        "sections": [
+          "4.1"
+        ]
+      },
+      "appears_on_pages": [
+        12
+      ],
+      "primary_page": 12
+    },
+    {
+      "id": "INSA:5.2",
+      "number": "5.2",
+      "title": "Legislation, Regulations, Standards, Policy and Approved Codes of Practice",
+      "kind": "section",
+      "summary": "Requires identification, documentation, and agreement of applicable legal and policy obligations and relevant standards/codes of practice. It ensures the safety approach is aligned with external regulatory and MOD policy expectations.",
+      "keywords": [
+        "legislation",
+        "regulations",
+        "policy",
+        "approved codes of practice",
+        "compliance"
+      ],
+      "scope": {
+        "pages": [
+          14,
+          14
+        ],
+        "sections": [
+          "5.2",
+          "5.2.1",
+          "5.2.2",
+          "5.2.3"
+        ]
+      },
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "INSA:5.5",
+      "number": "5.5",
+      "title": "Information Management",
+      "kind": "section",
+      "summary": "Defines how safety information is to be managed, including visibility of safety activities, definition and maintenance of the information set, and configuration/consistency controls. It establishes expectations for preserving, accessing, and securing safety-relevant information over time.",
+      "keywords": [
+        "information management",
+        "information set",
+        "configuration management",
+        "accessibility",
+        "security"
+      ],
+      "scope": {
+        "pages": [
+          15,
+          16
+        ],
+        "sections": [
+          "5.5",
+          "5.5.1",
+          "5.5.2",
+          "5.5.3",
+          "5.5.4"
+        ]
+      },
+      "appears_on_pages": [
+        15
+      ],
+      "primary_page": 15
+    },
+    {
+      "id": "INSA:6.3.4",
+      "number": "6.3.4",
+      "title": "Contractors shall ensure that competent personnel are appointed",
+      "kind": "section",
+      "summary": "Requires appointment of competent personnel for safety-relevant roles and points to recognised competence frameworks and guidance. It supports assurance that safety tasks are performed by suitably qualified practitioners.",
+      "keywords": [
+        "competence",
+        "safety practitioners",
+        "appointment",
+        "evidence",
+        "competence frameworks"
+      ],
+      "scope": {
+        "pages": [
+          19,
+          19
+        ],
+        "sections": [
+          "6.3.4"
+        ]
+      },
+      "appears_on_pages": [
+        19
+      ],
+      "primary_page": 19
+    },
+    {
+      "id": "INSA:8",
+      "number": "8",
+      "title": "Safety Audits",
+      "kind": "section",
+      "summary": "Defines the audit regime for safety, including audit planning, reporting, independence, and remedial action. It establishes assurance mechanisms to verify that safety management and engineering activities are effective and compliant.",
+      "keywords": [
+        "safety audits",
+        "audit report",
+        "independence",
+        "independent safety audit",
+        "remedial action"
+      ],
+      "scope": {
+        "pages": [
+          20,
+          21
+        ],
+        "sections": [
+          "8",
+          "8.1",
+          "8.2",
+          "8.3",
+          "8.4"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:8.2",
+      "number": "8.2",
+      "title": "Contractor Safety Auditor Independence",
+      "kind": "section",
+      "summary": "Specifies independence requirements for the Contractor Safety Auditor (CSA) to ensure objective assurance. It links to external codes of practice for independent safety assessors/auditors.",
+      "keywords": [
+        "contractor safety auditor",
+        "independence",
+        "assurance",
+        "audit governance",
+        "COPISA"
+      ],
+      "scope": {
+        "pages": [
+          21,
+          21
+        ],
+        "sections": [
+          "8.2",
+          "8.2.1"
+        ]
+      },
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:9",
+      "number": "9",
+      "title": "Safety Requirements, Hazard and Risk Analysis",
+      "kind": "section",
+      "summary": "Covers the core safety engineering workflow: hazard identification, hazard tracking, safety requirements definition/management, safety analysis, and risk estimation/evaluation. It provides the main technical requirements for demonstrating and managing safety risk across the PSS lifecycle.",
+      "keywords": [
+        "hazard analysis",
+        "risk analysis",
+        "safety requirements",
+        "hazard log",
+        "risk evaluation"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          27
+        ],
+        "sections": [
+          "9",
+          "9.1",
+          "9.2",
+          "9.3",
+          "9.4",
+          "9.5",
+          "9.6",
+          "9.7",
+          "9.8",
+          "9.9",
+          "9.10"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:9.1",
+      "number": "9.1",
+      "title": "Hazards and Accidents",
+      "kind": "section",
+      "summary": "Specifies requirements for identifying hazards and potential accidents and applying systematic analysis processes, including consideration of human factors and cyber security. It sets the foundation for subsequent hazard tracking and risk management activities.",
+      "keywords": [
+        "hazard identification",
+        "accidents",
+        "systematic analysis",
+        "human factors",
+        "cyber security"
+      ],
+      "scope": {
+        "pages": [
+          21,
+          22
+        ],
+        "sections": [
+          "9.1",
+          "9.1.1",
+          "9.1.2",
+          "9.1.3",
+          "9.1.4",
+          "9.1.5",
+          "9.1.6",
+          "9.1.7"
+        ]
+      },
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:9.2",
+      "number": "9.2",
+      "title": "Hazard Tracking",
+      "kind": "section",
+      "summary": "Defines how hazards are to be tracked and controlled, including maintaining a hazard log and producing hazard log reports. It ensures visibility of hazard status and control effectiveness throughout the contract.",
+      "keywords": [
+        "hazard tracking",
+        "hazard log",
+        "hazard log reports",
+        "visibility",
+        "control status"
+      ],
+      "scope": {
+        "pages": [
+          19,
+          22
+        ],
+        "sections": [
+          "9.2",
+          "9.2.1",
+          "9.2.2",
+          "9.2.3",
+          "9.2.4"
+        ]
+      },
+      "appears_on_pages": [
+        19
+      ],
+      "primary_page": 19
+    },
+    {
+      "id": "INSA:9.3",
+      "number": "9.3",
+      "title": "Safety Requirements",
+      "kind": "section",
+      "summary": "Specifies how safety requirements are identified, documented, and tracked, including derived safety requirements. It provides the linkage between hazard analysis outputs and formal requirements baselines.",
+      "keywords": [
+        "safety requirements",
+        "derived requirements",
+        "identification",
+        "documentation",
+        "tracking"
+      ],
+      "scope": {
+        "pages": [
+          19,
+          22
+        ],
+        "sections": [
+          "9.3",
+          "9.3.1",
+          "9.3.2",
+          "9.3.3"
+        ]
+      },
+      "appears_on_pages": [
+        19
+      ],
+      "primary_page": 19
+    },
+    {
+      "id": "INSA:9.4",
+      "number": "9.4",
+      "title": "Safety Requirements Management",
+      "kind": "section",
+      "summary": "Defines management controls for safety requirements, including bi-directional traceability, validation, and evidence of fulfillment, and integration with the hazard log. It ensures requirements remain controlled, justified, and demonstrably satisfied.",
+      "keywords": [
+        "requirements management",
+        "traceability",
+        "validation",
+        "evidence",
+        "hazard log integration"
+      ],
+      "scope": {
+        "pages": [
+          20,
+          23
+        ],
+        "sections": [
+          "9.4",
+          "9.4.1",
+          "9.4.2",
+          "9.4.3",
+          "9.4.4"
+        ]
+      },
+      "appears_on_pages": [
+        20
+      ],
+      "primary_page": 20
+    },
+    {
+      "id": "INSA:9.5",
+      "number": "9.5",
+      "title": "Design for Safety",
+      "kind": "section",
+      "summary": "Specifies how design activities must address safety requirements through mitigation strategy identification, implementation, and management. It connects safety requirements to design decisions and the demonstration of mitigation effectiveness.",
+      "keywords": [
+        "design for safety",
+        "mitigation strategies",
+        "derived requirements",
+        "allocation",
+        "effectiveness"
+      ],
+      "scope": {
+        "pages": [
+          20,
+          24
+        ],
+        "sections": [
+          "9.5",
+          "9.5.1",
+          "9.5.2",
+          "9.5.3",
+          "9.5.4",
+          "9.5.5",
+          "9.5.6",
+          "9.5.7",
+          "9.5.8",
+          "9.5.9",
+          "9.5.10"
+        ]
+      },
+      "appears_on_pages": [
+        20
+      ],
+      "primary_page": 20
+    },
+    {
+      "id": "INSA:9.6",
+      "number": "9.6",
+      "title": "Safety Analysis",
+      "kind": "section",
+      "summary": "Defines expectations for conducting, covering, using, and documenting safety analysis, and maintaining consistency with the evolving design. It supports evidence generation for safety case arguments and requirement satisfaction.",
+      "keywords": [
+        "safety analysis",
+        "coverage",
+        "documentation",
+        "design consistency",
+        "evidence"
+      ],
+      "scope": {
+        "pages": [
+          21,
+          25
+        ],
+        "sections": [
+          "9.6",
+          "9.6.1",
+          "9.6.2",
+          "9.6.3",
+          "9.6.4",
+          "9.6.5"
+        ]
+      },
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "INSA:9.7",
+      "number": "9.7",
+      "title": "Failure Modes",
+      "kind": "section",
+      "summary": "Requires identification and management of failure modes contributing to hazards, including visibility of control status and recording assumptions, data, and results. It ensures failure mode analysis supports hazard control and risk estimation across interfacing systems.",
+      "keywords": [
+        "failure modes",
+        "hazard contribution",
+        "assumptions",
+        "visibility",
+        "information set"
+      ],
+      "scope": {
+        "pages": [
+          22,
+          25
+        ],
+        "sections": [
+          "9.7",
+          "9.7.1",
+          "9.7.2",
+          "9.7.3",
+          "9.7.4",
+          "9.7.5",
+          "9.7.6",
+          "9.7.7",
+          "9.7.8",
+          "9.7.9",
+          "9.7.10",
+          "9.7.11",
+          "9.7.12",
+          "9.7.13",
+          "9.7.14",
+          "9.7.15",
+          "9.7.16",
+          "9.7.17",
+          "9.7.18"
+        ]
+      },
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.8",
+      "number": "9.8",
+      "title": "Risk Estimation",
+      "kind": "section",
+      "summary": "Defines the process for estimating risk, including qualitative assessment, residual risk determination, and documentation. It supports consistent risk quantification/qualification and links to relevant standards where applicable.",
+      "keywords": [
+        "risk estimation",
+        "qualitative risk",
+        "residual risk",
+        "documentation",
+        "risk assessment process"
+      ],
+      "scope": {
+        "pages": [
+          23,
+          26
+        ],
+        "sections": [
+          "9.8",
+          "9.8.1",
+          "9.8.2",
+          "9.8.3",
+          "9.8.4"
+        ]
+      },
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "INSA:9.9",
+      "number": "9.9",
+      "title": "Risk and Compliance Evaluation",
+      "kind": "section",
+      "summary": "Specifies how estimated risks are evaluated against risk-to-life and other criteria, and how compliance is assessed and recorded. It provides the decision basis for acceptability and required mitigations or actions.",
+      "keywords": [
+        "risk evaluation",
+        "risk to life",
+        "risk criteria",
+        "compliance evaluation",
+        "recording results"
+      ],
+      "scope": {
+        "pages": [
+          23,
+          26
+        ],
+        "sections": [
+          "9.9",
+          "9.9.1",
+          "9.9.2",
+          "9.9.3",
+          "9.9.4",
+          "9.9.5"
+        ]
+      },
+      "appears_on_pages": [
+        23
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "INSA:9.10",
+      "number": "9.10",
+      "title": "Satisfaction of Requirements",
+      "kind": "section",
+      "summary": "Requires evidence-based demonstration that safety requirements (including derived requirements) have been met, and that methods can detect counter-evidence. It ties systems engineering activities and chosen verification/validation approaches back into the SMP.",
+      "keywords": [
+        "satisfaction of requirements",
+        "evidence",
+        "verification and validation",
+        "counter-evidence",
+        "systems engineering"
+      ],
+      "scope": {
+        "pages": [
+          24,
+          27
+        ],
+        "sections": [
+          "9.10",
+          "9.10.1",
+          "9.10.2",
+          "9.10.3",
+          "9.10.4"
+        ]
+      },
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:10",
+      "number": "10",
+      "title": "Safety Reporting",
+      "kind": "section",
+      "summary": "Defines required safety reporting outputs, including the Information Set Safety Summary (ISSS), Safety Case, and Safety Case Reports. It establishes how safety evidence and arguments are packaged and communicated to stakeholders for assurance and decision-making.",
+      "keywords": [
+        "safety reporting",
+        "ISSS",
+        "safety case",
+        "safety case reports",
+        "evidence communication"
+      ],
+      "scope": {
+        "pages": [
+          24,
+          28
+        ],
+        "sections": [
+          "10",
+          "10.1",
+          "10.2",
+          "10.3"
+        ]
+      },
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:10.1",
+      "number": "10.1",
+      "title": "Information Set Safety Summary",
+      "kind": "subsection",
+      "summary": "Specifies the ISSS as a structured summary drawn from the information set to provide visibility of safety engineering and analysis progress. It ensures integrators and operators receive sufficient information on assumptions, limitations, and scope.",
+      "keywords": [
+        "ISSS",
+        "information set",
+        "safety summary",
+        "assumptions and limitations",
+        "incremental delivery"
+      ],
+      "scope": {
+        "pages": [
+          24,
+          27
+        ],
+        "sections": [
+          "10.1",
+          "10.1.1",
+          "10.1.2",
+          "10.1.3",
+          "10.1.4",
+          "10.1.5"
+        ]
+      },
+      "appears_on_pages": [
+        24,
+        27
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:10.2",
+      "number": "10.2",
+      "title": "Safety Case",
+      "kind": "subsection",
+      "summary": "Defines the safety case as a structured argument supported by evidence from the information set, addressing safety across the required lifecycle scope. It includes expectations for compliance evidence, handling residual shortfalls, and maintaining/refining the safety case.",
+      "keywords": [
+        "safety case",
+        "structured argument",
+        "evidence",
+        "lifecycle",
+        "residual shortfalls"
+      ],
+      "scope": {
+        "pages": [
+          24,
+          28
+        ],
+        "sections": [
+          "10.2",
+          "10.2.1",
+          "10.2.2",
+          "10.2.3",
+          "10.2.4",
+          "10.2.5",
+          "10.2.6",
+          "10.2.7",
+          "10.2.8",
+          "10.2.10",
+          "10.2.12"
+        ]
+      },
+      "appears_on_pages": [
+        24,
+        27,
+        28
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:10.3",
+      "number": "10.3",
+      "title": "Safety Case Reports",
+      "kind": "subsection",
+      "summary": "Specifies the content and purpose of safety case reports as deliverables that present key elements of the safety argument and evidence. It requires reporting of assumptions/limitations and rationale for operation where evidence shortfalls exist.",
+      "keywords": [
+        "safety case reports",
+        "safety argument",
+        "evidence",
+        "assumptions",
+        "residual risk rationale"
+      ],
+      "scope": {
+        "pages": [
+          25,
+          28
+        ],
+        "sections": [
+          "10.3",
+          "10.3.1",
+          "10.3.2",
+          "10.3.3",
+          "10.3.4"
+        ]
+      },
+      "appears_on_pages": [
+        25,
+        28
+      ],
+      "primary_page": 25
+    },
+    {
+      "id": "INSA:11",
+      "number": "11",
+      "title": "Supply and Change Management",
+      "kind": "section",
+      "summary": "Defines how supply state and changes are controlled to preserve safety, including build state definition, change control, planning, and monitoring. It ensures safety impacts of changes are assessed and reflected in the information set and safety case.",
+      "keywords": [
+        "change management",
+        "build state definition",
+        "change control",
+        "safety of changes",
+        "safe update"
+      ],
+      "scope": {
+        "pages": [
+          26,
+          31
+        ],
+        "sections": [
+          "11",
+          "11.1",
+          "11.2",
+          "11.3",
+          "11.4",
+          "11.5",
+          "11.6",
+          "11.7"
+        ]
+      },
+      "appears_on_pages": [
+        26
+      ],
+      "primary_page": 26
+    },
+    {
+      "id": "INSA:11.2",
+      "number": "11.2",
+      "title": "Change Control",
+      "kind": "subsection",
+      "summary": "Specifies the controls and governance for managing changes that may affect safety, including coordination with safety case considerations. It provides the mechanism to ensure changes are assessed, agreed, and tracked.",
+      "keywords": [
+        "change control",
+        "configuration control",
+        "safety impact",
+        "governance",
+        "safety case linkage"
+      ],
+      "scope": {
+        "pages": [
+          26,
+          26
+        ],
+        "sections": [
+          "11.2"
+        ]
+      },
+      "appears_on_pages": [
+        26
+      ],
+      "primary_page": 26
+    },
+    {
+      "id": "INSA:12",
+      "number": "12",
+      "title": "Supporting Systems In-Service",
+      "kind": "section",
+      "summary": "Defines requirements for managing safety once systems are in service, including data management, monitoring/reporting, analysis, and remedial action. It ensures operational feedback informs the safety case and ongoing risk control.",
+      "keywords": [
+        "in-service safety",
+        "data management",
+        "monitoring and reporting",
+        "analysis",
+        "remedial action"
+      ],
+      "scope": {
+        "pages": [
+          28,
+          32
+        ],
+        "sections": [
+          "12",
+          "12.1",
+          "12.2",
+          "12.3"
+        ]
+      },
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    },
+    {
+      "id": "INSA:12.2",
+      "number": "12.2",
+      "title": "Monitoring, Reporting and In-service Data Analysis",
+      "kind": "subsection",
+      "summary": "Requires processes for collecting, analysing, and documenting safety-relevant in-service data, including incidents and near misses, and for updating the safety case accordingly. It also covers stakeholder notification, legislative monitoring, and FRACAS liaison where applicable.",
+      "keywords": [
+        "in-service data",
+        "monitoring and reporting",
+        "incident analysis",
+        "FRACAS",
+        "safety case review"
+      ],
+      "scope": {
+        "pages": [
+          29,
+          32
+        ],
+        "sections": [
+          "12.2",
+          "12.2.1",
+          "12.2.2",
+          "12.2.3",
+          "12.2.4",
+          "12.2.5",
+          "12.2.6",
+          "12.2.7",
+          "12.2.8",
+          "12.2.9"
+        ]
+      },
+      "appears_on_pages": [
+        29,
+        32
+      ],
+      "primary_page": 29
+    },
+    {
+      "id": "INSA:13",
+      "number": "13",
+      "title": "Service Provision",
+      "kind": "section",
+      "summary": "Specifies safety requirements for service provision, including safety case reporting for services, service planning, and risk management during operations. It ensures services are planned and controlled to manage risk to life and support accountable persons.",
+      "keywords": [
+        "service provision",
+        "service planning",
+        "safety case report",
+        "risk management",
+        "risk to life"
+      ],
+      "scope": {
+        "pages": [
+          30,
+          34
+        ],
+        "sections": [
+          "13",
+          "13.1",
+          "13.2",
+          "13.3"
+        ]
+      },
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:13.3",
+      "number": "13.3",
+      "title": "Risk Management",
+      "kind": "subsection",
+      "summary": "Defines risk management expectations during service provision, including support to UK MOD for predicted or emergent risk to life and coordination with accountable persons for interfacing services. It introduces the ALARP concept as part of the risk decision framework.",
+      "keywords": [
+        "risk management",
+        "risk to life",
+        "accountable persons",
+        "ALARP",
+        "service interfaces"
+      ],
+      "scope": {
+        "pages": [
+          31,
+          34
+        ],
+        "sections": [
+          "13.3",
+          "13.3.1",
+          "13.3.2",
+          "13.3.3"
+        ]
+      },
+      "appears_on_pages": [
+        31,
+        34
+      ],
+      "primary_page": 31
+    },
+    {
+      "id": "REF:DEFSTAN:00-055",
+      "number": "",
+      "title": "Defence Standard 00-055",
+      "kind": "reference",
+      "summary": "External Defence Standard referenced for safety-related requirements, including programmable elements and related safety practices. It is used as a supporting or normative basis in multiple clauses of the document.",
+      "keywords": [
+        "Def Stan 00-055",
+        "programmable elements",
+        "safety requirements",
+        "defence standard",
+        "compliance"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          35
+        ],
+        "sections": []
+      },
+      "appears_on_pages": [
+        1,
+        10,
+        22,
+        28,
+        34,
+        35
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "REF:IEC:61508",
+      "number": "",
+      "title": "IEC 61508 Functional Safety of Electrical/Electronic/Programmable Electronic Safety-Related Systems",
+      "kind": "reference",
+      "summary": "International functional safety standard referenced as guidance for safety-related E/E/PE systems. It supports alignment of safety lifecycle and integrity practices with widely accepted functional safety principles.",
+      "keywords": [
+        "IEC 61508",
+        "functional safety",
+        "E/E/PE systems",
+        "safety lifecycle",
+        "safety integrity"
+      ],
+      "scope": {
+        "pages": [
+          10,
+          10
+        ],
+        "sections": []
+      },
+      "appears_on_pages": [
+        10
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:DEFSTAN:05-057",
+      "number": "",
+      "title": "Def Stan 05-057 Configuration Management of Defence Materiel",
+      "kind": "reference",
+      "summary": "Defence Standard referenced for configuration management practices relevant to controlling safety-related information and changes. It supports consistent configuration control across deliverables and lifecycle updates.",
+      "keywords": [
+        "Def Stan 05-057",
+        "configuration management",
+        "change control",
+        "information consistency",
+        "defence materiel"
+      ],
+      "scope": {
+        "pages": [
+          10,
+          15
+        ],
+        "sections": []
+      },
+      "appears_on_pages": [
+        10,
+        15
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:DEFSTAN:05-138",
+      "number": "",
+      "title": "Def Stan 05-138 Cyber Security for Defence Suppliers",
+      "kind": "reference",
+      "summary": "Defence Standard referenced for cyber security expectations that intersect with safety, particularly in hazard analysis and risk estimation. It supports addressing cyber-related contributors to hazards and failures.",
+      "keywords": [
+        "Def Stan 05-138",
+        "cyber security",
+        "defence suppliers",
+        "hazard analysis",
+        "risk"
+      ],
+      "scope": {
+        "pages": [
+          10,
+          22
+        ],
+        "sections": []
+      },
+      "appears_on_pages": [
+        10,
+        22
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:DEFSTAN:00-251",
+      "number": "",
+      "title": "Def Stan 00-251 Human Factors Integration for Defence Systems",
+      "kind": "reference",
+      "summary": "Defence Standard referenced for integrating human factors into defence systems, supporting hazard analysis and safety engineering. It provides guidance for considering human contribution to hazards, failures, and mitigations.",
+      "keywords": [
+        "Def Stan 00-251",
+        "human factors",
+        "integration",
+        "hazard analysis",
+        "defence systems"
+      ],
+      "scope": {
+        "pages": [
+          10,
+          22
+        ],
+        "sections": []
+      },
+      "appears_on_pages": [
+        10,
+        22
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:STPA-HANDBOOK",
+      "number": "",
+      "title": "STPA Handbook",
+      "kind": "reference",
+      "summary": "Reference source for System-Theoretic Process Analysis (STPA) used as a hazard analysis approach. It supports systematic identification of hazards and unsafe control actions beyond traditional failure-based methods.",
+      "keywords": [
+        "STPA",
+        "hazard analysis",
+        "system theoretic",
+        "unsafe control actions",
+        "handbook"
+      ],
+      "scope": {
+        "pages": [
+          21,
+          21
+        ],
+        "sections": []
+      },
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "REF:IET-COPISA",
+      "number": "",
+      "title": "IET Code of Practice for Independent Safety Assessors (COPISA)",
+      "kind": "reference",
+      "summary": "External code of practice referenced to support independence and good practice for independent safety assessment/audit roles. It provides a benchmark for auditor independence and professional conduct.",
+      "keywords": [
+        "IET",
+        "COPISA",
+        "independent safety assessor",
+        "audit independence",
+        "code of practice"
+      ],
+      "scope": {
+        "pages": [
+          21,
+          21
+        ],
+        "sections": []
+      },
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "REF:JSP:822",
+      "number": "",
+      "title": "JSP 822",
+      "kind": "reference",
+      "summary": "Joint Service Publication referenced in the context of service risk management and safety governance. It supports alignment of service provision risk controls with MOD policy and processes.",
+      "keywords": [
+        "JSP 822",
+        "MOD policy",
+        "risk management",
+        "service provision",
+        "governance"
+      ],
+      "scope": {
+        "pages": [
+          34,
+          34
+        ],
+        "sections": []
+      },
+      "appears_on_pages": [
+        34
+      ],
+      "primary_page": 34
+    },
+    {
+      "id": "TOPIC:SafetyCase",
+      "number": "",
+      "title": "Safety Case",
+      "kind": "topic",
+      "summary": "A structured safety argument supported by evidence demonstrating that a system is acceptably safe for a defined application and environment. It is a central concept used across reporting, change management, and assurance activities.",
+      "keywords": [
+        "safety case",
+        "structured argument",
+        "evidence",
+        "assurance",
+        "lifecycle"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          39
+        ],
+        "sections": [
+          "10.2"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        24,
+        27,
+        39
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:ALARP",
+      "number": "",
+      "title": "ALARP principle",
+      "kind": "topic",
+      "summary": "Defines the principle of reducing risk As Low As Reasonably Practicable as part of the risk decision framework. It is used to guide acceptability decisions and prioritisation of mitigations for risk to life.",
+      "keywords": [
+        "ALARP",
+        "risk acceptability",
+        "reasonably practicable",
+        "mitigation",
+        "risk to life"
+      ],
+      "scope": {
+        "pages": [
+          34,
+          36
+        ],
+        "sections": [
+          "13.3"
+        ]
+      },
+      "appears_on_pages": [
+        34,
+        36
+      ],
+      "primary_page": 34
+    },
+    {
+      "id": "TOPIC:SafetyManagement",
+      "number": "",
+      "title": "Safety Management",
+      "kind": "topic",
+      "summary": "Covers the organisational planning, governance, and control activities used to manage safety across the contract and lifecycle. It frames how safety responsibilities, plans, and assurance activities are structured.",
+      "keywords": [
+        "safety management",
+        "governance",
+        "planning",
+        "assurance",
+        "responsibilities"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          1
+        ],
+        "sections": [
+          "0.14"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:SafetyEngineering",
+      "number": "",
+      "title": "Safety Engineering",
+      "kind": "topic",
+      "summary": "Represents the technical activities used to identify hazards, derive and manage safety requirements, and design/verify mitigations. It underpins the evidence and argumentation used in safety reporting and safety cases.",
+      "keywords": [
+        "safety engineering",
+        "hazard analysis",
+        "requirements",
+        "mitigation",
+        "verification"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          1
+        ],
+        "sections": [
+          "0.14"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:SafetyInService",
+      "number": "",
+      "title": "Safety In-Service",
+      "kind": "topic",
+      "summary": "Covers safety management and assurance once systems are operational, including monitoring, reporting, data analysis, and remedial action. It ensures operational feedback informs ongoing risk control and safety case maintenance.",
+      "keywords": [
+        "in-service safety",
+        "monitoring",
+        "reporting",
+        "data analysis",
+        "remedial action"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          32
+        ],
+        "sections": [
+          "0.14",
+          "12"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:0.14",
+      "to": "TOPIC:SafetyManagement",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:0.14",
+      "to": "TOPIC:SafetyEngineering",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:0.14",
+      "to": "TOPIC:SafetyInService",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:0.17",
+      "to": "REF:DEFSTAN:00-056-2",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:1.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:1.5",
+      "type": "contains",
+      "confidence": 0.9
+    },
+    {
+      "from": "INSA:1",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:1",
+      "to": "TOPIC:SafetyCase",
+      "type": "relates_to",
+      "confidence": 0.9
+    },
+    {
+      "from": "INSA:2",
+      "to": "INSA:2.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2",
+      "to": "INSA:2.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:IEC:61508",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:DEFSTAN:00-251",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:DEFSTAN:05-057",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2.2",
+      "to": "REF:DEFSTAN:05-138",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3",
+      "to": "INSA:3.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:4",
+      "to": "INSA:4.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.2",
+      "to": "REF:POSMS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.2",
+      "to": "REF:HSE_ACOP",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.2",
+      "to": "REF:DCOP",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.5",
+      "to": "REF:DEFSTAN:05-057",
+      "type": "references",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:6.3.4",
+      "to": "REF:MCSRP",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.3.4",
+      "to": "REF:COPCSRSP",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:8",
+      "to": "INSA:8.2",
+      "type": "contains",
+      "confidence": 0.9
+    },
+    {
+      "from": "INSA:8.2",
+      "to": "REF:IET-COPISA",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.5",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.6",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.7",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.8",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.9",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "INSA:9.10",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9",
+      "to": "REF:STPA-HANDBOOK",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.1",
+      "to": "REF:DEFSTAN:05-138",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.1",
+      "to": "REF:DEFSTAN:00-251",
+      "type": "references",
+      "confidence": 0.9
+    },
+    {
+      "from": "INSA:9.8",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 0.9
+    },
+    {
+      "from": "INSA:10",
+      "to": "INSA:10.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10",
+      "to": "INSA:10.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10",
+      "to": "INSA:10.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:10.2",
+      "to": "TOPIC:SafetyCase",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11",
+      "to": "INSA:11.2",
+      "type": "contains",
+      "confidence": 0.9
+    },
+    {
+      "from": "INSA:11.2",
+      "to": "TOPIC:SafetyCase",
+      "type": "relates_to",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12",
+      "to": "INSA:12.2",
+      "type": "contains",
+      "confidence": 0.9
+    },
+    {
+      "from": "INSA:12.2",
+      "to": "REF:FRACAS",
+      "type": "references",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:13",
+      "to": "INSA:13.3",
+      "type": "contains",
+      "confidence": 0.9
+    },
+    {
+      "from": "INSA:13.3",
+      "to": "REF:JSP:822",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.3",
+      "to": "TOPIC:ALARP",
+      "type": "defines",
+      "confidence": 1.0
+    }
+  ]
+}

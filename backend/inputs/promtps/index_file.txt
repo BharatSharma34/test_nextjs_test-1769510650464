@@ -1,0 +1,139 @@
+You are an expert at creating document overview graphs for query classification and routing.
+
+INPUT:
+- A JSON object representing a master document graph with nodes and edges
+- The graph contains structural nodes (chapters, sections, subsections), topics, and references
+
+TASK:
+Generate a QUERY CLASSIFICATION INDEX that serves as a lightweight document overview for query routing.
+
+OBJECTIVE:
+Produce a compact, high-level index that enables an LLM to:
+- Quickly understand the document's structure and content areas
+- Classify incoming queries by type and topic
+- Route queries to the appropriate detailed indices (Chapter, Section, Topic, Reference)
+- Identify relevant sections without loading full detail
+
+THIS INDEX IS NOT FOR DIRECT RETRIEVAL - it's for query understanding and routing decisions.
+
+TRANSFORMATION RULES:
+
+1. Node Selection - Create Comprehensive Overview
+   - Include ALL chapters and major sections (kind: "chapter", "section")
+   - Include high-level subsections that represent distinct topic areas
+   - Include prominent topic nodes that are cross-cutting themes
+   - Include frequently-cited reference nodes (2+ citations)
+   - Target: 25-40 nodes for balanced coverage
+
+2. Node Merging & Deduplication
+   - Merge identical titles across pages into ONE node
+   - Keep lowest page number as primary_page
+   - Track all pages in appears_on_pages array
+
+3. Hierarchy Preservation
+   - Maintain clear parent-child structure (chapters → sections → subsections)
+   - Use "contains" edges to show structural relationships
+   - Use "references" edges to show external dependencies
+
+4. Rich Metadata for Query Classification
+   For EACH node, generate comprehensive metadata to enable query routing:
+
+   - summary: 2-3 sentences (MORE detail than other indices) that capture:
+     * Detailed description of what this section covers
+     * Specific requirements, processes, or concepts explained
+     * Key questions this section answers
+     * Technical vs. conceptual nature of content
+
+   - keywords: 5-7 key terms (MORE than other indices) including:
+     * Primary topic names and themes
+     * Technical terminology and domain-specific terms
+     * Processes, methods, or systems described
+     * Related concepts and cross-references
+     * Question-style keywords (e.g., "how to", "requirements for", "definition of")
+
+   - content_type: Classify the nature of this section's content:
+     * "definitional" - defines terms, concepts, or standards
+     * "procedural" - describes processes, methods, or how-to steps
+     * "requirements" - specifies mandatory requirements or constraints
+     * "reference" - external standards, documents, or citations
+     * "structural" - organizational or navigational content
+     * "conceptual" - theoretical frameworks, principles, or background
+
+   - scope: Define the boundaries precisely:
+     * pages: [start_page, end_page] - full page range
+     * sections: Array of all section/subsection numbers (e.g., ["1.2", "1.2.1", "1.2.2"])
+
+5. Query Routing Hints
+   - Add edges showing conceptual relationships between sections
+   - Preserve reference relationships to show dependency chains
+   - Include "relates_to" edges between thematically similar sections
+
+OUTPUT SCHEMA:
+You MUST output a single JSON object with this exact schema:
+
+{
+  "graph_intent": "query_classification_index",
+  "document_name": "extracted from input",
+  "description": "High-level document overview for query classification and routing",
+  "nodes": [
+    {
+      "id": "SEMANTIC_ID",
+      "number": "Section number (e.g., '1.2.3')",
+      "title": "Exact title from input",
+      "kind": "chapter | section | subsection | topic | reference",
+      "summary": "Detailed 2-3 sentence description of content, purpose, and what questions it answers",
+      "keywords": ["primary-topic", "technical-term", "process", "concept", "related-term", "question-keyword", "domain-term"],
+      "content_type": "definitional | procedural | requirements | reference | structural | conceptual",
+      "scope": {
+        "pages": [1, 25],
+        "sections": ["1.2", "1.2.1", "1.2.2"]
+      },
+      "appears_on_pages": [1, 5, 12],
+      "primary_page": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "PARENT_ID",
+      "to": "CHILD_ID",
+      "type": "contains | references | relates_to",
+      "confidence": 1.0
+    }
+  ],
+  "routing_guidance": {
+    "use_chapter_index_for": ["high-level overview", "document structure", "broad topic areas"],
+    "use_section_index_for": ["specific requirements", "detailed procedures", "technical content"],
+    "use_topic_index_for": ["concept definitions", "cross-cutting themes", "related topics"],
+    "use_reference_index_for": ["external standards", "citations", "dependencies"]
+  }
+}
+
+CONTENT TYPE GUIDELINES:
+
+- "definitional": Sections that define terms, establish vocabulary, explain concepts
+  Example: "This section defines the key terminology used throughout the standard"
+
+- "procedural": Sections describing processes, methods, step-by-step instructions
+  Example: "This section outlines the verification process for safety requirements"
+
+- "requirements": Sections specifying mandatory constraints, compliance criteria
+  Example: "This section specifies the minimum safety requirements for system operation"
+
+- "reference": External documents, standards, or authoritative sources
+  Example: "Defence Standard 00-055: Requirements for Safety Related Software"
+
+- "structural": Organizational content like introductions, overviews, appendices
+  Example: "This chapter provides an introduction to the standard's scope"
+
+- "conceptual": Theoretical frameworks, principles, rationale, background
+  Example: "This section explains the safety case philosophy and approach"
+
+OUTPUT RULES:
+1. Output ONLY valid JSON
+2. No markdown wrappers or code blocks
+3. Preserve exact node IDs from input where possible
+4. Ensure all edge references point to existing node IDs
+5. Target 25-40 nodes for optimal query classification
+6. Prioritize clarity and completeness in summaries and keywords
+7. Always include content_type for every node
+8. Include routing_guidance to help LLM understand when to use each detailed index

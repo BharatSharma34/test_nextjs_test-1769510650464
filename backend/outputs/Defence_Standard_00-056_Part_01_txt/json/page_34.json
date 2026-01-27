@@ -1,0 +1,114 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:13.3",
+      "number": "13.3",
+      "title": "Risk Management",
+      "kind": "section",
+      "appears_on_pages": [
+        34
+      ],
+      "primary_page": 34
+    },
+    {
+      "id": "INSA:13.3.1",
+      "number": "13.3.1",
+      "title": "The contractor shall support the UK MOD in managing predicted or emergent risk to life",
+      "kind": "subsection",
+      "appears_on_pages": [
+        34
+      ],
+      "primary_page": 34
+    },
+    {
+      "id": "INSA:13.3.2",
+      "number": "13.3.2",
+      "title": "The contractor shall cooperate with the accountable persons for interfacing or interacting services",
+      "kind": "subsection",
+      "appears_on_pages": [
+        34
+      ],
+      "primary_page": 34
+    },
+    {
+      "id": "INSA:13.3.3",
+      "number": "13.3.3",
+      "title": "Where necessary and with the accountable person\u2019s agreement, the contractor shall implement immediate action",
+      "kind": "subsection",
+      "appears_on_pages": [
+        34
+      ],
+      "primary_page": 34
+    },
+    {
+      "id": "REF:JSP:822",
+      "number": "",
+      "title": "JSP 822",
+      "kind": "reference",
+      "appears_on_pages": [
+        34
+      ],
+      "primary_page": 34
+    },
+    {
+      "id": "REF:DEFSTAN:00-055",
+      "number": "",
+      "title": "DEF STAN 00-055",
+      "kind": "reference",
+      "appears_on_pages": [
+        34
+      ],
+      "primary_page": 34
+    },
+    {
+      "id": "TOPIC:ALARP",
+      "number": "",
+      "title": "ALARP principle",
+      "kind": "topic",
+      "appears_on_pages": [
+        34
+      ],
+      "primary_page": 34
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:13.3",
+      "to": "INSA:13.3.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.3",
+      "to": "INSA:13.3.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.3",
+      "to": "INSA:13.3.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.3",
+      "to": "REF:JSP:822",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.3",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:13.3",
+      "to": "TOPIC:ALARP",
+      "type": "defines",
+      "confidence": 1.0
+    }
+  ]
+}

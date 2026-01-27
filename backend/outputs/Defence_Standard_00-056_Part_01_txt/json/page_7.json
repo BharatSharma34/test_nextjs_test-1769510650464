@@ -1,0 +1,130 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:0",
+      "number": "0",
+      "title": "Introduction",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:1",
+      "number": "1",
+      "title": "Scope and Applicability",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:2.1",
+      "number": "2.1",
+      "title": "Normative References",
+      "kind": "subsection",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:2.2",
+      "number": "2.2",
+      "title": "Informative References",
+      "kind": "subsection",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:3",
+      "number": "3",
+      "title": "Definitions",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4",
+      "number": "4",
+      "title": "Safety Management System",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:5",
+      "number": "5",
+      "title": "General Requirements",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:6",
+      "number": "6",
+      "title": "Roles and Responsibilities",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:7",
+      "number": "7",
+      "title": "Interfaces",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:8",
+      "number": "8",
+      "title": "Safety Audits",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:9",
+      "number": "9",
+      "title": "Safety Requirements, Hazard and Risk Analysis",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:2",
+      "to": "INSA:2.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:2",
+      "to": "INSA:2.2",
+      "type": "contains",
+      "confidence": 1.0
+    }
+  ]
+}

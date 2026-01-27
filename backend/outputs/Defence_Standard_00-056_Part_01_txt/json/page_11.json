@@ -1,0 +1,98 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:3",
+      "number": "3",
+      "title": "Definitions",
+      "kind": "section",
+      "appears_on_pages": [
+        11
+      ],
+      "primary_page": 11
+    },
+    {
+      "id": "INSA:3.1",
+      "number": "3.1",
+      "title": "Terms and Definitions",
+      "kind": "subsection",
+      "appears_on_pages": [
+        11
+      ],
+      "primary_page": 11
+    },
+    {
+      "id": "INSA:3.2",
+      "number": "3.2",
+      "title": "Mandatory Requirements",
+      "kind": "subsection",
+      "appears_on_pages": [
+        11
+      ],
+      "primary_page": 11
+    },
+    {
+      "id": "INSA:3.3",
+      "number": "3.3",
+      "title": "Notes",
+      "kind": "subsection",
+      "appears_on_pages": [
+        11
+      ],
+      "primary_page": 11
+    },
+    {
+      "id": "REF:MAA02",
+      "number": "",
+      "title": "MAA Master Glossary",
+      "kind": "reference",
+      "appears_on_pages": [
+        11
+      ],
+      "primary_page": 11
+    },
+    {
+      "id": "REF:MAA03",
+      "number": "",
+      "title": "MAA Regulatory Process",
+      "kind": "reference",
+      "appears_on_pages": [
+        11
+      ],
+      "primary_page": 11
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:3",
+      "to": "INSA:3.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3",
+      "to": "INSA:3.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3",
+      "to": "INSA:3.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.2",
+      "to": "REF:MAA02",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3.2",
+      "to": "REF:MAA03",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

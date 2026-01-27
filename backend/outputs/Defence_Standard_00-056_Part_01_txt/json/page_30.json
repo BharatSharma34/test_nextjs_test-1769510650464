@@ -1,0 +1,288 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "extracted from input",
+  "nodes": [
+    {
+      "id": "INSA:11.4",
+      "number": "11.4",
+      "title": "Safety of Changes",
+      "kind": "section",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.4.1",
+      "number": "11.4.1",
+      "title": "The contractor shall manage all changes under their control...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.4.2",
+      "number": "11.4.2",
+      "title": "The contractor shall review and update the information set...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.4.3",
+      "number": "11.4.3",
+      "title": "The contractor shall review and update the safety case...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.4.4",
+      "number": "11.4.4",
+      "title": "The contractor shall update the design where there are agreed changes...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.4.5",
+      "number": "11.4.5",
+      "title": "The contractor shall update the hazard analysis and safety analysis...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.4.6",
+      "number": "11.4.6",
+      "title": "Following any change which has an adverse effect on safety...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.5",
+      "number": "11.5",
+      "title": "Safe Update",
+      "kind": "section",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.5.1",
+      "number": "11.5.1",
+      "title": "The contractor shall supply updated PSS and associated information...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.5.2",
+      "number": "11.5.2",
+      "title": "The contractor shall supply appropriate installation instructions...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.5.3",
+      "number": "11.5.3",
+      "title": "The contractor shall update the build state definition...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.6",
+      "number": "11.6",
+      "title": "Monitoring Change",
+      "kind": "section",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.6.1",
+      "number": "11.6.1",
+      "title": "The contractor shall monitor changes to in-service PSS...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.6.2",
+      "number": "11.6.2",
+      "title": "Where undesired safety impacts are identified...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.6.3",
+      "number": "11.6.3",
+      "title": "To ensure visibility of changes...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.7",
+      "number": "11.7",
+      "title": "Incorporating Change",
+      "kind": "section",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.7.1",
+      "number": "11.7.1",
+      "title": "The contractor shall incorporate any new or modified PSS...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.7.2",
+      "number": "11.7.2",
+      "title": "The contractor shall provide information to other relevant stakeholders...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "INSA:11.7.3",
+      "number": "11.7.3",
+      "title": "The contractor shall assess supplied PSS...",
+      "kind": "subsection",
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:11.4",
+      "to": "INSA:11.4.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.4",
+      "to": "INSA:11.4.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.4",
+      "to": "INSA:11.4.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.4",
+      "to": "INSA:11.4.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.4",
+      "to": "INSA:11.4.5",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.4",
+      "to": "INSA:11.4.6",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.5",
+      "to": "INSA:11.5.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.5",
+      "to": "INSA:11.5.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.5",
+      "to": "INSA:11.5.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.6",
+      "to": "INSA:11.6.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.6",
+      "to": "INSA:11.6.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.6",
+      "to": "INSA:11.6.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.7",
+      "to": "INSA:11.7.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.7",
+      "to": "INSA:11.7.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.7",
+      "to": "INSA:11.7.3",
+      "type": "contains",
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:9.5.4",
+      "number": "9.5.4",
+      "title": "Effectiveness of Mitigation Strategies",
+      "kind": "subsection",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:9.5.5",
+      "number": "9.5.5",
+      "title": "Management of Mitigation Strategies",
+      "kind": "subsection",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:9.5.6",
+      "number": "9.5.6",
+      "title": "Identification of Derived Safety Requirements",
+      "kind": "subsection",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:9.5.7",
+      "number": "9.5.7",
+      "title": "Allocation of Safety Requirements",
+      "kind": "subsection",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:9.5.8",
+      "number": "9.5.8",
+      "title": "Mitigation Strategy Satisfaction",
+      "kind": "subsection",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:9.5.9",
+      "number": "9.5.9",
+      "title": "Indirect Safety Requirement Shortfalls",
+      "kind": "subsection",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:9.5.10",
+      "number": "9.5.10",
+      "title": "Recording Mitigation Strategies",
+      "kind": "subsection",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:9.6",
+      "number": "9.6",
+      "title": "Safety Analysis",
+      "kind": "section",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:9.6.1",
+      "number": "9.6.1",
+      "title": "Conducting Safety Analysis",
+      "kind": "subsection",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:9.6.2",
+      "number": "9.6.2",
+      "title": "Coverage of Safety Analysis",
+      "kind": "subsection",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:9.6.3",
+      "number": "9.6.3",
+      "title": "Using Safety Analysis Results",
+      "kind": "subsection",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:9.6.4",
+      "number": "9.6.4",
+      "title": "Documentation of Safety Analysis",
+      "kind": "subsection",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "REF:DEFSTAN:00-055",
+      "number": "",
+      "title": "Def Stan 00-055",
+      "kind": "reference",
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:9.5.4",
+      "to": "INSA:9.5.5",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.5.5",
+      "to": "INSA:9.5.6",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.5.6",
+      "to": "INSA:9.5.7",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.5.7",
+      "to": "INSA:9.5.8",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.5.8",
+      "to": "INSA:9.5.9",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.5.9",
+      "to": "INSA:9.5.10",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.6",
+      "to": "INSA:9.6.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.6.1",
+      "to": "INSA:9.6.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.6.2",
+      "to": "INSA:9.6.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.6.3",
+      "to": "INSA:9.6.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.5.7",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

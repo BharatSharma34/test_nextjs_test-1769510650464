@@ -1,0 +1,316 @@
+:root {
+    --bg-primary: #0f172a;
+    --bg-secondary: #1e293b;
+    --bg-tertiary: #334155;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --accent: #3b82f6;
+    --accent-hover: #2563eb;
+    --border: #475569;
+    --error: #ef4444;
+    --success: #10b981;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(to right, #3b82f6, #60a5fa);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+}
+
+.tab {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+    font-weight: 600;
+}
+
+.tab:hover {
+    color: var(--text-primary);
+}
+
+.tab.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+}
+
+/* Buttons */
+.btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-primary {
+    background-color: var(--accent);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--accent-hover);
+}
+
+.btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.btn-secondary {
+    background-color: var(--bg-tertiary);
+    color: var(--text-primary);
+    border: 1px solid var(--border);
+}
+
+.btn-secondary:hover {
+    background-color: var(--border);
+}
+
+.btn-secondary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Forms */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.input,
+.select,
+.textarea {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    color: var(--text-primary);
+    font-family: inherit;
+    transition: border-color 0.2s;
+}
+
+.input:focus,
+.select:focus,
+.textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+/* Code Viewer */
+.code-container {
+    position: relative;
+    background-color: var(--bg-secondary);
+    border-radius: 0.5rem;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.code-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: var(--bg-tertiary);
+    border-bottom: 1px solid var(--border);
+}
+
+.code-header span {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    font-family: monospace;
+}
+
+.copy-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 0.8125rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    transition: background 0.2s;
+}
+
+.copy-btn:hover {
+    background-color: var(--border);
+    color: var(--text-primary);
+}
+
+.code-wrapper {
+    display: flex;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.line-numbers {
+    padding: 1rem 0.5rem;
+    background-color: var(--bg-tertiary);
+    color: var(--text-secondary);
+    text-align: right;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.875rem;
+    user-select: none;
+    border-right: 1px solid var(--border);
+    min-width: 3rem;
+}
+
+.code-block {
+    padding: 1rem;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.875rem;
+    white-space: pre;
+    color: var(--text-primary);
+}
+
+/* Card */
+.card {
+    background-color: var(--bg-secondary);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid var(--border);
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.error-msg {
+    color: var(--error);
+    font-weight: 500;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: rgba(239, 68, 68, 0.1);
+    border-radius: 0.5rem;
+    border: 1px solid var(--error);
+}
+
+/* Mermaid Diagram Overrides */
+.mermaid {
+    background-color: transparent !important;
+}
+
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node polygon {
+    fill: var(--bg-tertiary) !important;
+    stroke: var(--accent) !important;
+    stroke-width: 2px !important;
+}
+
+.mermaid .node .label,
+.mermaid text {
+    fill: var(--text-primary) !important;
+    font-family: inherit !important;
+}
+
+.mermaid .edgeLabel {
+    background-color: var(--bg-secondary) !important;
+    color: var(--text-secondary) !important;
+}
+
+.mermaid .edgePath .path {
+    stroke: var(--border) !important;
+    stroke-width: 2px !important;
+}
+
+.mermaid .cluster rect {
+    fill: var(--bg-secondary) !important;
+    stroke: var(--border) !important;
+}
+
+.mermaid .cluster text {
+    fill: var(--accent) !important;
+    font-weight: 600 !important;
+}
+
+/* D3 Graph Styles */
+.node circle {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.node circle:hover {
+    stroke-width: 3px !important;
+    filter: brightness(1.2);
+}
+
+.node text {
+    pointer-events: none;
+}
+
+.link {
+    fill: none;
+    stroke: #475569;
+    stroke-width: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 100%;
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}

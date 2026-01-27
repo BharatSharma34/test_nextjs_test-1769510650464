@@ -1,0 +1,93 @@
+flowchart TD
+    INSA_1["1 Safety Management Requirements for Defence Systems<br/>(Pages: 1)"]
+    INSA_0["0 Introduction<br/>(Pages: 1)"]
+    INSA_1_1["1.1 Purpose and Scope<br/>(Pages: 1, 3, 44)"]
+    INSA_1_5["1.5 Application of Standard<br/>(Pages: 1)"]
+    INSA_2["2 Technical Information<br/>(Pages: 1)"]
+    INSA_2_1["2.1 Normative References<br/>(Pages: 1)"]
+    INSA_2_2["2.2 Informative References<br/>(Pages: 1, 10)"]
+    INSA_3["3 Definitions<br/>(Pages: 1)"]
+    INSA_4["4 Safety Management System<br/>(Pages: 1)"]
+    INSA_4_1["4.1 Safety Management Plan<br/>(Pages: 1, 12, 39, 42)"]
+    INSA_5["5 General Requirements<br/>(Pages: 1)"]
+    INSA_5_1["5.1 Deviation from Requirements<br/>(Pages: 14)"]
+    INSA_5_2["5.2 Legislation, Regulations, Standards, Policy and Approved Codes of Practice<br/>(Pages: 14)"]
+    INSA_5_3["5.3 Sub-Contracting<br/>(Pages: 15)"]
+    INSA_5_5["5.5 Information Management<br/>(Pages: 15)"]
+    INSA_5_6["5.6 Documentary Deliverables<br/>(Pages: 16)"]
+    INSA_6["6 Roles and Responsibilities<br/>(Pages: 1)"]
+    INSA_7["7 Interfaces<br/>(Pages: 1)"]
+    INSA_8["8 Safety Audits<br/>(Pages: 1)"]
+    INSA_9["9 Safety Requirements, Hazard and Risk Analysis<br/>(Pages: 1)"]
+    INSA_9_1["9.1 Hazards and Accidents<br/>(Pages: 21)"]
+    INSA_9_2["9.2 Hazard Tracking<br/>(Pages: 19)"]
+    INSA_9_3["9.3 Safety Requirements<br/>(Pages: 19)"]
+    INSA_9_4["9.4 Safety Requirements Management<br/>(Pages: 20)"]
+    INSA_9_5["9.5 Design for Safety<br/>(Pages: 20)"]
+    INSA_9_6["9.6 Safety Analysis<br/>(Pages: 21)"]
+    INSA_9_7["9.7 Failure Modes<br/>(Pages: 22)"]
+    INSA_9_8["9.8 Risk Estimation<br/>(Pages: 23)"]
+    INSA_9_9["9.9 Risk and Compliance Evaluation<br/>(Pages: 23)"]
+    INSA_10["10 Safety Reporting<br/>(Pages: 24)"]
+    INSA_10_1["10.1 Information Set Safety Summary<br/>(Pages: 24, 38, 41)"]
+    INSA_10_2["10.2 Safety Case<br/>(Pages: 24)"]
+    INSA_11["11 Supply and Change Management<br/>(Pages: 26)"]
+    INSA_12["12 Supporting Systems In-Service<br/>(Pages: 28)"]
+    INSA_13["13 Service Provision<br/>(Pages: 30)"]
+    TOPIC_SafetyCase["Safety Case<br/>(Pages: 1, 24)"]
+    TOPIC_SafetyManagement["Safety Management<br/>(Pages: 1)"]
+    TOPIC_SafetyEngineering["Safety Engineering<br/>(Pages: 1)"]
+    TOPIC_SafetyInService["Safety In-Service<br/>(Pages: 1)"]
+    TOPIC_ALARP["ALARP principle<br/>(Pages: 34, 36)"]
+    REF_DEFSTAN_00-055["Defence Standard 00-055<br/>(Pages: 1, 10, 35)"]
+    REF_ASEMS["ASEMS DE&S Acquisition Safety and Environmental Management System<br/>(Pages: 10, 12, 41)"]
+    REF_POSMS["POSMS<br/>(Pages: 12, 14, 42)"]
+    REF_DEFSTAN_05-057["Def Stan 05-057 Configuration Management of Defence Materiel<br/>(Pages: 10, 15)"]
+    REF_KID["Knowledge in Defence website<br/>(Pages: 1, 12, 19)"]
+    INSA_1 -->|"contains"| INSA_0
+    INSA_1 -->|"contains"| INSA_1_1
+    INSA_1 -->|"contains"| INSA_2
+    INSA_2 -->|"contains"| INSA_2_1
+    INSA_2 -->|"contains"| INSA_2_2
+    INSA_1 -->|"contains"| INSA_3
+    INSA_1 -->|"contains"| INSA_4
+    INSA_1 -->|"contains"| INSA_5
+    INSA_1 -->|"contains"| INSA_6
+    INSA_1 -->|"contains"| INSA_7
+    INSA_1 -->|"contains"| INSA_8
+    INSA_1 -->|"contains"| INSA_9
+    INSA_1 -->|"contains"| INSA_10
+    INSA_1 -->|"contains"| INSA_11
+    INSA_1 -->|"contains"| INSA_12
+    INSA_1 -->|"contains"| INSA_13
+    INSA_4 -->|"contains"| INSA_4_1
+    INSA_5 -->|"contains"| INSA_5_1
+    INSA_5 -->|"contains"| INSA_5_2
+    INSA_5 -->|"contains"| INSA_5_3
+    INSA_5 -->|"contains"| INSA_5_5
+    INSA_5 -->|"contains"| INSA_5_6
+    INSA_9 -->|"contains"| INSA_9_1
+    INSA_9 -->|"contains"| INSA_9_2
+    INSA_9 -->|"contains"| INSA_9_3
+    INSA_9 -->|"contains"| INSA_9_4
+    INSA_9 -->|"contains"| INSA_9_5
+    INSA_9 -->|"contains"| INSA_9_6
+    INSA_9 -->|"contains"| INSA_9_7
+    INSA_9 -->|"contains"| INSA_9_8
+    INSA_9 -->|"contains"| INSA_9_9
+    INSA_10 -->|"contains"| INSA_10_1
+    INSA_10 -->|"contains"| INSA_10_2
+    INSA_11 -->|"relates_to"| INSA_12
+    INSA_12 -->|"relates_to"| INSA_13
+    INSA_10_2 -->|"relates_to"| TOPIC_SafetyCase
+    INSA_9 -->|"relates_to"| TOPIC_SafetyEngineering
+    INSA_4 -->|"relates_to"| TOPIC_SafetyManagement
+    INSA_12 -->|"relates_to"| TOPIC_SafetyInService
+    INSA_13 -->|"relates_to"| TOPIC_ALARP
+    INSA_1 -->|"references"| REF_DEFSTAN_00-055
+    INSA_2_2 -->|"references"| REF_ASEMS
+    INSA_4 -->|"references"| REF_ASEMS
+    INSA_4 -->|"references"| REF_POSMS
+    INSA_5_5 -->|"references"| REF_DEFSTAN_05-057
+    INSA_0 -->|"references"| REF_KID
+    INSA_4_1 -->|"references"| REF_KID

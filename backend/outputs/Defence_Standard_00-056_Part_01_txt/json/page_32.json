@@ -1,0 +1,220 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:12.2",
+      "number": "12.2",
+      "title": "Monitoring, Reporting and In-service Data Analysis",
+      "kind": "section",
+      "appears_on_pages": [
+        32
+      ],
+      "primary_page": 32
+    },
+    {
+      "id": "INSA:12.2.1",
+      "number": "12.2.1",
+      "title": "The contractor shall define and operate a process for collecting, analysing and documenting safety-relevant in-service data",
+      "kind": "subsection",
+      "appears_on_pages": [
+        32
+      ],
+      "primary_page": 32
+    },
+    {
+      "id": "INSA:12.2.2",
+      "number": "12.2.2",
+      "title": "The contractor shall review the safety case in light of the recorded data",
+      "kind": "subsection",
+      "appears_on_pages": [
+        32
+      ],
+      "primary_page": 32
+    },
+    {
+      "id": "INSA:12.2.3",
+      "number": "12.2.3",
+      "title": "The contractor shall sentence the results of analysis of the data",
+      "kind": "subsection",
+      "appears_on_pages": [
+        32
+      ],
+      "primary_page": 32
+    },
+    {
+      "id": "INSA:12.2.4",
+      "number": "12.2.4",
+      "title": "The contractor shall inform all relevant stakeholders where they have identified the need for remedial action",
+      "kind": "subsection",
+      "appears_on_pages": [
+        32
+      ],
+      "primary_page": 32
+    },
+    {
+      "id": "INSA:12.2.5",
+      "number": "12.2.5",
+      "title": "The contractor shall define and operate a process for collecting and analysing incident, accident and near miss reports",
+      "kind": "subsection",
+      "appears_on_pages": [
+        32
+      ],
+      "primary_page": 32
+    },
+    {
+      "id": "INSA:12.2.6",
+      "number": "12.2.6",
+      "title": "The contractor shall analyse all collected data to identify root causes which require action",
+      "kind": "subsection",
+      "appears_on_pages": [
+        32
+      ],
+      "primary_page": 32
+    },
+    {
+      "id": "INSA:12.2.7",
+      "number": "12.2.7",
+      "title": "The contractor shall monitor and report changes to relevant safety legislation",
+      "kind": "subsection",
+      "appears_on_pages": [
+        32
+      ],
+      "primary_page": 32
+    },
+    {
+      "id": "INSA:12.2.8",
+      "number": "12.2.8",
+      "title": "The contractor shall liaise with the UK MOD to establish a Failure Reporting Analysis and Corrective Action Systems (FRACAS)",
+      "kind": "subsection",
+      "appears_on_pages": [
+        32
+      ],
+      "primary_page": 32
+    },
+    {
+      "id": "INSA:12.2.9",
+      "number": "12.2.9",
+      "title": "Where the contractor supports in-service PSS which are in use by multiple stakeholders",
+      "kind": "subsection",
+      "appears_on_pages": [
+        32
+      ],
+      "primary_page": 32
+    },
+    {
+      "id": "INSA:12.3",
+      "number": "12.3",
+      "title": "Remedial Action",
+      "kind": "section",
+      "appears_on_pages": [
+        32
+      ],
+      "primary_page": 32
+    },
+    {
+      "id": "INSA:12.3.1",
+      "number": "12.3.1",
+      "title": "The contractor shall implement remedial actions to preserve or improve safety",
+      "kind": "subsection",
+      "appears_on_pages": [
+        32
+      ],
+      "primary_page": 32
+    },
+    {
+      "id": "INSA:12.3.2",
+      "number": "12.3.2",
+      "title": "The contractor shall plan remedial actions taking into account the need for efficient change management",
+      "kind": "subsection",
+      "appears_on_pages": [
+        32
+      ],
+      "primary_page": 32
+    },
+    {
+      "id": "INSA:12.3.3",
+      "number": "12.3.3",
+      "title": "The contractor shall plan remedial actions taking into account the need to deal with foreseeable changes",
+      "kind": "subsection",
+      "appears_on_pages": [
+        32
+      ],
+      "primary_page": 32
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:12.2",
+      "to": "INSA:12.2.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12.2",
+      "to": "INSA:12.2.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12.2",
+      "to": "INSA:12.2.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12.2",
+      "to": "INSA:12.2.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12.2",
+      "to": "INSA:12.2.5",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12.2",
+      "to": "INSA:12.2.6",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12.2",
+      "to": "INSA:12.2.7",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12.2",
+      "to": "INSA:12.2.8",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12.2",
+      "to": "INSA:12.2.9",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12.3",
+      "to": "INSA:12.3.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12.3",
+      "to": "INSA:12.3.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:12.3",
+      "to": "INSA:12.3.3",
+      "type": "contains",
+      "confidence": 1.0
+    }
+  ]
+}

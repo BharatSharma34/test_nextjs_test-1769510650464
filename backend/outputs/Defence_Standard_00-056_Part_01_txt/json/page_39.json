@@ -1,0 +1,177 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:3.1",
+      "number": "3.1",
+      "title": "Safety Auditor",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.2",
+      "number": "3.2",
+      "title": "Safety Audit Report",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.3",
+      "number": "3.3",
+      "title": "Safety Case",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.4",
+      "number": "3.4",
+      "title": "Safety Case Report",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.5",
+      "number": "3.5",
+      "title": "Safety Committee",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.6",
+      "number": "3.6",
+      "title": "Safety Engineering",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.7",
+      "number": "3.7",
+      "title": "Safety Management",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.8",
+      "number": "3.8",
+      "title": "Safety Management System",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.9",
+      "number": "3.9",
+      "title": "Safety Management Plan",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.10",
+      "number": "3.10",
+      "title": "Safety Requirement",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.11",
+      "number": "3.11",
+      "title": "Scope of Analysis",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.12",
+      "number": "3.12",
+      "title": "Scope of Contract",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.13",
+      "number": "3.13",
+      "title": "Scope of Supply",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.14",
+      "number": "3.14",
+      "title": "Sentencing",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.15",
+      "number": "3.15",
+      "title": "Service",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.16",
+      "number": "3.16",
+      "title": "Severity",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    },
+    {
+      "id": "INSA:3.17",
+      "number": "3.17",
+      "title": "System",
+      "kind": "section",
+      "appears_on_pages": [
+        39
+      ],
+      "primary_page": 39
+    }
+  ],
+  "edges": []
+}

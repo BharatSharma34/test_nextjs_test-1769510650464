@@ -1,0 +1,13 @@
+flowchart TD
+subgraph Page_3 [Page 3]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_50300077["1 Introduction"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_1_4c817dac["1.1 Purpose and Scope"]
+    subgraph Page_3_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_MOD_28ec5139["Ministry of Defence"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DStan_ceee22a0["UK Defence Standardization"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_50300077 -->|"contains"| DEFENCE_STANDARD_00_056_PART_01_INSA_1_1_4c817dac
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_50300077 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_MOD_28ec5139
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_50300077 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DStan_ceee22a0
+end

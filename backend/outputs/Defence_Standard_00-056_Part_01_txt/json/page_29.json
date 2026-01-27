@@ -1,0 +1,98 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:11",
+      "number": "11",
+      "title": "Supply and Change Management",
+      "kind": "section",
+      "appears_on_pages": [
+        29
+      ],
+      "primary_page": 29
+    },
+    {
+      "id": "INSA:11.1",
+      "number": "11.1",
+      "title": "Build State Definition",
+      "kind": "subsection",
+      "appears_on_pages": [
+        29
+      ],
+      "primary_page": 29
+    },
+    {
+      "id": "INSA:11.2",
+      "number": "11.2",
+      "title": "Change Control",
+      "kind": "subsection",
+      "appears_on_pages": [
+        29
+      ],
+      "primary_page": 29
+    },
+    {
+      "id": "INSA:11.3",
+      "number": "11.3",
+      "title": "Planning for Change",
+      "kind": "subsection",
+      "appears_on_pages": [
+        29
+      ],
+      "primary_page": 29
+    },
+    {
+      "id": "REF:DEFSTAN:05-057",
+      "number": "",
+      "title": "Def Stan 05-057",
+      "kind": "reference",
+      "appears_on_pages": [
+        29
+      ],
+      "primary_page": 29
+    },
+    {
+      "id": "TOPIC:SafetyCase",
+      "number": "",
+      "title": "Safety Case",
+      "kind": "topic",
+      "appears_on_pages": [
+        29
+      ],
+      "primary_page": 29
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:11",
+      "to": "INSA:11.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11",
+      "to": "INSA:11.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11",
+      "to": "INSA:11.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.1",
+      "to": "REF:DEFSTAN:05-057",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:11.2",
+      "to": "TOPIC:SafetyCase",
+      "type": "relates_to",
+      "confidence": 1.0
+    }
+  ]
+}

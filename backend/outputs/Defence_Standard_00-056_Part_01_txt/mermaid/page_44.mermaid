@@ -1,0 +1,13 @@
+flowchart TD
+subgraph Page_44 [Page 44]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_1_5ebd57f3["1.1 Contract Requirements"]
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_2_f43fe930["1.2 Revision of Defence Standards"]
+    subgraph Page_44_Refs [References]
+        direction LR
+        DEFENCE_STANDARD_00_056_PART_01_REF_STANMIS_be002c1b["Standardization Management Information<br/>System (StanMIS)"]
+        DEFENCE_STANDARD_00_056_PART_01_REF_DSTAN_63a5f458["UK Defence Standardization"]
+    end
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_1_5ebd57f3 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DSTAN_63a5f458
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_2_f43fe930 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_DSTAN_63a5f458
+    DEFENCE_STANDARD_00_056_PART_01_INSA_1_2_f43fe930 -->|"references"| DEFENCE_STANDARD_00_056_PART_01_REF_STANMIS_be002c1b
+end

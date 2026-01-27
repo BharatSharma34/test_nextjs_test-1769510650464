@@ -1,0 +1,254 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:9.1.4",
+      "number": "9.1.4",
+      "title": "Cyber Security Considerations",
+      "kind": "subsection",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.1.5",
+      "number": "9.1.5",
+      "title": "Systematic and Random Failures",
+      "kind": "subsection",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.1.6",
+      "number": "9.1.6",
+      "title": "Undesired Impact of Normal Functions",
+      "kind": "subsection",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.1.7",
+      "number": "9.1.7",
+      "title": "New or Novel Technologies",
+      "kind": "subsection",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "REF:DEFSTAN:00-251",
+      "number": "",
+      "title": "Def Stan 00-251",
+      "kind": "reference",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "REF:JSP:440",
+      "number": "",
+      "title": "JSP 440",
+      "kind": "reference",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "REF:DEFSTAN:05-138",
+      "number": "",
+      "title": "Def Stan 05-138",
+      "kind": "reference",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "REF:DEFSTAN:05-135",
+      "number": "",
+      "title": "Def Stan 05-135",
+      "kind": "reference",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "REF:DEFSTAN:00-055",
+      "number": "",
+      "title": "Def Stan 00-055",
+      "kind": "reference",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.2",
+      "number": "9.2",
+      "title": "Hazard Tracking",
+      "kind": "section",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.2.1",
+      "number": "9.2.1",
+      "title": "Visibility of Hazard Control",
+      "kind": "subsection",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.2.2",
+      "number": "9.2.2",
+      "title": "Implementation of Hazard Log",
+      "kind": "subsection",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.2.3",
+      "number": "9.2.3",
+      "title": "Hazard Log Reports",
+      "kind": "subsection",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.2.4",
+      "number": "9.2.4",
+      "title": "Updating Hazard Log",
+      "kind": "subsection",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.3",
+      "number": "9.3",
+      "title": "Safety Requirements",
+      "kind": "section",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.3.1",
+      "number": "9.3.1",
+      "title": "Identification and Tracking of Safety Requirements",
+      "kind": "subsection",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.3.2",
+      "number": "9.3.2",
+      "title": "Documenting Safety Requirements Process",
+      "kind": "subsection",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "INSA:9.3.3",
+      "number": "9.3.3",
+      "title": "Tracking Derived Safety Requirements",
+      "kind": "subsection",
+      "appears_on_pages": [
+        22
+      ],
+      "primary_page": 22
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:9.1.4",
+      "to": "REF:DEFSTAN:05-138",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.1.5",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.1.6",
+      "to": "REF:DEFSTAN:05-135",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.1.7",
+      "to": "REF:DEFSTAN:00-251",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.2",
+      "to": "INSA:9.2.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.2",
+      "to": "INSA:9.2.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.2",
+      "to": "INSA:9.2.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.2",
+      "to": "INSA:9.2.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.3",
+      "to": "INSA:9.3.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.3",
+      "to": "INSA:9.3.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:9.3",
+      "to": "INSA:9.3.3",
+      "type": "contains",
+      "confidence": 1.0
+    }
+  ]
+}

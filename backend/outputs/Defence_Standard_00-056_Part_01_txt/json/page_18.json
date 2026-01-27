@@ -1,0 +1,220 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:6.2",
+      "number": "6.2",
+      "title": "Safety Committees",
+      "kind": "section",
+      "appears_on_pages": [
+        18
+      ],
+      "primary_page": 18
+    },
+    {
+      "id": "INSA:6.2.1",
+      "number": "6.2.1",
+      "title": "The contractor shall contribute to safety committees and other liaison activities",
+      "kind": "subsection",
+      "appears_on_pages": [
+        18
+      ],
+      "primary_page": 18
+    },
+    {
+      "id": "INSA:6.2.2",
+      "number": "6.2.2",
+      "title": "The contractor shall provide visibility of the information set to the safety committee",
+      "kind": "subsection",
+      "appears_on_pages": [
+        18
+      ],
+      "primary_page": 18
+    },
+    {
+      "id": "INSA:6.2.3",
+      "number": "6.2.3",
+      "title": "The contractor shall support the safety committee in recommending, endorsing or providing guidance",
+      "kind": "subsection",
+      "appears_on_pages": [
+        18
+      ],
+      "primary_page": 18
+    },
+    {
+      "id": "INSA:6.2.4",
+      "number": "6.2.4",
+      "title": "The contractor shall support the safety committee in any additional roles/tasks",
+      "kind": "subsection",
+      "appears_on_pages": [
+        18
+      ],
+      "primary_page": 18
+    },
+    {
+      "id": "INSA:6.2.5",
+      "number": "6.2.5",
+      "title": "Where there is an appropriate UK MOD safety committee, the contractor shall participate",
+      "kind": "subsection",
+      "appears_on_pages": [
+        18
+      ],
+      "primary_page": 18
+    },
+    {
+      "id": "INSA:6.2.6",
+      "number": "6.2.6",
+      "title": "Where there is no appropriate safety committee, the contractor shall work with the UK MOD",
+      "kind": "subsection",
+      "appears_on_pages": [
+        18
+      ],
+      "primary_page": 18
+    },
+    {
+      "id": "INSA:6.2.7",
+      "number": "6.2.7",
+      "title": "Where appropriate the safety committee may delegate work to subsidiary committees",
+      "kind": "subsection",
+      "appears_on_pages": [
+        18
+      ],
+      "primary_page": 18
+    },
+    {
+      "id": "INSA:6.2.8",
+      "number": "6.2.8",
+      "title": "Where the contract involves support, the contractor shall ensure the safety committee approves changes",
+      "kind": "subsection",
+      "appears_on_pages": [
+        18
+      ],
+      "primary_page": 18
+    },
+    {
+      "id": "INSA:6.2.9",
+      "number": "6.2.9",
+      "title": "The contractor shall record all their support given to the safety committee",
+      "kind": "subsection",
+      "appears_on_pages": [
+        18
+      ],
+      "primary_page": 18
+    },
+    {
+      "id": "INSA:6.3",
+      "number": "6.3",
+      "title": "Competencies",
+      "kind": "section",
+      "appears_on_pages": [
+        18
+      ],
+      "primary_page": 18
+    },
+    {
+      "id": "INSA:6.3.1",
+      "number": "6.3.1",
+      "title": "The contractor shall ensure that all safety-relevant tasks are carried out by competent individuals",
+      "kind": "subsection",
+      "appears_on_pages": [
+        18
+      ],
+      "primary_page": 18
+    },
+    {
+      "id": "INSA:6.3.2",
+      "number": "6.3.2",
+      "title": "The contractor shall record the evidence of competence",
+      "kind": "subsection",
+      "appears_on_pages": [
+        18
+      ],
+      "primary_page": 18
+    },
+    {
+      "id": "INSA:6.3.3",
+      "number": "6.3.3",
+      "title": "The contractor shall undertake competence management",
+      "kind": "subsection",
+      "appears_on_pages": [
+        18
+      ],
+      "primary_page": 18
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:6.2",
+      "to": "INSA:6.2.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.2",
+      "to": "INSA:6.2.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.2",
+      "to": "INSA:6.2.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.2",
+      "to": "INSA:6.2.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.2",
+      "to": "INSA:6.2.5",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.2",
+      "to": "INSA:6.2.6",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.2",
+      "to": "INSA:6.2.7",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.2",
+      "to": "INSA:6.2.8",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.2",
+      "to": "INSA:6.2.9",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.3",
+      "to": "INSA:6.3.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.3",
+      "to": "INSA:6.3.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.3",
+      "to": "INSA:6.3.3",
+      "type": "contains",
+      "confidence": 1.0
+    }
+  ]
+}

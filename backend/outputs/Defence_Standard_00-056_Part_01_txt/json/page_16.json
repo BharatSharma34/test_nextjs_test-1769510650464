@@ -1,0 +1,188 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:5.5.5",
+      "number": "5.5.5",
+      "title": "The contractor shall preserve the information set for the period or periods specified in the contract and as required by law.",
+      "kind": "section",
+      "appears_on_pages": [
+        16
+      ],
+      "primary_page": 16
+    },
+    {
+      "id": "INSA:5.5.6",
+      "number": "5.5.6",
+      "title": "The contractor shall ensure that the information set remains accessible as techniques, methodologies and tools change, through the life of the contract.",
+      "kind": "section",
+      "appears_on_pages": [
+        16
+      ],
+      "primary_page": 16
+    },
+    {
+      "id": "INSA:5.5.7",
+      "number": "5.5.7",
+      "title": "The contractor shall pass information in an easily accessible form to the UK MOD, regulators and any other organisations identified in the contract.",
+      "kind": "section",
+      "appears_on_pages": [
+        16
+      ],
+      "primary_page": 16
+    },
+    {
+      "id": "INSA:5.5.8",
+      "number": "5.5.8",
+      "title": "The contractor shall define the information set such that all information that might have a safety role are included.",
+      "kind": "section",
+      "appears_on_pages": [
+        16
+      ],
+      "primary_page": 16
+    },
+    {
+      "id": "INSA:5.5.9",
+      "number": "5.5.9",
+      "title": "The contractor shall define, and agree with the UK MOD, processes for information management.",
+      "kind": "section",
+      "appears_on_pages": [
+        16
+      ],
+      "primary_page": 16
+    },
+    {
+      "id": "INSA:5.5.10",
+      "number": "5.5.10",
+      "title": "Where the contractor anticipates difficulties, or very high costs, in preserving access to parts of the information set they shall discuss approaches and options with the UK MOD.",
+      "kind": "section",
+      "appears_on_pages": [
+        16
+      ],
+      "primary_page": 16
+    },
+    {
+      "id": "INSA:5.5.11",
+      "number": "5.5.11",
+      "title": "The contractor shall consider obsolescence of the technologies used for preserving the information set.",
+      "kind": "section",
+      "appears_on_pages": [
+        16
+      ],
+      "primary_page": 16
+    },
+    {
+      "id": "INSA:5.5.12",
+      "number": "5.5.12",
+      "title": "The contractor shall consider security risks to the information set to ensure its confidentiality, integrity and availability can be maintained.",
+      "kind": "section",
+      "appears_on_pages": [
+        16
+      ],
+      "primary_page": 16
+    },
+    {
+      "id": "INSA:5.6",
+      "number": "5.6",
+      "title": "Documentary Deliverables",
+      "kind": "section",
+      "appears_on_pages": [
+        16
+      ],
+      "primary_page": 16
+    },
+    {
+      "id": "INSA:5.6.1",
+      "number": "5.6.1",
+      "title": "The contractor shall produce documentary deliverables relevant to safety, including interim versions, as contracted.",
+      "kind": "section",
+      "appears_on_pages": [
+        16
+      ],
+      "primary_page": 16
+    },
+    {
+      "id": "INSA:5.6.2",
+      "number": "5.6.2",
+      "title": "The contractor shall agree with the UK MOD the format and content for all contracted safety-related deliverables in the scope of supply.",
+      "kind": "section",
+      "appears_on_pages": [
+        16
+      ],
+      "primary_page": 16
+    },
+    {
+      "id": "INSA:5.6.3",
+      "number": "5.6.3",
+      "title": "In defining deliverable formatting and content, the contractor shall take into account the DIDs and the requirements of any civil, open or other standards being used.",
+      "kind": "section",
+      "appears_on_pages": [
+        16
+      ],
+      "primary_page": 16
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:5.5.5",
+      "to": "INSA:5.5.6",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.5.6",
+      "to": "INSA:5.5.7",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.5.7",
+      "to": "INSA:5.5.8",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.5.8",
+      "to": "INSA:5.5.9",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.5.9",
+      "to": "INSA:5.5.10",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.5.10",
+      "to": "INSA:5.5.11",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.5.11",
+      "to": "INSA:5.5.12",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.6",
+      "to": "INSA:5.6.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.6.1",
+      "to": "INSA:5.6.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.6.2",
+      "to": "INSA:5.6.3",
+      "type": "contains",
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:5.1",
+      "number": "5.1",
+      "title": "Deviation from Requirements",
+      "kind": "section",
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "INSA:5.1.1",
+      "number": "5.1.1",
+      "title": "Deviation Agreement",
+      "kind": "subsection",
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "INSA:5.1.2",
+      "number": "5.1.2",
+      "title": "Conflict Resolution",
+      "kind": "subsection",
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "INSA:5.1.3",
+      "number": "5.1.3",
+      "title": "ITT Response Specification",
+      "kind": "subsection",
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "INSA:5.1.4",
+      "number": "5.1.4",
+      "title": "Compliance Matrix",
+      "kind": "subsection",
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "INSA:5.1.5",
+      "number": "5.1.5",
+      "title": "Intended Deviations",
+      "kind": "subsection",
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "INSA:5.2",
+      "number": "5.2",
+      "title": "Legislation, Regulations, Standards, Policy and Approved Codes of Practice",
+      "kind": "section",
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "INSA:5.2.1",
+      "number": "5.2.1",
+      "title": "Identification and Documentation",
+      "kind": "subsection",
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "INSA:5.2.2",
+      "number": "5.2.2",
+      "title": "Policy Agreement",
+      "kind": "subsection",
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "INSA:5.2.3",
+      "number": "5.2.3",
+      "title": "Legislation Agreement",
+      "kind": "subsection",
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "REF:POSMS",
+      "number": "",
+      "title": "UK MOD POSMS Project Safety Initiation procedures",
+      "kind": "reference",
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "REF:HSE_ACOP",
+      "number": "",
+      "title": "HSE Approved Codes of Practice",
+      "kind": "reference",
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    },
+    {
+      "id": "REF:DCOP",
+      "number": "",
+      "title": "Defence Codes of Practice",
+      "kind": "reference",
+      "appears_on_pages": [
+        14
+      ],
+      "primary_page": 14
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:5.1",
+      "to": "INSA:5.1.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.1",
+      "to": "INSA:5.1.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.1",
+      "to": "INSA:5.1.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.1",
+      "to": "INSA:5.1.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.1",
+      "to": "INSA:5.1.5",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.2",
+      "to": "INSA:5.2.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.2",
+      "to": "INSA:5.2.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.2",
+      "to": "INSA:5.2.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.2",
+      "to": "REF:POSMS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.2",
+      "to": "REF:HSE_ACOP",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.2",
+      "to": "REF:DCOP",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

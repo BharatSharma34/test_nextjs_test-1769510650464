@@ -1,0 +1,136 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:0.7",
+      "number": "0.7",
+      "title": "PSS Description",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:0.8",
+      "number": "0.8",
+      "title": "PSS Types and Standards",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:0.9",
+      "number": "0.9",
+      "title": "Purpose of the Standard",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:0.10",
+      "number": "0.10",
+      "title": "Contractor Requirements",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:0.11",
+      "number": "0.11",
+      "title": "Flexibility and Tailoring",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:0.12",
+      "number": "0.12",
+      "title": "Scope of Contract",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:0.13",
+      "number": "0.13",
+      "title": "Tailoring Requirements",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:0.14",
+      "number": "0.14",
+      "title": "Requirements Grouping",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:SafetyManagement",
+      "number": "",
+      "title": "Safety Management",
+      "kind": "topic",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:SafetyEngineering",
+      "number": "",
+      "title": "Safety Engineering",
+      "kind": "topic",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:SafetyInService",
+      "number": "",
+      "title": "Safety In-Service",
+      "kind": "topic",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:0.14",
+      "to": "TOPIC:SafetyManagement",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:0.14",
+      "to": "TOPIC:SafetyEngineering",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:0.14",
+      "to": "TOPIC:SafetyInService",
+      "type": "defines",
+      "confidence": 1.0
+    }
+  ]
+}

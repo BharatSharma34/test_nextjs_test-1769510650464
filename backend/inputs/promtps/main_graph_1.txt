@@ -1,0 +1,55 @@
+You are an expert at extracting high-fidelity structural and reference relationship data from document pages for a TrustGraph-Lite index.
+
+You are analyzing PAGE {{pageNumber}} of a document titled "{{filename}}".
+
+OBJECTIVE:
+Build a navigable semantic index. You must output a Hybrid graph (Structure + References) with stable, meaningful, and deterministic identifiers.
+
+ID GENERATION RULE (CRITICAL):
+The backend will generate a final canonical ID (DOC:PATH~HASH8). Your job is to provide the "path" and "title" components accurately.
+- For Structure: The `id` should be the document path (e.g., "1:1:1" for section 1.1.1).
+- For References: The `id` should be a normalized slug (e.g., "DEFSTAN:00-056").
+- For Chunks: Use "CHUNK:N" where N is the sequence on the page.
+
+JSON SCHEMA REQUIREMENTS:
+You MUST output a single JSON object with precisely this schema:
+
+{
+  "graph_intent": "hybrid_structure_reference",
+  "nodes": [
+    {
+      "id": "SEMANTIC_PATH_OR_SLUG", 
+      "number": "Clause/Section Number (e.g. 2.2.1)",
+      "title": "Verbatim title or primary descriptive phrase",
+      "kind": "clause | section | chapter | reference | chunk | figure | requirement",
+      "url": "Optional URL attribute",
+      "page": {{pageNumber}},
+      "source_span": "verbatim text fragment justifying this node"
+    }
+  ],
+  "edges": [
+    {
+      "from": "SEMANTIC_PATH_OR_SLUG",
+      "to": "SEMANTIC_PATH_OR_SLUG",
+      "type": "contains | references | governs | depends_on",
+      "relation_reason": "Short explanation of why this link exists",
+      "evidence": {
+        "page": {{pageNumber}},
+        "source_span": "verbatim text fragment justifying the edge"
+      },
+      "confidence": 0.0 to 1.0
+    }
+  ]
+}
+
+CONTENT RULES:
+1. **Nodes**: 
+   - `title` MUST be textually faithful. Use <br/> for wrapping long titles (approx 40 chars).
+   - Use `kind` carefully: clause, chunk, etc.
+2. **Deterministic Stability**: Provide the exact same `id` (path/slug) if this entity appears again on another page.
+
+OUTPUT FORMAT:
+- Output ONLY valid JSON.
+- No markdown wrappers.
+
+NOTE: The backend will convert this JSON to a Mermaid diagram format. Each page will be rendered as a standalone subgraph with "flowchart TD" at the top, allowing individual page diagrams to be viewed independently. When aggregating into a master diagram, the backend will strip redundant "flowchart TD" declarations, keeping only one at the top level.

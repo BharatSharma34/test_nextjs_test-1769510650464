@@ -1,0 +1,47 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "TOPIC:SystemOfSystems",
+      "number": "",
+      "title": "System of Systems",
+      "kind": "topic",
+      "appears_on_pages": [
+        40
+      ],
+      "primary_page": 40
+    },
+    {
+      "id": "TOPIC:SystemIntegrator",
+      "number": "",
+      "title": "System Integrator",
+      "kind": "topic",
+      "appears_on_pages": [
+        40
+      ],
+      "primary_page": 40
+    },
+    {
+      "id": "TOPIC:TopLevelSafetyRequirement",
+      "number": "",
+      "title": "Top Level Safety Requirement",
+      "kind": "topic",
+      "appears_on_pages": [
+        40
+      ],
+      "primary_page": 40
+    },
+    {
+      "id": "TOPIC:AccountablePerson",
+      "number": "",
+      "title": "Accountable Person",
+      "kind": "topic",
+      "appears_on_pages": [
+        40
+      ],
+      "primary_page": 40
+    }
+  ],
+  "edges": []
+}

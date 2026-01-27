@@ -1,0 +1,198 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:5.6.4",
+      "number": "5.6.4",
+      "title": "The contractor shall develop and update the deliverable plans, reports and summaries",
+      "kind": "subsection",
+      "appears_on_pages": [
+        17
+      ],
+      "primary_page": 17
+    },
+    {
+      "id": "INSA:5.7",
+      "number": "5.7",
+      "title": "Agreement of Deliverables",
+      "kind": "section",
+      "appears_on_pages": [
+        17
+      ],
+      "primary_page": 17
+    },
+    {
+      "id": "INSA:5.7.1",
+      "number": "5.7.1",
+      "title": "The contractor shall agree with the UK MOD, the PSS and safety-related documentation",
+      "kind": "subsection",
+      "appears_on_pages": [
+        17
+      ],
+      "primary_page": 17
+    },
+    {
+      "id": "INSA:5.7.2",
+      "number": "5.7.2",
+      "title": "The contractor shall define the PSS and its given application",
+      "kind": "subsection",
+      "appears_on_pages": [
+        17
+      ],
+      "primary_page": 17
+    },
+    {
+      "id": "INSA:5.7.3",
+      "number": "5.7.3",
+      "title": "The contractor shall define the PSS to include all relevant elements across the DLOD",
+      "kind": "subsection",
+      "appears_on_pages": [
+        17
+      ],
+      "primary_page": 17
+    },
+    {
+      "id": "INSA:5.7.4",
+      "number": "5.7.4",
+      "title": "The contractor shall record the definition of the PSS",
+      "kind": "subsection",
+      "appears_on_pages": [
+        17
+      ],
+      "primary_page": 17
+    },
+    {
+      "id": "INSA:6",
+      "number": "6",
+      "title": "Roles and Responsibilities",
+      "kind": "section",
+      "appears_on_pages": [
+        17
+      ],
+      "primary_page": 17
+    },
+    {
+      "id": "INSA:6.1",
+      "number": "6.1",
+      "title": "Safety Organisation",
+      "kind": "subsection",
+      "appears_on_pages": [
+        17
+      ],
+      "primary_page": 17
+    },
+    {
+      "id": "INSA:6.1.1",
+      "number": "6.1.1",
+      "title": "The contractor shall define the roles and responsibilities of those individuals responsible for safety",
+      "kind": "subsection",
+      "appears_on_pages": [
+        17
+      ],
+      "primary_page": 17
+    },
+    {
+      "id": "INSA:6.1.2",
+      "number": "6.1.2",
+      "title": "The contractor shall identify the normal point of contact for safety matters",
+      "kind": "subsection",
+      "appears_on_pages": [
+        17
+      ],
+      "primary_page": 17
+    },
+    {
+      "id": "INSA:6.1.3",
+      "number": "6.1.3",
+      "title": "The contractor shall demonstrate how responsibility is delegated",
+      "kind": "subsection",
+      "appears_on_pages": [
+        17
+      ],
+      "primary_page": 17
+    },
+    {
+      "id": "INSA:6.1.4",
+      "number": "6.1.4",
+      "title": "The contractor shall keep the definition of roles and responsibilities up to date",
+      "kind": "subsection",
+      "appears_on_pages": [
+        17
+      ],
+      "primary_page": 17
+    },
+    {
+      "id": "INSA:6.1.5",
+      "number": "6.1.5",
+      "title": "The contractor shall identify and record competency requirements for each role",
+      "kind": "subsection",
+      "appears_on_pages": [
+        17
+      ],
+      "primary_page": 17
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:5.7",
+      "to": "INSA:5.7.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.7",
+      "to": "INSA:5.7.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.7",
+      "to": "INSA:5.7.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:5.7",
+      "to": "INSA:5.7.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6",
+      "to": "INSA:6.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.1",
+      "to": "INSA:6.1.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.1",
+      "to": "INSA:6.1.2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.1",
+      "to": "INSA:6.1.3",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.1",
+      "to": "INSA:6.1.4",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:6.1",
+      "to": "INSA:6.1.5",
+      "type": "contains",
+      "confidence": 1.0
+    }
+  ]
+}

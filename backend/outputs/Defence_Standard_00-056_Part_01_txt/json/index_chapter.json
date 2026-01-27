@@ -1,0 +1,633 @@
+{
+  "graph_intent": "chapter_index_navigation",
+  "document_name": "DEFENCE_STANDARD_00_056_PART_01",
+  "nodes": [
+    {
+      "id": "INSA:0",
+      "number": "0",
+      "title": "Introduction",
+      "kind": "section",
+      "summary": "Sets the context for applying the standard in UK defence acquisition and through-life support, explaining why it exists and who it applies to. It orients readers to the policy and governance backdrop before the requirements chapters.",
+      "keywords": [
+        "introduction",
+        "UK MOD policy",
+        "defence acquisition",
+        "through-life support",
+        "applicability context"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          6
+        ],
+        "sections": [
+          "0.1",
+          "0.2",
+          "0.3",
+          "0.4",
+          "0.5",
+          "0.6",
+          "0.7",
+          "0.8",
+          "0.9",
+          "0.10",
+          "0.11",
+          "0.12",
+          "0.13",
+          "0.14",
+          "0.15",
+          "0.16",
+          "0.17",
+          "0.18"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:1",
+      "number": "1",
+      "title": "Safety Management Requirements for Defence Systems",
+      "kind": "section",
+      "summary": "Provides the top-level framing for the standard, describing how safety is achieved, assured, and managed for defence Products, Services and/or Systems (PSS). It acts as the structural entry point that organizes and introduces the major requirement areas across the document.",
+      "keywords": [
+        "safety management requirements",
+        "defence systems",
+        "PSS",
+        "safety case context",
+        "standard overview"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          44
+        ],
+        "sections": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10",
+          "11",
+          "12",
+          "13"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:2",
+      "number": "2",
+      "title": "Technical Information",
+      "kind": "section",
+      "summary": "Defines the document\u2019s technical framing and how external standards and guidance are used, including the distinction between normative and informative references. It is the main navigation point for understanding dependencies and how referenced material affects compliance.",
+      "keywords": [
+        "technical information",
+        "normative references",
+        "informative references",
+        "external standards",
+        "dependencies"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          10
+        ],
+        "sections": [
+          "2",
+          "2.1",
+          "2.2"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:3",
+      "number": "3",
+      "title": "Definitions",
+      "kind": "section",
+      "summary": "Establishes the terminology and interpretation rules used throughout the standard, including how mandatory language is to be read. It is essential for consistent understanding and application of requirements across all chapters.",
+      "keywords": [
+        "definitions",
+        "terminology",
+        "interpretation",
+        "shall meaning",
+        "requirements language"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          11
+        ],
+        "sections": [
+          "3",
+          "3.1",
+          "3.2",
+          "3.3"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:4",
+      "number": "4",
+      "title": "Safety Management System",
+      "kind": "section",
+      "summary": "Specifies expectations for establishing and operating a contractor Safety Management System (SMS), including planning, agreement, maintenance, and reporting via the Safety Management Plan (SMP). It is the core governance chapter for how safety work is organized and controlled.",
+      "keywords": [
+        "safety management system",
+        "SMS",
+        "safety management plan",
+        "SMP",
+        "governance"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          13
+        ],
+        "sections": [
+          "4",
+          "4.1",
+          "4.2",
+          "4.3",
+          "4.4"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:5",
+      "number": "5",
+      "title": "General Requirements",
+      "kind": "section",
+      "summary": "Defines cross-cutting contractual and process requirements such as deviation handling, legal/policy alignment, sub-contracting controls, deliverables, and safety information management. It provides the baseline obligations that apply across the safety lifecycle and other chapters.",
+      "keywords": [
+        "general requirements",
+        "deviations",
+        "sub-contracting",
+        "information management",
+        "deliverables"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          17
+        ],
+        "sections": [
+          "5",
+          "5.1",
+          "5.2",
+          "5.3",
+          "5.4",
+          "5.5",
+          "5.6",
+          "5.7"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:6",
+      "number": "6",
+      "title": "Roles and Responsibilities",
+      "kind": "section",
+      "summary": "Sets requirements for defining, delegating, and maintaining safety roles, including competence expectations and committee participation. It ensures accountability and capability are in place to execute the safety management and engineering activities.",
+      "keywords": [
+        "roles and responsibilities",
+        "accountability",
+        "competence",
+        "safety organisation",
+        "committees"
+      ],
+      "scope": {
+        "pages": [
+          17,
+          19
+        ],
+        "sections": [
+          "6",
+          "6.1",
+          "6.2",
+          "6.3"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:7",
+      "number": "7",
+      "title": "Interfaces",
+      "kind": "section",
+      "summary": "Requires identification and management of organisational, technical, and external interfaces, including recording assumptions and reconciling information between parties. It is key to controlling safety risk where responsibilities and system boundaries interact.",
+      "keywords": [
+        "interfaces",
+        "assumptions",
+        "stakeholder coordination",
+        "boundary management",
+        "information reconciliation"
+      ],
+      "scope": {
+        "pages": [
+          19,
+          20
+        ],
+        "sections": [
+          "7",
+          "7.1",
+          "7.2",
+          "7.3"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:8",
+      "number": "8",
+      "title": "Safety Audits",
+      "kind": "section",
+      "summary": "Defines audit and assurance expectations, including reporting, auditor independence, access for independent audit, and handling remedial actions. It provides the mechanism for checking that safety management and evidence remain credible and effective.",
+      "keywords": [
+        "safety audits",
+        "assurance",
+        "auditor independence",
+        "audit reporting",
+        "remedial actions"
+      ],
+      "scope": {
+        "pages": [
+          20,
+          21
+        ],
+        "sections": [
+          "8",
+          "8.1",
+          "8.2",
+          "8.3",
+          "8.4"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:9",
+      "number": "9",
+      "title": "Safety Requirements, Hazard and Risk Analysis",
+      "kind": "section",
+      "summary": "Provides the core technical requirements for hazard identification, hazard tracking, safety requirements definition and management, design for safety, safety analysis, and risk estimation/evaluation. It is central to demonstrating that risks are understood, controlled, and justified with evidence.",
+      "keywords": [
+        "hazard analysis",
+        "risk analysis",
+        "safety requirements",
+        "hazard log",
+        "risk evaluation"
+      ],
+      "scope": {
+        "pages": [
+          19,
+          27
+        ],
+        "sections": [
+          "9",
+          "9.1",
+          "9.2",
+          "9.3",
+          "9.4",
+          "9.5",
+          "9.6",
+          "9.7",
+          "9.8",
+          "9.9",
+          "9.10"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "INSA:10",
+      "number": "10",
+      "title": "Safety Reporting",
+      "kind": "section",
+      "summary": "Specifies required safety reporting outputs, including the Information Set Safety Summary (ISSS) and the Safety Case and associated reports. It defines how safety evidence and arguments are packaged for review, decision-making, and through-life assurance.",
+      "keywords": [
+        "safety reporting",
+        "ISSS",
+        "safety case",
+        "safety case reports",
+        "evidence packaging"
+      ],
+      "scope": {
+        "pages": [
+          24,
+          28
+        ],
+        "sections": [
+          "10",
+          "10.1",
+          "10.2",
+          "10.3"
+        ]
+      },
+      "appears_on_pages": [
+        24
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "INSA:11",
+      "number": "11",
+      "title": "Supply and Change Management",
+      "kind": "section",
+      "summary": "Defines how build state and change control are managed so that safety is maintained when designs, components, or configurations change. It links change activities to required updates of hazard analysis, safety case evidence, and the information set.",
+      "keywords": [
+        "change management",
+        "configuration control",
+        "build state",
+        "safe update",
+        "impact on safety evidence"
+      ],
+      "scope": {
+        "pages": [
+          26,
+          31
+        ],
+        "sections": [
+          "11",
+          "11.1",
+          "11.2",
+          "11.3",
+          "11.4",
+          "11.5",
+          "11.6",
+          "11.7"
+        ]
+      },
+      "appears_on_pages": [
+        26
+      ],
+      "primary_page": 26
+    },
+    {
+      "id": "INSA:12",
+      "number": "12",
+      "title": "Supporting Systems In-Service",
+      "kind": "section",
+      "summary": "Covers in-service safety support, including collection and management of safety-related operational data, monitoring and analysis, and remedial action. It ensures operational feedback is used to maintain and update safety justification through life.",
+      "keywords": [
+        "in-service support",
+        "operational data",
+        "monitoring",
+        "FRACAS",
+        "remedial action"
+      ],
+      "scope": {
+        "pages": [
+          28,
+          32
+        ],
+        "sections": [
+          "12",
+          "12.1",
+          "12.2",
+          "12.3"
+        ]
+      },
+      "appears_on_pages": [
+        28
+      ],
+      "primary_page": 28
+    },
+    {
+      "id": "INSA:13",
+      "number": "13",
+      "title": "Service Provision",
+      "kind": "section",
+      "summary": "Defines safety requirements for delivering services, including pre-commencement safety case reporting/approval and planning for normal and emergency situations. It addresses how risk to life is managed during service delivery and how MOD is supported in operational risk management.",
+      "keywords": [
+        "service provision",
+        "operational safety",
+        "emergency planning",
+        "safety case approval",
+        "risk to life"
+      ],
+      "scope": {
+        "pages": [
+          30,
+          34
+        ],
+        "sections": [
+          "13",
+          "13.1",
+          "13.2",
+          "13.3"
+        ]
+      },
+      "appears_on_pages": [
+        30
+      ],
+      "primary_page": 30
+    },
+    {
+      "id": "REF:ASEMS",
+      "number": "",
+      "title": "ASEMS DE&S Acquisition Safety and Environmental Management System",
+      "kind": "reference",
+      "summary": "Key MOD acquisition safety and environmental management framework used as supporting guidance for safety management planning and governance. It is a common external dependency for aligning contractor safety management with DE&S processes.",
+      "keywords": [
+        "ASEMS",
+        "DE&S",
+        "acquisition safety management",
+        "MOD governance",
+        "supporting guidance"
+      ],
+      "scope": {
+        "pages": [
+          10,
+          41
+        ],
+        "sections": [
+          "2.2",
+          "4",
+          "4.1"
+        ]
+      },
+      "appears_on_pages": [
+        10,
+        12,
+        41
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:KID",
+      "number": "",
+      "title": "Knowledge in Defence website",
+      "kind": "reference",
+      "summary": "MOD knowledge portal referenced for accessing defence standards and related competence/supporting resources. It is a recurring dependency for locating authoritative materials referenced by multiple parts of the document.",
+      "keywords": [
+        "Knowledge in Defence",
+        "KID",
+        "MOD portal",
+        "standards access",
+        "competence resources"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          19
+        ],
+        "sections": [
+          "0.3",
+          "1.2",
+          "4.1",
+          "6.3"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        12,
+        19
+      ],
+      "primary_page": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:1",
+      "to": "INSA:0",
+      "type": "contains",
+      "confidence": 0.7
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:2",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:3",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:4",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:5",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:6",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:7",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:8",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:9",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:10",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:11",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:12",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:1",
+      "to": "INSA:13",
+      "type": "contains",
+      "confidence": 0.8
+    },
+    {
+      "from": "INSA:2",
+      "to": "REF:ASEMS",
+      "type": "references",
+      "confidence": 0.9
+    },
+    {
+      "from": "INSA:4",
+      "to": "REF:ASEMS",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:0",
+      "to": "REF:KID",
+      "type": "references",
+      "confidence": 0.7
+    },
+    {
+      "from": "INSA:4",
+      "to": "REF:KID",
+      "type": "references",
+      "confidence": 0.85
+    }
+  ]
+}

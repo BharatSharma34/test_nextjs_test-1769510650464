@@ -1,0 +1,210 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:Definitions",
+      "number": "",
+      "title": "Definitions",
+      "kind": "section",
+      "appears_on_pages": [
+        36
+      ],
+      "primary_page": 36
+    },
+    {
+      "id": "REF:ISOIEC:Guide2",
+      "number": "",
+      "title": "ISO/IEC Guide 2 \u2018Standardization and Related Activities \u2013 General Vocabulary\u2019",
+      "kind": "reference",
+      "appears_on_pages": [
+        36
+      ],
+      "primary_page": 36
+    },
+    {
+      "id": "TOPIC:Accident",
+      "number": "",
+      "title": "Accident",
+      "kind": "topic",
+      "appears_on_pages": [
+        36
+      ],
+      "primary_page": 36
+    },
+    {
+      "id": "TOPIC:ALARP",
+      "number": "",
+      "title": "ALARP",
+      "kind": "topic",
+      "appears_on_pages": [
+        36
+      ],
+      "primary_page": 36
+    },
+    {
+      "id": "TOPIC:CADMIDT",
+      "number": "",
+      "title": "CADMID/T",
+      "kind": "topic",
+      "appears_on_pages": [
+        36
+      ],
+      "primary_page": 36
+    },
+    {
+      "id": "TOPIC:CommandSummary",
+      "number": "",
+      "title": "Command Summary",
+      "kind": "topic",
+      "appears_on_pages": [
+        36
+      ],
+      "primary_page": 36
+    },
+    {
+      "id": "TOPIC:ContractorSafetyAuditor",
+      "number": "",
+      "title": "Contractor Safety Auditor",
+      "kind": "topic",
+      "appears_on_pages": [
+        36
+      ],
+      "primary_page": 36
+    },
+    {
+      "id": "TOPIC:CounterEvidence",
+      "number": "",
+      "title": "Counter-evidence",
+      "kind": "topic",
+      "appears_on_pages": [
+        36
+      ],
+      "primary_page": 36
+    },
+    {
+      "id": "TOPIC:DataSafetyRequirements",
+      "number": "",
+      "title": "Data Safety Requirements",
+      "kind": "topic",
+      "appears_on_pages": [
+        36
+      ],
+      "primary_page": 36
+    },
+    {
+      "id": "TOPIC:DefenceAirEnvironment",
+      "number": "",
+      "title": "Defence Air Environment",
+      "kind": "topic",
+      "appears_on_pages": [
+        36
+      ],
+      "primary_page": 36
+    },
+    {
+      "id": "TOPIC:DerivedSafetyRequirement",
+      "number": "",
+      "title": "Derived Safety Requirement",
+      "kind": "topic",
+      "appears_on_pages": [
+        36
+      ],
+      "primary_page": 36
+    },
+    {
+      "id": "TOPIC:DesignIntegrity",
+      "number": "",
+      "title": "Design Integrity",
+      "kind": "topic",
+      "appears_on_pages": [
+        36
+      ],
+      "primary_page": 36
+    },
+    {
+      "id": "TOPIC:DutyHolder",
+      "number": "",
+      "title": "Duty Holder",
+      "kind": "topic",
+      "appears_on_pages": [
+        36
+      ],
+      "primary_page": 36
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:Definitions",
+      "to": "REF:ISOIEC:Guide2",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:Definitions",
+      "to": "TOPIC:Accident",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:Definitions",
+      "to": "TOPIC:ALARP",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:Definitions",
+      "to": "TOPIC:CADMIDT",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:Definitions",
+      "to": "TOPIC:CommandSummary",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:Definitions",
+      "to": "TOPIC:ContractorSafetyAuditor",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:Definitions",
+      "to": "TOPIC:CounterEvidence",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:Definitions",
+      "to": "TOPIC:DataSafetyRequirements",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:Definitions",
+      "to": "TOPIC:DefenceAirEnvironment",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:Definitions",
+      "to": "TOPIC:DerivedSafetyRequirement",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:Definitions",
+      "to": "TOPIC:DesignIntegrity",
+      "type": "defines",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:Definitions",
+      "to": "TOPIC:DutyHolder",
+      "type": "defines",
+      "confidence": 1.0
+    }
+  ]
+}

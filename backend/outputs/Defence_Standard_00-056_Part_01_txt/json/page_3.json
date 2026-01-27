@@ -1,0 +1,66 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:1",
+      "number": "1",
+      "title": "Introduction",
+      "kind": "section",
+      "appears_on_pages": [
+        3
+      ],
+      "primary_page": 3
+    },
+    {
+      "id": "INSA:1.1",
+      "number": "1.1",
+      "title": "Purpose and Scope",
+      "kind": "subsection",
+      "appears_on_pages": [
+        3
+      ],
+      "primary_page": 3
+    },
+    {
+      "id": "REF:MOD",
+      "number": "",
+      "title": "Ministry of Defence",
+      "kind": "reference",
+      "appears_on_pages": [
+        3
+      ],
+      "primary_page": 3
+    },
+    {
+      "id": "REF:DStan",
+      "number": "",
+      "title": "UK Defence Standardization",
+      "kind": "reference",
+      "appears_on_pages": [
+        3
+      ],
+      "primary_page": 3
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:1",
+      "to": "INSA:1.1",
+      "type": "contains",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:1",
+      "to": "REF:MOD",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:1",
+      "to": "REF:DStan",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

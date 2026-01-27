@@ -1,0 +1,82 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "DEF STAN 00-056 Part 01 Issue 8",
+  "nodes": [
+    {
+      "id": "INSA:3",
+      "number": "3",
+      "title": "Normative References",
+      "kind": "section",
+      "appears_on_pages": [
+        35
+      ],
+      "primary_page": 35
+    },
+    {
+      "id": "REF:DEFSTAN:00-055",
+      "number": "",
+      "title": "Def Stan\u2019s can be downloaded free of charge from the DStan web site",
+      "kind": "reference",
+      "appears_on_pages": [
+        35
+      ],
+      "primary_page": 35
+    },
+    {
+      "id": "REF:STANAG",
+      "number": "",
+      "title": "STANAGs",
+      "kind": "reference",
+      "appears_on_pages": [
+        35
+      ],
+      "primary_page": 35
+    },
+    {
+      "id": "REF:AlliedPublications",
+      "number": "",
+      "title": "Allied Publications",
+      "kind": "reference",
+      "appears_on_pages": [
+        35
+      ],
+      "primary_page": 35
+    },
+    {
+      "id": "REF:OtherReferences",
+      "number": "",
+      "title": "Other References",
+      "kind": "reference",
+      "appears_on_pages": [
+        35
+      ],
+      "primary_page": 35
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:3",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3",
+      "to": "REF:STANAG",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3",
+      "to": "REF:AlliedPublications",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:3",
+      "to": "REF:OtherReferences",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

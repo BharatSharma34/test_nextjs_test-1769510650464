@@ -1,0 +1,66 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "extracted from input",
+  "nodes": [
+    {
+      "id": "INSA:1.1",
+      "number": "1.1",
+      "title": "Contract Requirements",
+      "kind": "section",
+      "appears_on_pages": [
+        44
+      ],
+      "primary_page": 44
+    },
+    {
+      "id": "INSA:1.2",
+      "number": "1.2",
+      "title": "Revision of Defence Standards",
+      "kind": "section",
+      "appears_on_pages": [
+        44
+      ],
+      "primary_page": 44
+    },
+    {
+      "id": "REF:STANMIS",
+      "number": "",
+      "title": "Standardization Management Information System (StanMIS)",
+      "kind": "reference",
+      "appears_on_pages": [
+        44
+      ],
+      "primary_page": 44
+    },
+    {
+      "id": "REF:DSTAN",
+      "number": "",
+      "title": "UK Defence Standardization",
+      "kind": "reference",
+      "appears_on_pages": [
+        44
+      ],
+      "primary_page": 44
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:1.1",
+      "to": "REF:DSTAN",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:1.2",
+      "to": "REF:DSTAN",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:1.2",
+      "to": "REF:STANMIS",
+      "type": "references",
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "graph_intent": "section_retrieval",
+  "document_name": "Defence Standard 00-056 Part 01",
+  "nodes": [
+    {
+      "id": "INSA:1",
+      "number": "1",
+      "title": "Safety Management Requirements for Defence Systems",
+      "kind": "section",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "REF:DEFSTAN:00-055",
+      "number": "",
+      "title": "Defence Standard 00-055",
+      "kind": "reference",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:SafetyCase",
+      "number": "",
+      "title": "Safety Case",
+      "kind": "topic",
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "INSA:1",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 1.0
+    },
+    {
+      "from": "INSA:1",
+      "to": "TOPIC:SafetyCase",
+      "type": "defines",
+      "confidence": 1.0
+    }
+  ]
+}

@@ -1,0 +1,1338 @@
+{
+  "graph_intent": "topic_retrieval",
+  "document_name": "Safety Management Requirements for Defence Systems",
+  "nodes": [
+    {
+      "id": "TOPIC:SafetyCase",
+      "number": "",
+      "title": "Safety Case",
+      "kind": "topic",
+      "summary": "A structured safety argument supported by evidence (drawn from the Information Set) demonstrating a PSS is safe for a defined application and environment. It is a central deliverable referenced across safety reporting and change management activities.",
+      "keywords": [
+        "safety case",
+        "structured argument",
+        "evidence",
+        "safety assurance",
+        "PSS"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          24,
+          27,
+          30,
+          31,
+          39
+        ],
+        "sections": [
+          "1",
+          "10.2",
+          "11.2",
+          "11.7.4",
+          "11.7.5",
+          "11.7.6"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        24,
+        27,
+        30,
+        31,
+        39
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:SafetyManagement",
+      "number": "",
+      "title": "Safety Management",
+      "kind": "topic",
+      "summary": "The management discipline for planning, coordinating, and controlling safety activities across the contract and lifecycle. It frames how safety engineering, reporting, and governance are organised within the standard.",
+      "keywords": [
+        "safety management",
+        "governance",
+        "planning",
+        "assurance",
+        "lifecycle"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          39
+        ],
+        "sections": [
+          "0.14"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        39
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:SafetyEngineering",
+      "number": "",
+      "title": "Safety Engineering",
+      "kind": "topic",
+      "summary": "The engineering activities used to design, analyse, and implement safety measures and to generate evidence for safety requirement satisfaction. It is a core pillar alongside safety management and in-service safety.",
+      "keywords": [
+        "safety engineering",
+        "design for safety",
+        "verification",
+        "validation",
+        "evidence"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          39
+        ],
+        "sections": [
+          "0.14"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        39
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:SafetyInService",
+      "number": "",
+      "title": "Safety In-Service",
+      "kind": "topic",
+      "summary": "Safety activities and controls applied during operation and support, including monitoring, reporting, and remedial action. It connects safety assurance to in-service data and ongoing risk management.",
+      "keywords": [
+        "in-service safety",
+        "operations",
+        "monitoring",
+        "reporting",
+        "remedial action"
+      ],
+      "scope": {
+        "pages": [
+          1
+        ],
+        "sections": [
+          "0.14"
+        ]
+      },
+      "appears_on_pages": [
+        1
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "TOPIC:SafetyManagementPlan",
+      "number": "4.1",
+      "title": "Safety Management Plan",
+      "kind": "topic",
+      "summary": "The plan defining how safety will be achieved, assured, and managed, including processes for analysis, reporting, and deliverables such as ISSS and Safety Case. It is a contractual control point requiring definition, agreement, and update with UK MOD.",
+      "keywords": [
+        "SMP",
+        "safety management plan",
+        "tendering",
+        "agreement",
+        "processes"
+      ],
+      "scope": {
+        "pages": [
+          12
+        ],
+        "sections": [
+          "4.1",
+          "4.2.1",
+          "4.2.2",
+          "4.3.1",
+          "4.3.3"
+        ]
+      },
+      "appears_on_pages": [
+        12
+      ],
+      "primary_page": 12
+    },
+    {
+      "id": "TOPIC:InformationSet",
+      "number": "",
+      "title": "Information Set",
+      "kind": "topic",
+      "summary": "The controlled body of safety-relevant information that must be defined, maintained, preserved, and made accessible across the contract. It is the primary evidence source for the Safety Case and supports audits, reporting, and change management.",
+      "keywords": [
+        "information set",
+        "evidence base",
+        "configuration",
+        "accessibility",
+        "records"
+      ],
+      "scope": {
+        "pages": [
+          15,
+          16,
+          18,
+          27,
+          37
+        ],
+        "sections": [
+          "5.5",
+          "5.5.5",
+          "5.5.6",
+          "5.5.7",
+          "5.5.8",
+          "5.5.9",
+          "5.5.12",
+          "6.2.2",
+          "10.1.2",
+          "10.2.3"
+        ]
+      },
+      "appears_on_pages": [
+        15,
+        16,
+        18,
+        27,
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:ISSS",
+      "number": "10.1",
+      "title": "Information Set Safety Summary",
+      "kind": "topic",
+      "summary": "A safety reporting deliverable produced from the Information Set to provide stakeholders (e.g., integrators and operators) with sufficient safety information, assumptions, and limitations. It is delivered incrementally to provide visibility of safety engineering and analysis progress.",
+      "keywords": [
+        "ISSS",
+        "information set safety summary",
+        "safety reporting",
+        "assumptions",
+        "incremental delivery"
+      ],
+      "scope": {
+        "pages": [
+          24,
+          27,
+          41
+        ],
+        "sections": [
+          "10.1",
+          "10.1.1",
+          "10.1.2",
+          "10.1.3",
+          "10.1.5",
+          "9.7.4"
+        ]
+      },
+      "appears_on_pages": [
+        24,
+        27,
+        41
+      ],
+      "primary_page": 24
+    },
+    {
+      "id": "TOPIC:HazardAnalysis",
+      "number": "",
+      "title": "Hazard Analysis",
+      "kind": "topic",
+      "summary": "Systematic analysis used to identify hazards and potential accidents and to inform safety requirements, design for safety, and safety case evidence. It explicitly includes considerations such as human factors and cyber security where relevant.",
+      "keywords": [
+        "hazard analysis",
+        "systematic analysis",
+        "accidents",
+        "human factors",
+        "cyber security"
+      ],
+      "scope": {
+        "pages": [
+          21,
+          30,
+          37
+        ],
+        "sections": [
+          "9.1.2",
+          "9.1.3",
+          "11.4.5"
+        ]
+      },
+      "appears_on_pages": [
+        21,
+        30,
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:HazardLog",
+      "number": "",
+      "title": "Hazard Log",
+      "kind": "topic",
+      "summary": "The record used to track hazards, controls, and related safety requirements, providing visibility of hazard control status throughout the contract. It supports reporting (Hazard Log Reports) and links to requirements management and evidence.",
+      "keywords": [
+        "hazard log",
+        "hazard tracking",
+        "controls",
+        "visibility",
+        "status"
+      ],
+      "scope": {
+        "pages": [
+          19,
+          22,
+          23,
+          37
+        ],
+        "sections": [
+          "9.2",
+          "9.2.2",
+          "9.2.3",
+          "9.2.4",
+          "9.4.4"
+        ]
+      },
+      "appears_on_pages": [
+        19,
+        22,
+        23,
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:SafetyRequirements",
+      "number": "9.3",
+      "title": "Safety Requirements",
+      "kind": "topic",
+      "summary": "Requirements derived from hazard analysis and other safety engineering activities that must be identified, documented, tracked, validated, and evidenced as satisfied. They are managed with bi-directional traceability and are linked into the Hazard Log and Safety Case evidence.",
+      "keywords": [
+        "safety requirements",
+        "traceability",
+        "validation",
+        "evidence",
+        "derived requirements"
+      ],
+      "scope": {
+        "pages": [
+          19,
+          22,
+          23,
+          27,
+          39
+        ],
+        "sections": [
+          "9.3",
+          "9.3.1",
+          "9.3.2",
+          "9.3.3",
+          "9.4.1",
+          "9.4.2",
+          "9.4.3",
+          "9.4.4",
+          "9.10.1",
+          "10.2.5"
+        ]
+      },
+      "appears_on_pages": [
+        19,
+        22,
+        23,
+        27,
+        39
+      ],
+      "primary_page": 19
+    },
+    {
+      "id": "TOPIC:DerivedSafetyRequirement",
+      "number": "",
+      "title": "Derived Safety Requirement",
+      "kind": "topic",
+      "summary": "A safety requirement derived during design and analysis activities and requiring the same rigor of tracking, evidence, and satisfaction as other safety requirements. It is explicitly included in satisfaction and evidence obligations and is managed through the SMP and traceability processes.",
+      "keywords": [
+        "derived safety requirement",
+        "derived requirements",
+        "allocation",
+        "evidence",
+        "traceability"
+      ],
+      "scope": {
+        "pages": [
+          24,
+          27,
+          36
+        ],
+        "sections": [
+          "9.5.6",
+          "9.10.1",
+          "9.10.4"
+        ]
+      },
+      "appears_on_pages": [
+        24,
+        27,
+        36
+      ],
+      "primary_page": 36
+    },
+    {
+      "id": "TOPIC:DesignForSafety",
+      "number": "9.5",
+      "title": "Design for Safety",
+      "kind": "topic",
+      "summary": "The design activity that implements and manages mitigation strategies to meet safety requirements and to address shortfalls, feeding evidence into the Safety Case. It includes identifying, implementing, and assessing the effectiveness of mitigations and allocating derived requirements.",
+      "keywords": [
+        "design for safety",
+        "mitigation strategies",
+        "allocation",
+        "effectiveness",
+        "satisfaction"
+      ],
+      "scope": {
+        "pages": [
+          20,
+          23,
+          24
+        ],
+        "sections": [
+          "9.5",
+          "9.5.1",
+          "9.5.2",
+          "9.5.3",
+          "9.5.4",
+          "9.5.6",
+          "9.5.7",
+          "9.5.8"
+        ]
+      },
+      "appears_on_pages": [
+        20,
+        23,
+        24
+      ],
+      "primary_page": 20
+    },
+    {
+      "id": "TOPIC:SafetyAnalysis",
+      "number": "9.6",
+      "title": "Safety Analysis",
+      "kind": "topic",
+      "summary": "Analytical activities conducted to support hazard understanding, validate design decisions, and generate evidence consistent with the evolving design. Results are documented and used to support safety arguments and ongoing assurance.",
+      "keywords": [
+        "safety analysis",
+        "analysis results",
+        "documentation",
+        "design consistency",
+        "evidence"
+      ],
+      "scope": {
+        "pages": [
+          21,
+          24,
+          25,
+          30,
+          38
+        ],
+        "sections": [
+          "9.6",
+          "9.6.1",
+          "9.6.4",
+          "9.6.5",
+          "11.4.5"
+        ]
+      },
+      "appears_on_pages": [
+        21,
+        24,
+        25,
+        30,
+        38
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "TOPIC:FailureMode",
+      "number": "",
+      "title": "Failure Mode",
+      "kind": "topic",
+      "summary": "A potential way a system or element can fail that may contribute to hazards and must be identified, assessed, and tracked with visible control status. Failure mode information and assumptions underpinning assessments must be recorded in the Information Set and reflected in ISSS where required.",
+      "keywords": [
+        "failure mode",
+        "hazard contribution",
+        "likelihood",
+        "assessment",
+        "information set"
+      ],
+      "scope": {
+        "pages": [
+          22,
+          25,
+          37,
+          41
+        ],
+        "sections": [
+          "9.7",
+          "9.7.1",
+          "9.7.5",
+          "9.7.17",
+          "9.7.18",
+          "9.7.2",
+          "9.7.4"
+        ]
+      },
+      "appears_on_pages": [
+        22,
+        25,
+        37,
+        41
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:RiskEstimation",
+      "number": "9.8",
+      "title": "Risk Estimation",
+      "kind": "topic",
+      "summary": "The process for estimating risk (including qualitative approaches where quantification is impracticable) and documenting the basis for estimates. It supports subsequent risk evaluation and informs decisions on residual risk and compliance.",
+      "keywords": [
+        "risk estimation",
+        "qualitative assessment",
+        "residual risk",
+        "documentation",
+        "likelihood"
+      ],
+      "scope": {
+        "pages": [
+          23,
+          26,
+          38
+        ],
+        "sections": [
+          "9.8",
+          "9.8.1",
+          "9.8.2",
+          "9.8.3",
+          "9.8.4"
+        ]
+      },
+      "appears_on_pages": [
+        23,
+        26,
+        38
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "TOPIC:RiskAndComplianceEvaluation",
+      "number": "9.9",
+      "title": "Risk and Compliance Evaluation",
+      "kind": "topic",
+      "summary": "Evaluation of risk to life and compliance against criteria, with results recorded to support assurance and decision-making. It links risk estimation outputs to acceptance decisions and compliance evidence used in safety reporting and safety case arguments.",
+      "keywords": [
+        "risk evaluation",
+        "compliance evaluation",
+        "risk to life",
+        "criteria",
+        "recording results"
+      ],
+      "scope": {
+        "pages": [
+          23,
+          26
+        ],
+        "sections": [
+          "9.9",
+          "9.9.1",
+          "9.9.2",
+          "9.9.4",
+          "9.9.5"
+        ]
+      },
+      "appears_on_pages": [
+        23,
+        26
+      ],
+      "primary_page": 23
+    },
+    {
+      "id": "TOPIC:SafetyAudits",
+      "number": "8",
+      "title": "Safety Audits",
+      "kind": "topic",
+      "summary": "Audit activities and reporting used to assess safety management and implementation, including audit findings and remedial actions. The topic connects to independence expectations and access to the Information Set for assurance purposes.",
+      "keywords": [
+        "safety audits",
+        "audit report",
+        "findings",
+        "assurance",
+        "remedial action"
+      ],
+      "scope": {
+        "pages": [
+          20,
+          21,
+          38,
+          39
+        ],
+        "sections": [
+          "8",
+          "8.1",
+          "8.1.2",
+          "8.1.3",
+          "8.4"
+        ]
+      },
+      "appears_on_pages": [
+        20,
+        21,
+        38,
+        39
+      ],
+      "primary_page": 20
+    },
+    {
+      "id": "TOPIC:IndependentSafetyAuditor",
+      "number": "",
+      "title": "Independent Safety Auditor",
+      "kind": "topic",
+      "summary": "An independent assurance role (ISA) that may be granted reasonable access to the Information Set to perform independent safety audit activities. Independence and access constraints are key to credible assurance and governance.",
+      "keywords": [
+        "independent safety auditor",
+        "ISA",
+        "independence",
+        "access",
+        "assurance"
+      ],
+      "scope": {
+        "pages": [
+          21,
+          37,
+          41
+        ],
+        "sections": [
+          "8.3.1",
+          "8.3.2",
+          "8.2.1"
+        ]
+      },
+      "appears_on_pages": [
+        21,
+        37,
+        41
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:ContractorSafetyAuditor",
+      "number": "",
+      "title": "Contractor Safety Auditor",
+      "kind": "topic",
+      "summary": "The contractor\u2019s safety auditor role (CSA) responsible for audit activities and reporting, with explicit requirements for independence. It supports the audit regime that underpins safety assurance and compliance evidence.",
+      "keywords": [
+        "contractor safety auditor",
+        "CSA",
+        "audit responsibilities",
+        "independence",
+        "safety assurance"
+      ],
+      "scope": {
+        "pages": [
+          20,
+          21,
+          36,
+          41
+        ],
+        "sections": [
+          "8.1.1",
+          "8.2.1"
+        ]
+      },
+      "appears_on_pages": [
+        20,
+        21,
+        36,
+        41
+      ],
+      "primary_page": 36
+    },
+    {
+      "id": "TOPIC:ChangeControl",
+      "number": "11.2",
+      "title": "Change Control",
+      "kind": "topic",
+      "summary": "The controlled process for managing changes to PSS and associated safety artefacts, ensuring safety impacts are assessed and reflected in the Information Set and Safety Case. It is central to maintaining safety integrity during supply and in-service evolution.",
+      "keywords": [
+        "change control",
+        "configuration management",
+        "safety of changes",
+        "information set update",
+        "safety case update"
+      ],
+      "scope": {
+        "pages": [
+          26,
+          30
+        ],
+        "sections": [
+          "11.2",
+          "11.4.2",
+          "11.4.3"
+        ]
+      },
+      "appears_on_pages": [
+        26,
+        30
+      ],
+      "primary_page": 26
+    },
+    {
+      "id": "TOPIC:ALARP",
+      "number": "",
+      "title": "ALARP principle",
+      "kind": "topic",
+      "summary": "The risk reduction principle 'As Low As Reasonably Practicable' used to frame acceptable risk decisions, particularly for risk to life. It is defined in the document and tied to risk management and assurance expectations.",
+      "keywords": [
+        "ALARP",
+        "as low as reasonably practicable",
+        "risk to life",
+        "risk acceptance",
+        "reasonably practicable"
+      ],
+      "scope": {
+        "pages": [
+          34,
+          36,
+          41
+        ],
+        "sections": [
+          "13.3",
+          "3.7"
+        ]
+      },
+      "appears_on_pages": [
+        34,
+        36,
+        41
+      ],
+      "primary_page": 34
+    },
+    {
+      "id": "TOPIC:HumanFactors",
+      "number": "",
+      "title": "Human Factors",
+      "kind": "topic",
+      "summary": "Human factors considerations must be incorporated into hazard analysis and failure mode assessment where they may contribute to causes or provide mitigation. It links safety engineering practice to the human-system interaction domain and to external standards on human factors integration.",
+      "keywords": [
+        "human factors",
+        "hazard analysis",
+        "failure modes",
+        "mitigation",
+        "integration"
+      ],
+      "scope": {
+        "pages": [
+          21,
+          22,
+          25,
+          37
+        ],
+        "sections": [
+          "9.1.3",
+          "9.7.8",
+          "9.7.15"
+        ]
+      },
+      "appears_on_pages": [
+        21,
+        22,
+        25,
+        37
+      ],
+      "primary_page": 37
+    },
+    {
+      "id": "TOPIC:CyberSecurity",
+      "number": "9.1.4",
+      "title": "Cyber Security Considerations",
+      "kind": "topic",
+      "summary": "Cyber security must be considered in hazard and failure mode analysis where unauthorised electronic interactions could contribute to hazards, and where controls may provide mitigation. It connects safety assurance to cyber standards and policy references used in defence supply.",
+      "keywords": [
+        "cyber security",
+        "unauthorised interaction",
+        "hazard analysis",
+        "failure modes",
+        "mitigation controls"
+      ],
+      "scope": {
+        "pages": [
+          22,
+          25
+        ],
+        "sections": [
+          "9.1.4",
+          "9.7.9",
+          "9.7.16"
+        ]
+      },
+      "appears_on_pages": [
+        22,
+        25
+      ],
+      "primary_page": 22
+    },
+    {
+      "id": "REF:DEFSTAN:00-055",
+      "number": "",
+      "title": "Defence Standard 00-055",
+      "kind": "reference",
+      "summary": "A key referenced defence standard used throughout the document, including for programmable elements and systematic failures considerations. It provides authoritative external requirements that inform hazard analysis, safety requirements, and compliance evidence.",
+      "keywords": [
+        "Def Stan 00-055",
+        "programmable elements",
+        "systematic failures",
+        "defence standard",
+        "safety requirements"
+      ],
+      "scope": {
+        "pages": [
+          1,
+          10,
+          22,
+          23,
+          26,
+          34,
+          35
+        ],
+        "sections": [
+          "1",
+          "2.2",
+          "4.2",
+          "9.1.5",
+          "9.4",
+          "9.5.7",
+          "9.8",
+          "13.3",
+          "3"
+        ]
+      },
+      "appears_on_pages": [
+        1,
+        10,
+        22,
+        23,
+        26,
+        34,
+        35
+      ],
+      "primary_page": 1
+    },
+    {
+      "id": "REF:DEFSTAN:05-138",
+      "number": "",
+      "title": "Def Stan 05-138 Cyber Security for Defence Suppliers",
+      "kind": "reference",
+      "summary": "A referenced cyber security standard used to support cyber considerations within hazard and risk activities. It anchors cyber-related safety analysis and risk estimation to recognised defence supplier requirements.",
+      "keywords": [
+        "Def Stan 05-138",
+        "cyber security",
+        "defence suppliers",
+        "hazard analysis",
+        "risk estimation"
+      ],
+      "scope": {
+        "pages": [
+          10,
+          22,
+          26
+        ],
+        "sections": [
+          "2.2",
+          "9.1.4",
+          "9.8"
+        ]
+      },
+      "appears_on_pages": [
+        10,
+        22,
+        26
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:DEFSTAN:00-251",
+      "number": "",
+      "title": "Def Stan 00-251 Human Factors Integration for Defence Systems",
+      "kind": "reference",
+      "summary": "A referenced standard providing authoritative guidance for integrating human factors into defence systems. It supports the document\u2019s requirement to consider human factors in hazard and failure mode analysis.",
+      "keywords": [
+        "Def Stan 00-251",
+        "human factors integration",
+        "defence systems",
+        "hazard analysis",
+        "safety engineering"
+      ],
+      "scope": {
+        "pages": [
+          10,
+          22,
+          26
+        ],
+        "sections": [
+          "2.2",
+          "9.1.7",
+          "9.8"
+        ]
+      },
+      "appears_on_pages": [
+        10,
+        22,
+        26
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:IEC:61508",
+      "number": "",
+      "title": "IEC 61508 Functional Safety of Electrical/Electronic/Programmable Electronic Safety-Related Systems",
+      "kind": "reference",
+      "summary": "An external functional safety standard referenced as informative guidance for safety-related E/E/PE systems. It provides a widely recognised baseline for safety lifecycle and integrity concepts relevant to defence safety engineering.",
+      "keywords": [
+        "IEC 61508",
+        "functional safety",
+        "E/E/PE systems",
+        "safety lifecycle",
+        "safety integrity"
+      ],
+      "scope": {
+        "pages": [
+          10
+        ],
+        "sections": [
+          "2.2"
+        ]
+      },
+      "appears_on_pages": [
+        10
+      ],
+      "primary_page": 10
+    },
+    {
+      "id": "REF:POSMS",
+      "number": "",
+      "title": "POSMS",
+      "kind": "reference",
+      "summary": "A referenced MOD safety management system and associated procedures used as supporting guidance for safety management planning and policy/legislation agreement. It provides an external framework that complements the standard\u2019s safety management requirements.",
+      "keywords": [
+        "POSMS",
+        "project oriented safety management system",
+        "MOD",
+        "safety management",
+        "procedures"
+      ],
+      "scope": {
+        "pages": [
+          12,
+          14,
+          42
+        ],
+        "sections": [
+          "4",
+          "5.2"
+        ]
+      },
+      "appears_on_pages": [
+        12,
+        14,
+        42
+      ],
+      "primary_page": 12
+    },
+    {
+      "id": "REF:RA1200",
+      "number": "",
+      "title": "Regulatory Article (RA) RA1200",
+      "kind": "reference",
+      "summary": "A referenced regulatory article used to support safety management system expectations, particularly in airworthiness contexts. It provides authoritative regulatory alignment for safety planning and assurance activities.",
+      "keywords": [
+        "RA1200",
+        "regulatory article",
+        "air safety",
+        "assurance",
+        "compliance"
+      ],
+      "scope": {
+        "pages": [
+          12
+        ],
+        "sections": [
+          "4"
+        ]
+      },
+      "appears_on_pages": [
+        12
+      ],
+      "primary_page": 12
+    },
+    {
+      "id": "REF:IET-COPISA",
+      "number": "",
+      "title": "IET Code of Practice for Independent Safety Assessors (COPISA)",
+      "kind": "reference",
+      "summary": "An external code of practice referenced to support independence expectations for safety auditors/assessors. It underpins credibility of independent safety assurance activities described in the audit sections.",
+      "keywords": [
+        "IET COPISA",
+        "independent safety assessor",
+        "code of practice",
+        "independence",
+        "assurance"
+      ],
+      "scope": {
+        "pages": [
+          21
+        ],
+        "sections": [
+          "8.2.1"
+        ]
+      },
+      "appears_on_pages": [
+        21
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "REF:STPA-HANDBOOK",
+      "number": "",
+      "title": "STPA Handbook",
+      "kind": "reference",
+      "summary": "A referenced handbook for System Theoretic Process Analysis (STPA), supporting systematic hazard analysis approaches. It provides an external method reference for hazard identification and analysis rigor.",
+      "keywords": [
+        "STPA",
+        "system theoretic process analysis",
+        "hazard analysis",
+        "handbook",
+        "system safety"
+      ],
+      "scope": {
+        "pages": [
+          21,
+          42
+        ],
+        "sections": [
+          "9"
+        ]
+      },
+      "appears_on_pages": [
+        21,
+        42
+      ],
+      "primary_page": 21
+    },
+    {
+      "id": "REF:HSE",
+      "number": "",
+      "title": "UK Health and Safety Executive (HSE)",
+      "kind": "reference",
+      "summary": "The UK regulator referenced for general health and safety guidance and terminology. It anchors the document\u2019s health and safety framing and supports alignment with UK legal expectations.",
+      "keywords": [
+        "HSE",
+        "Health and Safety Executive",
+        "UK guidance",
+        "regulator",
+        "health and safety"
+      ],
+      "scope": {
+        "pages": [
+          4,
+          42
+        ],
+        "sections": [
+          "0.2"
+        ]
+      },
+      "appears_on_pages": [
+        4,
+        42
+      ],
+      "primary_page": 4
+    },
+    {
+      "id": "REF:JSP815",
+      "number": "",
+      "title": "Joint Service Publication (JSP) 815",
+      "kind": "reference",
+      "summary": "A referenced MOD publication providing policy/guidance context for safety management. It supports the document\u2019s alignment with MOD safety governance and expectations.",
+      "keywords": [
+        "JSP 815",
+        "Joint Service Publication",
+        "MOD policy",
+        "safety management",
+        "governance"
+      ],
+      "scope": {
+        "pages": [
+          4
+        ],
+        "sections": [
+          "0.2"
+        ]
+      },
+      "appears_on_pages": [
+        4
+      ],
+      "primary_page": 4
+    },
+    {
+      "id": "REF:JSP:822",
+      "number": "",
+      "title": "JSP 822",
+      "kind": "reference",
+      "summary": "A referenced MOD publication used in the risk management section to support managing risk to life and related governance. It provides external policy context for risk management decisions and responsibilities.",
+      "keywords": [
+        "JSP 822",
+        "risk management",
+        "risk to life",
+        "MOD policy",
+        "governance"
+      ],
+      "scope": {
+        "pages": [
+          34
+        ],
+        "sections": [
+          "13.3"
+        ]
+      },
+      "appears_on_pages": [
+        34
+      ],
+      "primary_page": 34
+    },
+    {
+      "id": "REF:DEFSTAN:05-057",
+      "number": "",
+      "title": "Def Stan 05-057 Configuration Management of Defence Materiel",
+      "kind": "reference",
+      "summary": "A referenced configuration management standard supporting information consistency and change control across safety artefacts. It underpins requirements for managing the Information Set and build/change processes.",
+      "keywords": [
+        "Def Stan 05-057",
+        "configuration management",
+        "change control",
+        "information consistency",
+        "defence materiel"
+      ],
+      "scope": {
+        "pages": [
+          10,
+          15,
+          26
+        ],
+        "sections": [
+          "2.2",
+          "5.5.3",
+          "11.1"
+        ]
+      },
+      "appears_on_pages": [
+        10,
+        15,
+        26
+      ],
+      "primary_page": 10
+    }
+  ],
+  "edges": [
+    {
+      "from": "TOPIC:SafetyCase",
+      "to": "TOPIC:InformationSet",
+      "type": "defined_by",
+      "confidence": 0.9
+    },
+    {
+      "from": "TOPIC:ISSS",
+      "to": "TOPIC:InformationSet",
+      "type": "defined_by",
+      "confidence": 0.9
+    },
+    {
+      "from": "TOPIC:SafetyRequirements",
+      "to": "TOPIC:HazardAnalysis",
+      "type": "defined_by",
+      "confidence": 0.75
+    },
+    {
+      "from": "TOPIC:HazardLog",
+      "to": "TOPIC:SafetyRequirements",
+      "type": "relates_to",
+      "confidence": 0.8
+    },
+    {
+      "from": "TOPIC:DesignForSafety",
+      "to": "TOPIC:SafetyRequirements",
+      "type": "requires",
+      "confidence": 0.8
+    },
+    {
+      "from": "TOPIC:SafetyAnalysis",
+      "to": "TOPIC:DesignForSafety",
+      "type": "relates_to",
+      "confidence": 0.7
+    },
+    {
+      "from": "TOPIC:FailureMode",
+      "to": "TOPIC:HazardLog",
+      "type": "relates_to",
+      "confidence": 0.7
+    },
+    {
+      "from": "TOPIC:RiskEstimation",
+      "to": "TOPIC:RiskAndComplianceEvaluation",
+      "type": "relates_to",
+      "confidence": 0.85
+    },
+    {
+      "from": "TOPIC:ALARP",
+      "to": "TOPIC:RiskAndComplianceEvaluation",
+      "type": "relates_to",
+      "confidence": 0.8
+    },
+    {
+      "from": "TOPIC:HumanFactors",
+      "to": "TOPIC:HazardAnalysis",
+      "type": "relates_to",
+      "confidence": 0.9
+    },
+    {
+      "from": "TOPIC:CyberSecurity",
+      "to": "TOPIC:HazardAnalysis",
+      "type": "relates_to",
+      "confidence": 0.9
+    },
+    {
+      "from": "TOPIC:IndependentSafetyAuditor",
+      "to": "TOPIC:InformationSet",
+      "type": "requires",
+      "confidence": 0.8
+    },
+    {
+      "from": "TOPIC:ContractorSafetyAuditor",
+      "to": "TOPIC:SafetyAudits",
+      "type": "relates_to",
+      "confidence": 0.85
+    },
+    {
+      "from": "TOPIC:ChangeControl",
+      "to": "TOPIC:SafetyCase",
+      "type": "requires",
+      "confidence": 0.85
+    },
+    {
+      "from": "TOPIC:ChangeControl",
+      "to": "TOPIC:InformationSet",
+      "type": "requires",
+      "confidence": 0.85
+    },
+    {
+      "from": "TOPIC:SafetyManagementPlan",
+      "to": "TOPIC:SafetyCase",
+      "type": "requires",
+      "confidence": 0.8
+    },
+    {
+      "from": "TOPIC:SafetyManagementPlan",
+      "to": "TOPIC:ISSS",
+      "type": "requires",
+      "confidence": 0.8
+    },
+    {
+      "from": "TOPIC:SafetyManagementPlan",
+      "to": "TOPIC:HazardAnalysis",
+      "type": "requires",
+      "confidence": 0.7
+    },
+    {
+      "from": "TOPIC:SafetyManagementPlan",
+      "to": "TOPIC:SafetyAnalysis",
+      "type": "requires",
+      "confidence": 0.7
+    },
+    {
+      "from": "TOPIC:SafetyRequirements",
+      "to": "REF:DEFSTAN:00-055",
+      "type": "references",
+      "confidence": 0.9
+    },
+    {
+      "from": "TOPIC:CyberSecurity",
+      "to": "REF:DEFSTAN:05-138",
+      "type": "references",
+      "confidence": 0.95
+    },
+    {
+      "from": "TOPIC:HumanFactors",
+      "to": "REF:DEFSTAN:00-251",
+      "type": "references",
+      "confidence": 0.95
+    },
+    {
+      "from": "TOPIC:SafetyEngineering",
+      "to": "REF:IEC:61508",
+      "type": "references",
+      "confidence": 0.7
+    },
+    {
+      "from": "TOPIC:SafetyManagementPlan",
+      "to": "REF:POSMS",
+      "type": "references",
+      "confidence": 0.8
+    },
+    {
+      "from": "TOPIC:SafetyManagementPlan",
+      "to": "REF:RA1200",
+      "type": "references",
+      "confidence": 0.8
+    },
+    {
+      "from": "TOPIC:IndependentSafetyAuditor",
+      "to": "REF:IET-COPISA",
+      "type": "references",
+      "confidence": 0.9
+    },
+    {
+      "from": "TOPIC:HazardAnalysis",
+      "to": "REF:STPA-HANDBOOK",
+      "type": "references",
+      "confidence": 0.85
+    },
+    {
+      "from": "TOPIC:SafetyManagement",
+      "to": "REF:JSP815",
+      "type": "references",
+      "confidence": 0.7
+    },
+    {
+      "from": "TOPIC:RiskAndComplianceEvaluation",
+      "to": "REF:JSP:822",
+      "type": "references",
+      "confidence": 0.7
+    },
+    {
+      "from": "TOPIC:ChangeControl",
+      "to": "REF:DEFSTAN:05-057",
+      "type": "references",
+      "confidence": 0.85
+    },
+    {
+      "from": "TOPIC:SafetyManagement",
+      "to": "TOPIC:SafetyEngineering",
+      "type": "relates_to",
+      "confidence": 0.7
+    },
+    {
+      "from": "TOPIC:SafetyManagement",
+      "to": "TOPIC:SafetyInService",
+      "type": "relates_to",
+      "confidence": 0.7
+    }
+  ]
+}
