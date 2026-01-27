@@ -22,3 +22,5 @@ pnpm-debug.log*
 # Local outputs
 backend/inputs/uploads/
 backend/inputs/*.chunked.json
+temp_auto_push.bat
+temp_interactive_push.bat
